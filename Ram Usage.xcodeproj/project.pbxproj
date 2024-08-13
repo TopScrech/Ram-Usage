@@ -6,23 +6,29 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		F3530C042C6C12E700FB8481 /* Ram Usage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3530C032C6C12E700FB8481 /* Ram Usage.swift */; };
+		F3530C062C6C12E700FB8481 /* App Container.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3530C052C6C12E700FB8481 /* App Container.swift */; };
+		F3530C082C6C12E800FB8481 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3530C072C6C12E800FB8481 /* Assets.xcassets */; };
+		F3530C152C6C132100FB8481 /* ScrechKit in Frameworks */ = {isa = PBXBuildFile; productRef = F3530C142C6C132100FB8481 /* ScrechKit */; };
+		F3530C172C6C135500FB8481 /* Home View.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3530C162C6C135500FB8481 /* Home View.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		F3530C002C6C12E700FB8481 /* Ram Usage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ram Usage.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3530C032C6C12E700FB8481 /* Ram Usage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ram Usage.swift"; sourceTree = "<group>"; };
+		F3530C052C6C12E700FB8481 /* App Container.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "App Container.swift"; sourceTree = "<group>"; };
+		F3530C072C6C12E800FB8481 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F3530C0C2C6C12E800FB8481 /* Ram_Usage.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Ram_Usage.entitlements; sourceTree = "<group>"; };
+		F3530C162C6C135500FB8481 /* Home View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Home View.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		F3530C022C6C12E700FB8481 /* Ram Usage */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "Ram Usage";
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		F3530BFD2C6C12E700FB8481 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3530C152C6C132100FB8481 /* ScrechKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -32,7 +38,7 @@
 		F3530BF72C6C12E700FB8481 = {
 			isa = PBXGroup;
 			children = (
-				F3530C022C6C12E700FB8481 /* Ram Usage */,
+				F3530C122C6C12F700FB8481 /* Ram Usage */,
 				F3530C012C6C12E700FB8481 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +49,18 @@
 				F3530C002C6C12E700FB8481 /* Ram Usage.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		F3530C122C6C12F700FB8481 /* Ram Usage */ = {
+			isa = PBXGroup;
+			children = (
+				F3530C032C6C12E700FB8481 /* Ram Usage.swift */,
+				F3530C072C6C12E800FB8481 /* Assets.xcassets */,
+				F3530C0C2C6C12E800FB8481 /* Ram_Usage.entitlements */,
+				F3530C052C6C12E700FB8481 /* App Container.swift */,
+				F3530C162C6C135500FB8481 /* Home View.swift */,
+			);
+			path = "Ram Usage";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -60,11 +78,9 @@
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				F3530C022C6C12E700FB8481 /* Ram Usage */,
-			);
 			name = "Ram Usage";
 			packageProductDependencies = (
+				F3530C142C6C132100FB8481 /* ScrechKit */,
 			);
 			productName = "Ram Usage";
 			productReference = F3530C002C6C12E700FB8481 /* Ram Usage.app */;
@@ -94,6 +110,9 @@
 			);
 			mainGroup = F3530BF72C6C12E700FB8481;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				F3530C132C6C132100FB8481 /* XCRemoteSwiftPackageReference "ScrechKit" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = F3530C012C6C12E700FB8481 /* Products */;
 			projectDirPath = "";
@@ -109,6 +128,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3530C082C6C12E800FB8481 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +139,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3530C062C6C12E700FB8481 /* App Container.swift in Sources */,
+				F3530C172C6C135500FB8481 /* Home View.swift in Sources */,
+				F3530C042C6C12E700FB8481 /* Ram Usage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,7 +275,6 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Ram Usage/Preview Content\"";
 				DEVELOPMENT_TEAM = 8FQUA2F388;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
@@ -279,7 +301,6 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Ram Usage/Preview Content\"";
 				DEVELOPMENT_TEAM = 8FQUA2F388;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
@@ -319,6 +340,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F3530C132C6C132100FB8481 /* XCRemoteSwiftPackageReference "ScrechKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/TopScrech/ScrechKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.9.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F3530C142C6C132100FB8481 /* ScrechKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F3530C132C6C132100FB8481 /* XCRemoteSwiftPackageReference "ScrechKit" */;
+			productName = ScrechKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F3530BF82C6C12E700FB8481 /* Project object */;
 }
