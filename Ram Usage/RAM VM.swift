@@ -2,17 +2,20 @@ import SystemKit
 import WidgetKit
 
 @Observable
-final class MemoryStore {
+final class RamVM {
     init() {
+        print("test")
         startUpdating()
     }
     
     var free = 0.0
     var active = 0.0
     var inactive = 0.0
+    
     var wired = 0.0
     var compressed = 0.0
     var appMemory = 0.0
+    
     var cachedFiles = 0.0
     var usageHistory: [Double] = []
     
@@ -61,5 +64,5 @@ final class MemoryStore {
         Timer.scheduledTimer(withTimeInterval: 0.2, repeats: true) { _ in
             self.refresh()
         }
-    }
+    }    
 }

@@ -1,7 +1,7 @@
 import SwiftUI
 
 struct AppSettings: View {
-    @State private var vm = MemoryStore()
+    @Environment(RamVM.self) private var vm
     
     var body: some View {
         List {
@@ -21,9 +21,6 @@ struct AppSettings: View {
             Text("usedPercentageString \(vm.usedPercentageString)")
             Text("usedString \(vm.usedString)")
             Text("wired \(vm.wired)")
-        }
-        .refreshableTask {
-            vm.refresh()
         }
     }
 }
