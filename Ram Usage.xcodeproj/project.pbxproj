@@ -29,6 +29,10 @@
 		F3C778242C6E447900E224EE /* AppIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C778232C6E447900E224EE /* AppIntent.swift */; };
 		F3C778262C6E447900E224EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3C778252C6E447900E224EE /* Assets.xcassets */; };
 		F3C7782B2C6E447900E224EE /* WidgetsExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = F3C778182C6E447800E224EE /* WidgetsExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F3C778332C6E5C1000E224EE /* Unit Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C778322C6E5C1000E224EE /* Unit Tests.swift */; };
+		F3C778362C6E5C2A00E224EE /* Provider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C778352C6E5C2A00E224EE /* Provider.swift */; };
+		F3C778382C6E5C3400E224EE /* SimpleEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C778372C6E5C3400E224EE /* SimpleEntry.swift */; };
+		F3C7783A2C6E5C3D00E224EE /* WidgetsEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C778392C6E5C3D00E224EE /* WidgetsEntryView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -84,15 +88,11 @@
 		F3C778252C6E447900E224EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F3C778272C6E447900E224EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F3C778282C6E447900E224EE /* Widgets.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Widgets.entitlements; sourceTree = "<group>"; };
+		F3C778322C6E5C1000E224EE /* Unit Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Unit Tests.swift"; sourceTree = "<group>"; };
+		F3C778352C6E5C2A00E224EE /* Provider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Provider.swift; sourceTree = "<group>"; };
+		F3C778372C6E5C3400E224EE /* SimpleEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleEntry.swift; sourceTree = "<group>"; };
+		F3C778392C6E5C3D00E224EE /* WidgetsEntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetsEntryView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		F3C778092C6E24A900E224EE /* Ram Usage Unit Tests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "Ram Usage Unit Tests";
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		F3530BFD2C6C12E700FB8481 /* Frameworks */ = {
@@ -128,8 +128,8 @@
 			isa = PBXGroup;
 			children = (
 				F3530C122C6C12F700FB8481 /* Ram Usage */,
-				F3C778092C6E24A900E224EE /* Ram Usage Unit Tests */,
 				F3C778312C6E448100E224EE /* Widgets */,
+				F3C778342C6E5C1700E224EE /* Unit Tests */,
 				F3C778192C6E447800E224EE /* Frameworks */,
 				F3530C012C6C12E700FB8481 /* Products */,
 			);
@@ -180,8 +180,19 @@
 				F3C778272C6E447900E224EE /* Info.plist */,
 				F3C778282C6E447900E224EE /* Widgets.entitlements */,
 				F3C778212C6E447900E224EE /* Widgets.swift */,
+				F3C778392C6E5C3D00E224EE /* WidgetsEntryView.swift */,
+				F3C778352C6E5C2A00E224EE /* Provider.swift */,
+				F3C778372C6E5C3400E224EE /* SimpleEntry.swift */,
 			);
 			path = Widgets;
+			sourceTree = "<group>";
+		};
+		F3C778342C6E5C1700E224EE /* Unit Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F3C778322C6E5C1000E224EE /* Unit Tests.swift */,
+			);
+			path = "Unit Tests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -223,9 +234,6 @@
 			);
 			dependencies = (
 				F3C7780D2C6E24A900E224EE /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				F3C778092C6E24A900E224EE /* Ram Usage Unit Tests */,
 			);
 			name = "Ram Usage Unit Tests";
 			packageProductDependencies = (
@@ -349,6 +357,7 @@
 			files = (
 				F3C778112C6E397D00E224EE /* RAM VM.swift in Sources */,
 				F3C778132C6E39FA00E224EE /* Extension Double.swift in Sources */,
+				F3C778332C6E5C1000E224EE /* Unit Tests.swift in Sources */,
 				F3C778122C6E398300E224EE /* RAM VM Swap.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -357,8 +366,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3C778362C6E5C2A00E224EE /* Provider.swift in Sources */,
 				F3C778202C6E447900E224EE /* WidgetsBundle.swift in Sources */,
 				F3C778222C6E447900E224EE /* Widgets.swift in Sources */,
+				F3C7783A2C6E5C3D00E224EE /* WidgetsEntryView.swift in Sources */,
+				F3C778382C6E5C3400E224EE /* SimpleEntry.swift in Sources */,
 				F3C778242C6E447900E224EE /* AppIntent.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
