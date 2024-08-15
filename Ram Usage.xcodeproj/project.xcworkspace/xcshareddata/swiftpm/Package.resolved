@@ -1,5 +1,5 @@
 {
-  "originHash" : "fe0e4f745e80a39791f1b8ef36548292381488f2cde2c7d12cd93483d64241da",
+  "originHash" : "c85a8da569cb4efedddbf22c66efd7e63399746f997288e12b4d63fc312825d8",
   "pins" : [
     {
       "identity" : "screchkit",
@@ -8,6 +8,24 @@
       "state" : {
         "revision" : "f82c5e26092d1c9ea91f9b9199390250f6e22107",
         "version" : "0.9.0"
+      }
+    },
+    {
+      "identity" : "swiftyjson",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/SwiftyJSON/SwiftyJSON",
+      "state" : {
+        "revision" : "af76cf3ef710b6ca5f8c05f3a31307d44a3c5828",
+        "version" : "5.0.2"
+      }
+    },
+    {
+      "identity" : "systemkit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/gao-sun/SystemKit",
+      "state" : {
+        "branch" : "master",
+        "revision" : "60fbc2e3ccb54850046703d4e32ab6ecccbaf046"
       }
     }
   ],

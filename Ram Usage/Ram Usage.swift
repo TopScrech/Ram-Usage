@@ -6,5 +6,9 @@ struct RamUsage: App {
         WindowGroup {
             AppContainer()
         }
+        
+        Settings {
+            AppSettings()
+        }
     }
 }

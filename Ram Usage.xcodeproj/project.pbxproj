@@ -12,6 +12,13 @@
 		F3530C082C6C12E800FB8481 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3530C072C6C12E800FB8481 /* Assets.xcassets */; };
 		F3530C152C6C132100FB8481 /* ScrechKit in Frameworks */ = {isa = PBXBuildFile; productRef = F3530C142C6C132100FB8481 /* ScrechKit */; };
 		F3530C172C6C135500FB8481 /* Home View.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3530C162C6C135500FB8481 /* Home View.swift */; };
+		F38DF0A12C6C2EDF00081031 /* RAM VM.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38DF0A02C6C2EDF00081031 /* RAM VM.swift */; };
+		F38DF0A42C6C2F2100081031 /* SystemKit in Frameworks */ = {isa = PBXBuildFile; productRef = F38DF0A32C6C2F2100081031 /* SystemKit */; };
+		F38DF0A62C6C2F4100081031 /* RefreshableObjC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38DF0A52C6C2F4100081031 /* RefreshableObjC.swift */; };
+		F38DF0A82C6C2F5900081031 /* Extension Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38DF0A72C6C2F5900081031 /* Extension Double.swift */; };
+		F38DF0AD2C6C302400081031 /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = F38DF0AC2C6C302400081031 /* SwiftyJSON */; };
+		F38DF0AF2C6C31FA00081031 /* RAM Info.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38DF0AE2C6C31FA00081031 /* RAM Info.swift */; };
+		F38DF0B12C6C368900081031 /* App Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38DF0B02C6C368900081031 /* App Settings.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +28,11 @@
 		F3530C072C6C12E800FB8481 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F3530C0C2C6C12E800FB8481 /* Ram_Usage.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Ram_Usage.entitlements; sourceTree = "<group>"; };
 		F3530C162C6C135500FB8481 /* Home View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Home View.swift"; sourceTree = "<group>"; };
+		F38DF0A02C6C2EDF00081031 /* RAM VM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RAM VM.swift"; sourceTree = "<group>"; };
+		F38DF0A52C6C2F4100081031 /* RefreshableObjC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefreshableObjC.swift; sourceTree = "<group>"; };
+		F38DF0A72C6C2F5900081031 /* Extension Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension Double.swift"; sourceTree = "<group>"; };
+		F38DF0AE2C6C31FA00081031 /* RAM Info.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RAM Info.swift"; sourceTree = "<group>"; };
+		F38DF0B02C6C368900081031 /* App Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "App Settings.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -28,6 +40,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F38DF0AD2C6C302400081031 /* SwiftyJSON in Frameworks */,
+				F38DF0A42C6C2F2100081031 /* SystemKit in Frameworks */,
 				F3530C152C6C132100FB8481 /* ScrechKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -55,10 +69,15 @@
 			isa = PBXGroup;
 			children = (
 				F3530C032C6C12E700FB8481 /* Ram Usage.swift */,
+				F3530C052C6C12E700FB8481 /* App Container.swift */,
+				F38DF0B02C6C368900081031 /* App Settings.swift */,
 				F3530C072C6C12E800FB8481 /* Assets.xcassets */,
 				F3530C0C2C6C12E800FB8481 /* Ram_Usage.entitlements */,
-				F3530C052C6C12E700FB8481 /* App Container.swift */,
 				F3530C162C6C135500FB8481 /* Home View.swift */,
+				F38DF0AE2C6C31FA00081031 /* RAM Info.swift */,
+				F38DF0A02C6C2EDF00081031 /* RAM VM.swift */,
+				F38DF0A72C6C2F5900081031 /* Extension Double.swift */,
+				F38DF0A52C6C2F4100081031 /* RefreshableObjC.swift */,
 			);
 			path = "Ram Usage";
 			sourceTree = "<group>";
@@ -81,6 +100,8 @@
 			name = "Ram Usage";
 			packageProductDependencies = (
 				F3530C142C6C132100FB8481 /* ScrechKit */,
+				F38DF0A32C6C2F2100081031 /* SystemKit */,
+				F38DF0AC2C6C302400081031 /* SwiftyJSON */,
 			);
 			productName = "Ram Usage";
 			productReference = F3530C002C6C12E700FB8481 /* Ram Usage.app */;
@@ -112,6 +133,8 @@
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
 				F3530C132C6C132100FB8481 /* XCRemoteSwiftPackageReference "ScrechKit" */,
+				F38DF0A22C6C2F2100081031 /* XCRemoteSwiftPackageReference "SystemKit" */,
+				F38DF0AB2C6C302400081031 /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = F3530C012C6C12E700FB8481 /* Products */;
@@ -139,6 +162,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F38DF0A62C6C2F4100081031 /* RefreshableObjC.swift in Sources */,
+				F38DF0A82C6C2F5900081031 /* Extension Double.swift in Sources */,
+				F38DF0A12C6C2EDF00081031 /* RAM VM.swift in Sources */,
+				F38DF0AF2C6C31FA00081031 /* RAM Info.swift in Sources */,
+				F38DF0B12C6C368900081031 /* App Settings.swift in Sources */,
 				F3530C062C6C12E700FB8481 /* App Container.swift in Sources */,
 				F3530C172C6C135500FB8481 /* Home View.swift in Sources */,
 				F3530C042C6C12E700FB8481 /* Ram Usage.swift in Sources */,
@@ -350,6 +378,22 @@
 				minimumVersion = 0.9.0;
 			};
 		};
+		F38DF0A22C6C2F2100081031 /* XCRemoteSwiftPackageReference "SystemKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/gao-sun/SystemKit";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		F38DF0AB2C6C302400081031 /* XCRemoteSwiftPackageReference "SwiftyJSON" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftyJSON/SwiftyJSON";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.2;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -357,6 +401,16 @@
 			isa = XCSwiftPackageProductDependency;
 			package = F3530C132C6C132100FB8481 /* XCRemoteSwiftPackageReference "ScrechKit" */;
 			productName = ScrechKit;
+		};
+		F38DF0A32C6C2F2100081031 /* SystemKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F38DF0A22C6C2F2100081031 /* XCRemoteSwiftPackageReference "SystemKit" */;
+			productName = SystemKit;
+		};
+		F38DF0AC2C6C302400081031 /* SwiftyJSON */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F38DF0AB2C6C302400081031 /* XCRemoteSwiftPackageReference "SwiftyJSON" */;
+			productName = SwiftyJSON;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
