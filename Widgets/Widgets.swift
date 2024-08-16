@@ -7,7 +7,8 @@ struct Widgets: Widget {
     var body: some WidgetConfiguration {
         AppIntentConfiguration(kind: kind, intent: ConfigurationAppIntent.self, provider: Provider()) { entry in
             WidgetsEntryView(entry: entry)
-                .containerBackground(.fill.tertiary, for: .widget)
+                .containerBackground(.ultraThinMaterial, for: .widget)
         }
+        .supportedFamilies([.systemMedium])
     }
 }

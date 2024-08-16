@@ -18,6 +18,7 @@
 		F38DF0AD2C6C302400081031 /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = F38DF0AC2C6C302400081031 /* SwiftyJSON */; };
 		F38DF0AF2C6C31FA00081031 /* RAM Info.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38DF0AE2C6C31FA00081031 /* RAM Info.swift */; };
 		F38DF0B12C6C368900081031 /* App Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38DF0B02C6C368900081031 /* App Settings.swift */; };
+		F3AABD322C6F432C00E7C7E4 /* ScrechKit in Frameworks */ = {isa = PBXBuildFile; productRef = F3AABD312C6F432C00E7C7E4 /* ScrechKit */; };
 		F3C778032C6E227700E224EE /* RAM VM Swap.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C778022C6E227700E224EE /* RAM VM Swap.swift */; };
 		F3C778112C6E397D00E224EE /* RAM VM.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38DF0A02C6C2EDF00081031 /* RAM VM.swift */; };
 		F3C778122C6E398300E224EE /* RAM VM Swap.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C778022C6E227700E224EE /* RAM VM Swap.swift */; };
@@ -28,11 +29,11 @@
 		F3C778222C6E447900E224EE /* Widgets.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C778212C6E447900E224EE /* Widgets.swift */; };
 		F3C778242C6E447900E224EE /* AppIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C778232C6E447900E224EE /* AppIntent.swift */; };
 		F3C778262C6E447900E224EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3C778252C6E447900E224EE /* Assets.xcassets */; };
-		F3C7782B2C6E447900E224EE /* WidgetsExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = F3C778182C6E447800E224EE /* WidgetsExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F3C7782B2C6E447900E224EE /* Widgets.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = F3C778182C6E447800E224EE /* Widgets.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		F3C778332C6E5C1000E224EE /* Unit Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C778322C6E5C1000E224EE /* Unit Tests.swift */; };
 		F3C778362C6E5C2A00E224EE /* Provider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C778352C6E5C2A00E224EE /* Provider.swift */; };
 		F3C778382C6E5C3400E224EE /* SimpleEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C778372C6E5C3400E224EE /* SimpleEntry.swift */; };
-		F3C7783A2C6E5C3D00E224EE /* WidgetsEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C778392C6E5C3D00E224EE /* WidgetsEntryView.swift */; };
+		F3C7783A2C6E5C3D00E224EE /* Widgets Entry View.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C778392C6E5C3D00E224EE /* Widgets Entry View.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,7 +60,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				F3C7782B2C6E447900E224EE /* WidgetsExtension.appex in Embed Foundation Extensions */,
+				F3C7782B2C6E447900E224EE /* Widgets.appex in Embed Foundation Extensions */,
 			);
 			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -78,8 +79,8 @@
 		F38DF0AE2C6C31FA00081031 /* RAM Info.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RAM Info.swift"; sourceTree = "<group>"; };
 		F38DF0B02C6C368900081031 /* App Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "App Settings.swift"; sourceTree = "<group>"; };
 		F3C778022C6E227700E224EE /* RAM VM Swap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RAM VM Swap.swift"; sourceTree = "<group>"; };
-		F3C778082C6E24A900E224EE /* Ram Usage Unit Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ram Usage Unit Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F3C778182C6E447800E224EE /* WidgetsExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = WidgetsExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3C778082C6E24A900E224EE /* Unit Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Unit Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3C778182C6E447800E224EE /* Widgets.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Widgets.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3C7781A2C6E447800E224EE /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
 		F3C7781C2C6E447800E224EE /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
 		F3C7781F2C6E447900E224EE /* WidgetsBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetsBundle.swift; sourceTree = "<group>"; };
@@ -91,7 +92,7 @@
 		F3C778322C6E5C1000E224EE /* Unit Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Unit Tests.swift"; sourceTree = "<group>"; };
 		F3C778352C6E5C2A00E224EE /* Provider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Provider.swift; sourceTree = "<group>"; };
 		F3C778372C6E5C3400E224EE /* SimpleEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleEntry.swift; sourceTree = "<group>"; };
-		F3C778392C6E5C3D00E224EE /* WidgetsEntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetsEntryView.swift; sourceTree = "<group>"; };
+		F3C778392C6E5C3D00E224EE /* Widgets Entry View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Widgets Entry View.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +117,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3AABD322C6F432C00E7C7E4 /* ScrechKit in Frameworks */,
 				F3C7781D2C6E447800E224EE /* SwiftUI.framework in Frameworks */,
 				F3C7781B2C6E447800E224EE /* WidgetKit.framework in Frameworks */,
 			);
@@ -139,8 +141,8 @@
 			isa = PBXGroup;
 			children = (
 				F3530C002C6C12E700FB8481 /* Ram Usage.app */,
-				F3C778082C6E24A900E224EE /* Ram Usage Unit Tests.xctest */,
-				F3C778182C6E447800E224EE /* WidgetsExtension.appex */,
+				F3C778082C6E24A900E224EE /* Unit Tests.xctest */,
+				F3C778182C6E447800E224EE /* Widgets.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -180,7 +182,7 @@
 				F3C778272C6E447900E224EE /* Info.plist */,
 				F3C778282C6E447900E224EE /* Widgets.entitlements */,
 				F3C778212C6E447900E224EE /* Widgets.swift */,
-				F3C778392C6E5C3D00E224EE /* WidgetsEntryView.swift */,
+				F3C778392C6E5C3D00E224EE /* Widgets Entry View.swift */,
 				F3C778352C6E5C2A00E224EE /* Provider.swift */,
 				F3C778372C6E5C3400E224EE /* SimpleEntry.swift */,
 			);
@@ -222,9 +224,9 @@
 			productReference = F3530C002C6C12E700FB8481 /* Ram Usage.app */;
 			productType = "com.apple.product-type.application";
 		};
-		F3C778072C6E24A900E224EE /* Ram Usage Unit Tests */ = {
+		F3C778072C6E24A900E224EE /* Unit Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F3C7780E2C6E24A900E224EE /* Build configuration list for PBXNativeTarget "Ram Usage Unit Tests" */;
+			buildConfigurationList = F3C7780E2C6E24A900E224EE /* Build configuration list for PBXNativeTarget "Unit Tests" */;
 			buildPhases = (
 				F3C778042C6E24A900E224EE /* Sources */,
 				F3C778052C6E24A900E224EE /* Frameworks */,
@@ -235,16 +237,16 @@
 			dependencies = (
 				F3C7780D2C6E24A900E224EE /* PBXTargetDependency */,
 			);
-			name = "Ram Usage Unit Tests";
+			name = "Unit Tests";
 			packageProductDependencies = (
 			);
 			productName = "Ram Usage Unit Tests";
-			productReference = F3C778082C6E24A900E224EE /* Ram Usage Unit Tests.xctest */;
+			productReference = F3C778082C6E24A900E224EE /* Unit Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		F3C778172C6E447800E224EE /* WidgetsExtension */ = {
+		F3C778172C6E447800E224EE /* Widgets */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F3C7782D2C6E447900E224EE /* Build configuration list for PBXNativeTarget "WidgetsExtension" */;
+			buildConfigurationList = F3C7782D2C6E447900E224EE /* Build configuration list for PBXNativeTarget "Widgets" */;
 			buildPhases = (
 				F3C778142C6E447800E224EE /* Sources */,
 				F3C778152C6E447800E224EE /* Frameworks */,
@@ -254,11 +256,12 @@
 			);
 			dependencies = (
 			);
-			name = WidgetsExtension;
+			name = Widgets;
 			packageProductDependencies = (
+				F3AABD312C6F432C00E7C7E4 /* ScrechKit */,
 			);
 			productName = WidgetsExtension;
-			productReference = F3C778182C6E447800E224EE /* WidgetsExtension.appex */;
+			productReference = F3C778182C6E447800E224EE /* Widgets.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
@@ -303,8 +306,8 @@
 			projectRoot = "";
 			targets = (
 				F3530BFF2C6C12E700FB8481 /* Ram Usage */,
-				F3C778072C6E24A900E224EE /* Ram Usage Unit Tests */,
-				F3C778172C6E447800E224EE /* WidgetsExtension */,
+				F3C778172C6E447800E224EE /* Widgets */,
+				F3C778072C6E24A900E224EE /* Unit Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -369,7 +372,7 @@
 				F3C778362C6E5C2A00E224EE /* Provider.swift in Sources */,
 				F3C778202C6E447900E224EE /* WidgetsBundle.swift in Sources */,
 				F3C778222C6E447900E224EE /* Widgets.swift in Sources */,
-				F3C7783A2C6E5C3D00E224EE /* WidgetsEntryView.swift in Sources */,
+				F3C7783A2C6E5C3D00E224EE /* Widgets Entry View.swift in Sources */,
 				F3C778382C6E5C3400E224EE /* SimpleEntry.swift in Sources */,
 				F3C778242C6E447900E224EE /* AppIntent.swift in Sources */,
 			);
@@ -385,7 +388,7 @@
 		};
 		F3C7782A2C6E447900E224EE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F3C778172C6E447800E224EE /* WidgetsExtension */;
+			target = F3C778172C6E447800E224EE /* Widgets */;
 			targetProxy = F3C778292C6E447900E224EE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -522,12 +525,15 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Ram Usage";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 0.9;
 				PRODUCT_BUNDLE_IDENTIFIER = "dev.topscrech.Ram-Usage";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -548,12 +554,15 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Ram Usage";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 0.9;
 				PRODUCT_BUNDLE_IDENTIFIER = "dev.topscrech.Ram-Usage";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -569,6 +578,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 8FQUA2F388;
 				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "dev.topscrech.Ram-Usage-Unit-Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -586,6 +596,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 8FQUA2F388;
 				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "dev.topscrech.Ram-Usage-Unit-Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -607,18 +618,21 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Widgets/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = Widgets;
+				INFOPLIST_KEY_CFBundleDisplayName = "Ram Usage";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 					"@executable_path/../../../../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 0.9;
 				PRODUCT_BUNDLE_IDENTIFIER = "dev.topscrech.Ram-Usage.Widgets";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = macosx;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 			};
@@ -636,18 +650,21 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Widgets/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = Widgets;
+				INFOPLIST_KEY_CFBundleDisplayName = "Ram Usage";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 					"@executable_path/../../../../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 0.9;
 				PRODUCT_BUNDLE_IDENTIFIER = "dev.topscrech.Ram-Usage.Widgets";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = macosx;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 			};
@@ -674,7 +691,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F3C7780E2C6E24A900E224EE /* Build configuration list for PBXNativeTarget "Ram Usage Unit Tests" */ = {
+		F3C7780E2C6E24A900E224EE /* Build configuration list for PBXNativeTarget "Unit Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F3C7780F2C6E24A900E224EE /* Debug */,
@@ -683,7 +700,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F3C7782D2C6E447900E224EE /* Build configuration list for PBXNativeTarget "WidgetsExtension" */ = {
+		F3C7782D2C6E447900E224EE /* Build configuration list for PBXNativeTarget "Widgets" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F3C7782E2C6E447900E224EE /* Debug */,
@@ -736,6 +753,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = F38DF0AB2C6C302400081031 /* XCRemoteSwiftPackageReference "SwiftyJSON" */;
 			productName = SwiftyJSON;
+		};
+		F3AABD312C6F432C00E7C7E4 /* ScrechKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F3530C132C6C132100FB8481 /* XCRemoteSwiftPackageReference "ScrechKit" */;
+			productName = ScrechKit;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
