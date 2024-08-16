@@ -9,7 +9,11 @@ struct WidgetsEntryView: View {
         let version = dick?["CFBundleShortVersionString"] as? String ?? ""
         let build = dick?["CFBundleVersion"] as? String ?? ""
         
-        return "\(version) (B\(build))"
+        return "v\(version) (B\(build))"
+    }
+    
+    var ram: MemoryUsage {
+        entry.memory
     }
     
     var body: some View {
@@ -27,44 +31,45 @@ struct WidgetsEntryView: View {
                         .scaleEffect(x: 1, y: 2)
                 }
                 
-                let used = "5 GB"
-                RamSpec("Usage", ram: used)
+                RamSpec("Usage", ram: ram.used)
                     .offset(y: 10)
                 
-                let free = "5 GB"
-                RamSpec("Free", ram: free)
+                RamSpec("Free", ram: ram.free)
                     .offset(y: 10)
             }
             
             Divider()
             
             HStack(spacing: 15) {
-                let appMemory = "5 GB"
-                RamSpec("App", ram: appMemory)
+                RamSpec("App", ram: ram.appMemory)
                 
-                let wired = "5 GB"
-                RamSpec("Wired", ram: wired)
+                RamSpec("Wired", ram: ram.wired)
                 
-                let compressed = "5 GB"
-                RamSpec("Compressed", ram: compressed)
+                RamSpec("Compressed", ram: ram.compressed)
                 
                 Divider()
                     .frame(maxHeight: 40)
                 
-                let cachedFiles = "5 GB"
-                RamSpec("Cached Files", ram: cachedFiles)
+                RamSpec("Cached Files", ram: ram.cachedFiles)
             }
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity)
         .overlay(alignment: .top) {
             HStack {
-                Text(version)
+                VStack(alignment: .trailing) {
+                    Text(entry.date, format: .dateTime.hour().minute().second())
+                    Text(version)
+                }
                 
                 Spacer()
                 
-                Text(entry.date, format: .dateTime.hour().minute().second())
+                Button(intent: RefreshIntent()) {
+                    Image(systemName: "arrow.trianglehead.2.clockwise.rotate.90")
+                }
+                .clipShape(.circle)
+                .offset(x: -12, y: 8)
             }
-            .footnote()
+            .caption2()
             .foregroundStyle(.tertiary)
         }
     }
