@@ -19,6 +19,7 @@
 		F38DF0AF2C6C31FA00081031 /* RAM Info.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38DF0AE2C6C31FA00081031 /* RAM Info.swift */; };
 		F38DF0B12C6C368900081031 /* App Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38DF0B02C6C368900081031 /* App Settings.swift */; };
 		F3AABD322C6F432C00E7C7E4 /* ScrechKit in Frameworks */ = {isa = PBXBuildFile; productRef = F3AABD312C6F432C00E7C7E4 /* ScrechKit */; };
+		F3C053392C6F4E6500CDF3FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3530C072C6C12E800FB8481 /* Assets.xcassets */; };
 		F3C778032C6E227700E224EE /* RAM VM Swap.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C778022C6E227700E224EE /* RAM VM Swap.swift */; };
 		F3C778112C6E397D00E224EE /* RAM VM.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38DF0A02C6C2EDF00081031 /* RAM VM.swift */; };
 		F3C778122C6E398300E224EE /* RAM VM Swap.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C778022C6E227700E224EE /* RAM VM Swap.swift */; };
@@ -28,7 +29,6 @@
 		F3C778202C6E447900E224EE /* WidgetsBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C7781F2C6E447900E224EE /* WidgetsBundle.swift */; };
 		F3C778222C6E447900E224EE /* Widgets.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C778212C6E447900E224EE /* Widgets.swift */; };
 		F3C778242C6E447900E224EE /* AppIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C778232C6E447900E224EE /* AppIntent.swift */; };
-		F3C778262C6E447900E224EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3C778252C6E447900E224EE /* Assets.xcassets */; };
 		F3C7782B2C6E447900E224EE /* Widgets.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = F3C778182C6E447800E224EE /* Widgets.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		F3C778332C6E5C1000E224EE /* Unit Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C778322C6E5C1000E224EE /* Unit Tests.swift */; };
 		F3C778362C6E5C2A00E224EE /* Provider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C778352C6E5C2A00E224EE /* Provider.swift */; };
@@ -86,7 +86,6 @@
 		F3C7781F2C6E447900E224EE /* WidgetsBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetsBundle.swift; sourceTree = "<group>"; };
 		F3C778212C6E447900E224EE /* Widgets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Widgets.swift; sourceTree = "<group>"; };
 		F3C778232C6E447900E224EE /* AppIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIntent.swift; sourceTree = "<group>"; };
-		F3C778252C6E447900E224EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F3C778272C6E447900E224EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F3C778282C6E447900E224EE /* Widgets.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Widgets.entitlements; sourceTree = "<group>"; };
 		F3C778322C6E5C1000E224EE /* Unit Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Unit Tests.swift"; sourceTree = "<group>"; };
@@ -178,7 +177,6 @@
 			children = (
 				F3C7781F2C6E447900E224EE /* WidgetsBundle.swift */,
 				F3C778232C6E447900E224EE /* AppIntent.swift */,
-				F3C778252C6E447900E224EE /* Assets.xcassets */,
 				F3C778272C6E447900E224EE /* Info.plist */,
 				F3C778282C6E447900E224EE /* Widgets.entitlements */,
 				F3C778212C6E447900E224EE /* Widgets.swift */,
@@ -332,7 +330,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F3C778262C6E447900E224EE /* Assets.xcassets in Resources */,
+				F3C053392C6F4E6500CDF3FA /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
