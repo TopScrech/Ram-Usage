@@ -31,6 +31,9 @@ struct RAMInfo: View {
                 Text("compressed \(compressed) GB")
             }
         }
+        .task {
+            vm.startUpdating()
+        }
     }
 }
 
@@ -62,7 +65,7 @@ private extension String {
     }
 }
 
-private extension Double {
+extension Double {
     func shorten(_ symbolsAfterComma: Int = 1) -> String {
         String(format: "%0.\(symbolsAfterComma)f", self)
     }

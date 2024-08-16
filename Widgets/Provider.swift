@@ -1,25 +1,54 @@
 import WidgetKit
 
 struct Provider: AppIntentTimelineProvider {
-    func placeholder(in context: Context) -> SimpleEntry {
-        SimpleEntry(date: Date(), configuration: ConfigurationAppIntent())
+    let previewMemoryUsage = MemoryUsage(
+        used: "100 GB",
+        free: "200 GB",
+        appMemory: "40 GB",
+        wired: "20 GB",
+        compressed: "10 GB",
+        cachedFiles: "100 GB"
+    )
+    
+    func placeholder(
+        in context: Context
+    ) -> MemoryEntry {
+        MemoryEntry(
+            configuration: ConfigurationAppIntent(),
+            date: Date(),
+            memory: previewMemoryUsage
+        )
     }
     
-    func snapshot(for configuration: ConfigurationAppIntent, in context: Context) async -> SimpleEntry {
-        SimpleEntry(date: Date(), configuration: configuration)
+    func snapshot(
+        for configuration: ConfigurationAppIntent,
+        in context: Context
+    ) async -> MemoryEntry {
+        let vm = RamVM()
+        vm.refresh()
+        
+        return MemoryEntry(
+            configuration: configuration,
+            date: Date(),
+            memory: vm.memoryUsage
+        )
     }
     
-    func timeline(for configuration: ConfigurationAppIntent, in context: Context) async -> Timeline<SimpleEntry> {
-        var entries: [SimpleEntry] = []
+    func timeline(
+        for configuration: ConfigurationAppIntent,
+        in context: Context
+    ) async -> Timeline<MemoryEntry> {
+        var entries: [MemoryEntry] = []
+        let vm = RamVM()
+        vm.refresh()
         
-        // Generate a timeline consisting of five entries an hour apart, starting from the current date.
-        let currentDate = Date()
-        
-        for hourOffset in 0 ..< 5 {
-            let entryDate = Calendar.current.date(byAdding: .hour, value: hourOffset, to: currentDate)!
-            let entry = SimpleEntry(date: entryDate, configuration: configuration)
-            entries.append(entry)
-        }
+        entries = [
+            .init(
+                configuration: configuration,
+                date: Date(),
+                memory: vm.memoryUsage
+            )
+        ]
         
         return Timeline(entries: entries, policy: .atEnd)
     }

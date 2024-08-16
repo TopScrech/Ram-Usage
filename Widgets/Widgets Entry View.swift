@@ -94,5 +94,5 @@ struct RamSpec: View {
 //#Preview(as: .systemMedium) {
 //    Widgets()
 //} timeline: {
-//    SimpleEntry(date: Date(), configuration: .init())
+//    MemoryEntry(date: Date(), configuration: .init())
 //}

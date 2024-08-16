@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 77;
+	objectVersion = 63;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -20,6 +20,12 @@
 		F38DF0B12C6C368900081031 /* App Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38DF0B02C6C368900081031 /* App Settings.swift */; };
 		F3AABD322C6F432C00E7C7E4 /* ScrechKit in Frameworks */ = {isa = PBXBuildFile; productRef = F3AABD312C6F432C00E7C7E4 /* ScrechKit */; };
 		F3C053392C6F4E6500CDF3FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3530C072C6C12E800FB8481 /* Assets.xcassets */; };
+		F3C0533A2C6F523E00CDF3FA /* RAM VM.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38DF0A02C6C2EDF00081031 /* RAM VM.swift */; };
+		F3C0533B2C6F524300CDF3FA /* RAM VM Swap.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C778022C6E227700E224EE /* RAM VM Swap.swift */; };
+		F3C0533C2C6F524D00CDF3FA /* Extension Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38DF0A72C6C2F5900081031 /* Extension Double.swift */; };
+		F3C0533E2C6F529100CDF3FA /* MemoryUsage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C0533D2C6F529000CDF3FA /* MemoryUsage.swift */; };
+		F3C0533F2C6F529400CDF3FA /* MemoryUsage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C0533D2C6F529000CDF3FA /* MemoryUsage.swift */; };
+		F3C053412C6F542B00CDF3FA /* SystemKit in Frameworks */ = {isa = PBXBuildFile; productRef = F3C053402C6F542B00CDF3FA /* SystemKit */; };
 		F3C778032C6E227700E224EE /* RAM VM Swap.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C778022C6E227700E224EE /* RAM VM Swap.swift */; };
 		F3C778112C6E397D00E224EE /* RAM VM.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38DF0A02C6C2EDF00081031 /* RAM VM.swift */; };
 		F3C778122C6E398300E224EE /* RAM VM Swap.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C778022C6E227700E224EE /* RAM VM Swap.swift */; };
@@ -32,7 +38,7 @@
 		F3C7782B2C6E447900E224EE /* Widgets.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = F3C778182C6E447800E224EE /* Widgets.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		F3C778332C6E5C1000E224EE /* Unit Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C778322C6E5C1000E224EE /* Unit Tests.swift */; };
 		F3C778362C6E5C2A00E224EE /* Provider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C778352C6E5C2A00E224EE /* Provider.swift */; };
-		F3C778382C6E5C3400E224EE /* SimpleEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C778372C6E5C3400E224EE /* SimpleEntry.swift */; };
+		F3C778382C6E5C3400E224EE /* Memory Entry.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C778372C6E5C3400E224EE /* Memory Entry.swift */; };
 		F3C7783A2C6E5C3D00E224EE /* Widgets Entry View.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C778392C6E5C3D00E224EE /* Widgets Entry View.swift */; };
 /* End PBXBuildFile section */
 
@@ -78,6 +84,7 @@
 		F38DF0A72C6C2F5900081031 /* Extension Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension Double.swift"; sourceTree = "<group>"; };
 		F38DF0AE2C6C31FA00081031 /* RAM Info.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RAM Info.swift"; sourceTree = "<group>"; };
 		F38DF0B02C6C368900081031 /* App Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "App Settings.swift"; sourceTree = "<group>"; };
+		F3C0533D2C6F529000CDF3FA /* MemoryUsage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryUsage.swift; sourceTree = "<group>"; };
 		F3C778022C6E227700E224EE /* RAM VM Swap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RAM VM Swap.swift"; sourceTree = "<group>"; };
 		F3C778082C6E24A900E224EE /* Unit Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Unit Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3C778182C6E447800E224EE /* Widgets.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Widgets.appex; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -90,7 +97,7 @@
 		F3C778282C6E447900E224EE /* Widgets.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Widgets.entitlements; sourceTree = "<group>"; };
 		F3C778322C6E5C1000E224EE /* Unit Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Unit Tests.swift"; sourceTree = "<group>"; };
 		F3C778352C6E5C2A00E224EE /* Provider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Provider.swift; sourceTree = "<group>"; };
-		F3C778372C6E5C3400E224EE /* SimpleEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleEntry.swift; sourceTree = "<group>"; };
+		F3C778372C6E5C3400E224EE /* Memory Entry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Memory Entry.swift"; sourceTree = "<group>"; };
 		F3C778392C6E5C3D00E224EE /* Widgets Entry View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Widgets Entry View.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -118,6 +125,7 @@
 			files = (
 				F3AABD322C6F432C00E7C7E4 /* ScrechKit in Frameworks */,
 				F3C7781D2C6E447800E224EE /* SwiftUI.framework in Frameworks */,
+				F3C053412C6F542B00CDF3FA /* SystemKit in Frameworks */,
 				F3C7781B2C6E447800E224EE /* WidgetKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -159,6 +167,7 @@
 				F38DF0A02C6C2EDF00081031 /* RAM VM.swift */,
 				F3C778022C6E227700E224EE /* RAM VM Swap.swift */,
 				F38DF0A72C6C2F5900081031 /* Extension Double.swift */,
+				F3C0533D2C6F529000CDF3FA /* MemoryUsage.swift */,
 			);
 			path = "Ram Usage";
 			sourceTree = "<group>";
@@ -182,7 +191,7 @@
 				F3C778212C6E447900E224EE /* Widgets.swift */,
 				F3C778392C6E5C3D00E224EE /* Widgets Entry View.swift */,
 				F3C778352C6E5C2A00E224EE /* Provider.swift */,
-				F3C778372C6E5C3400E224EE /* SimpleEntry.swift */,
+				F3C778372C6E5C3400E224EE /* Memory Entry.swift */,
 			);
 			path = Widgets;
 			sourceTree = "<group>";
@@ -257,6 +266,7 @@
 			name = Widgets;
 			packageProductDependencies = (
 				F3AABD312C6F432C00E7C7E4 /* ScrechKit */,
+				F3C053402C6F542B00CDF3FA /* SystemKit */,
 			);
 			productName = WidgetsExtension;
 			productReference = F3C778182C6E447800E224EE /* Widgets.appex */;
@@ -285,6 +295,7 @@
 				};
 			};
 			buildConfigurationList = F3530BFB2C6C12E700FB8481 /* Build configuration list for PBXProject "Ram Usage" */;
+			compatibilityVersion = "Xcode 15.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -298,7 +309,6 @@
 				F38DF0A22C6C2F2100081031 /* XCRemoteSwiftPackageReference "SystemKit" */,
 				F38DF0AB2C6C302400081031 /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
 			);
-			preferredProjectObjectVersion = 77;
 			productRefGroup = F3530C012C6C12E700FB8481 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -349,6 +359,7 @@
 				F3530C062C6C12E700FB8481 /* App Container.swift in Sources */,
 				F3530C172C6C135500FB8481 /* Home View.swift in Sources */,
 				F3530C042C6C12E700FB8481 /* Ram Usage.swift in Sources */,
+				F3C0533E2C6F529100CDF3FA /* MemoryUsage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -369,10 +380,14 @@
 			files = (
 				F3C778362C6E5C2A00E224EE /* Provider.swift in Sources */,
 				F3C778202C6E447900E224EE /* WidgetsBundle.swift in Sources */,
+				F3C0533B2C6F524300CDF3FA /* RAM VM Swap.swift in Sources */,
 				F3C778222C6E447900E224EE /* Widgets.swift in Sources */,
 				F3C7783A2C6E5C3D00E224EE /* Widgets Entry View.swift in Sources */,
-				F3C778382C6E5C3400E224EE /* SimpleEntry.swift in Sources */,
+				F3C778382C6E5C3400E224EE /* Memory Entry.swift in Sources */,
+				F3C0533C2C6F524D00CDF3FA /* Extension Double.swift in Sources */,
 				F3C778242C6E447900E224EE /* AppIntent.swift in Sources */,
+				F3C0533F2C6F529400CDF3FA /* MemoryUsage.swift in Sources */,
+				F3C0533A2C6F523E00CDF3FA /* RAM VM.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -756,6 +771,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = F3530C132C6C132100FB8481 /* XCRemoteSwiftPackageReference "ScrechKit" */;
 			productName = ScrechKit;
+		};
+		F3C053402C6F542B00CDF3FA /* SystemKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F38DF0A22C6C2F2100081031 /* XCRemoteSwiftPackageReference "SystemKit" */;
+			productName = SystemKit;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

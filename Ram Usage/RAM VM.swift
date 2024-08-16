@@ -3,11 +3,6 @@ import WidgetKit
 
 @Observable
 final class RamVM {
-    init() {
-        print("test")
-        startUpdating()
-    }
-    
     var free = 0.0
     var active = 0.0
     var inactive = 0.0
@@ -18,6 +13,17 @@ final class RamVM {
     
     var cachedFiles = 0.0
     var usageHistory: [Double] = []
+    
+    var memoryUsage: MemoryUsage {
+        MemoryUsage(
+            used: usedString,
+            free: freeString,
+            appMemory: appMemoryString,
+            wired: wiredString,
+            compressed: compressedString,
+            cachedFiles: cachedFilesString
+        )
+    }
     
     var used: Double {
         appMemory + wired + compressed
@@ -49,6 +55,22 @@ final class RamVM {
     
     var usedString: String {
         used.memoryString
+    }
+    
+    var wiredString: String {
+        wired.memoryString
+    }
+    
+    var compressedString: String {
+        compressed.memoryString
+    }
+    
+    var cachedFilesString: String {
+        cachedFiles.memoryString
+    }
+    
+    var appMemoryString: String {
+        appMemory.memoryString
     }
     
     func refresh() {
