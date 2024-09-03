@@ -6,6 +6,16 @@ struct RAMInfo: View {
     var body: some View {
         List {
             Section {
+                VStack(alignment: .leading) {
+                    Text("You can exit this window and add RAM Usage widgets to the home screen")
+                    
+                    Button("Exit") {
+                        exit(16)
+                    }
+                }
+            }
+            
+            Section {
                 Text("Active \(vm.active)")
                 Text("Inactive \(vm.inactive)")
             }
@@ -59,7 +69,7 @@ struct RAMInfo: View {
             //                Text("compressed \(compressed) GB")
             //            }
         }
-        .navigationTitle("RAM Usage Debug")
+        .navigationTitle("RAM Usage")
         .scrollIndicators(.never)
         .task {
             vm.startUpdating()
