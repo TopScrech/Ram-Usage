@@ -29,6 +29,7 @@ struct WidgetsEntryView: View {
                     
                     ProgressView(value: 1, total: 2)
                         .scaleEffect(x: 1, y: 2)
+                        .frame(maxWidth: 200)
                 }
                 
                 RamSpec("Usage", ram: ram.used)
@@ -50,16 +51,18 @@ struct WidgetsEntryView: View {
                 Divider()
                     .frame(maxHeight: 40)
                 
-                RamSpec("Cached Files", ram: ram.cachedFiles)
+                RamSpec("Cache", ram: ram.cachedFiles)
             }
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity)
         .overlay(alignment: .top) {
-            HStack {
-                VStack(alignment: .trailing) {
+            HStack(alignment: .top, spacing: 0) {
+                HStack {
                     Text(entry.date, format: .dateTime.hour().minute().second())
+                    
                     Text(version)
                 }
+                .foregroundStyle(.tertiary)
                 
                 Spacer()
                 
@@ -67,10 +70,9 @@ struct WidgetsEntryView: View {
                     Image(systemName: "arrow.trianglehead.2.clockwise.rotate.90")
                 }
                 .clipShape(.circle)
-                .offset(x: -12, y: 8)
+                .offset(x: 12, y: -8)
             }
             .caption2()
-            .foregroundStyle(.tertiary)
         }
     }
 }

@@ -39,6 +39,7 @@ struct Provider: AppIntentTimelineProvider {
         in context: Context
     ) async -> Timeline<MemoryEntry> {
         var entries: [MemoryEntry] = []
+        
         let vm = RamVM()
         vm.refresh()
         

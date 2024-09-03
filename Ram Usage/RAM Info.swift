@@ -4,32 +4,59 @@ struct RAMInfo: View {
     @Environment(RamVM.self) private var vm
     
     var body: some View {
-        VStack {
-            Button("Test") {
-                runVMStat()
+        List {
+            Section {
+                Text("Active \(vm.active)")
+                Text("Inactive \(vm.inactive)")
             }
             
-            HStack {
-                let used = vm.used.shorten()
-                Text("Usage \(used) GB")
+            Section {
+                Text("AllFree \(vm.allFree) (\(vm.allFreePercentage.shorten())%)")
                 
-                let free = vm.allFree.shorten()
-                Text("Free \(free) GB")
+                Text("Free \(vm.free)")
+                Text("FreeString \(vm.freeString)")
+                Text("Total \(vm.total)")
+                Text("UsageHistory \(vm.usageHistory)")
+                Text("Used \(vm.used)")
+                Text("UsedPercentage \(vm.usedPercentage)")
+                Text("UsedPercentageString \(vm.usedPercentageString)")
+                Text("UsedString \(vm.usedString)")
             }
             
-            HStack {
-                let cachedFiles = vm.cachedFiles.shorten()
-                Text("cachedFiles \(cachedFiles) GB")
-                
-                let appMemory = vm.appMemory.shorten()
-                Text("appMemory \(appMemory) GB")
-                
-                let wired = vm.wired.shorten()
-                Text("wired \(wired) GB")
-                
-                let compressed = vm.compressed.shorten()
-                Text("compressed \(compressed) GB")
+            Section {
+                Text("CachedFiles \(vm.cachedFiles)")
             }
+            
+            Section {
+                Text("AppMemory \(vm.appMemory)")
+                Text("Compressed \(vm.compressed)")
+                Text("Wired \(vm.wired)")
+            }
+            //            Button("Test") {
+            //                runVMStat()
+            //            }
+            //
+            //            HStack {
+            //                let used = vm.used.shorten()
+            //                Text("Usage \(used) GB")
+            //
+            //                let free = vm.allFree.shorten()
+            //                Text("Free \(free) GB")
+            //            }
+            //
+            //            HStack {
+            //                let cachedFiles = vm.cachedFiles.shorten()
+            //                Text("cachedFiles \(cachedFiles) GB")
+            //
+            //                let appMemory = vm.appMemory.shorten()
+            //                Text("appMemory \(appMemory) GB")
+            //
+            //                let wired = vm.wired.shorten()
+            //                Text("wired \(wired) GB")
+            //
+            //                let compressed = vm.compressed.shorten()
+            //                Text("compressed \(compressed) GB")
+            //            }
         }
         .task {
             vm.startUpdating()
@@ -73,4 +100,6 @@ extension Double {
 
 #Preview {
     RAMInfo()
+        .environment(RamVM())
+        .padding(20)
 }

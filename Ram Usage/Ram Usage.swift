@@ -10,9 +10,9 @@ struct RamUsage: App {
                 .environment(vm)
         }
         
-//        Settings {
-//            AppSettings()
-//                .environment(vm)
-//        }
+        //        Settings {
+        //            AppSettings()
+        //                .environment(vm)
+        //        }
     }
 }

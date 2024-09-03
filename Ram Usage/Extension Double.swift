@@ -7,7 +7,7 @@ extension Double {
         if isNaN || isInfinite {
             "N/A"
         } else {
-            self < 1.0 ? String(Int(self * 1000.0)) + " MB" : String(format: "%.2f", self) + " GB"
+            self < 1.0 ? String(Int(self * 1000.0)) + " MB" : String(format: "%.1f", self) + " GB"
         }
     }
     
