@@ -39,11 +39,10 @@ struct SmallWidgetView: View {
             
             HStack(spacing: 15) {
                 RamSpec("Usage", ram: ram.used)
-                    .offset(y: 10)
                 
                 RamSpec("Free", ram: ram.free)
-                    .offset(y: 10)
             }
+            .offset(y: 10)
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity)
         .overlay(alignment: .top) {
@@ -61,7 +60,7 @@ struct SmallWidgetView: View {
                     Image(systemName: "arrow.trianglehead.2.clockwise.rotate.90")
                 }
                 .clipShape(.circle)
-                .offset(x: 12)
+                .offset(x: 12, y: -8)
             }
             .caption2()
         }
