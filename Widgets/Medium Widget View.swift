@@ -1,8 +1,12 @@
 import SwiftUI
 import WidgetKit
 
-struct WidgetsEntryView: View {
-    var entry: Provider.Entry
+struct MediumWidgetView: View {
+    private var entry: Provider.Entry
+    
+    init(_ entry: Provider.Entry) {
+        self.entry = entry
+    }
     
     var version: String {
         let dick = Bundle.main.infoDictionary
@@ -74,27 +78,6 @@ struct WidgetsEntryView: View {
             }
             .caption2()
         }
-    }
-}
-
-struct RamSpec: View {
-    private let name: String
-    private let ram: String
-    
-    init(_ name: String, ram: String) {
-        self.name = name
-        self.ram = ram
-    }
-    
-    var body: some View {
-        VStack(alignment: .leading) {
-            Text(name)
-                .footnote()
-                .foregroundStyle(.secondary)
-            
-            Text(ram)
-        }
-        .padding(5)
     }
 }
 
