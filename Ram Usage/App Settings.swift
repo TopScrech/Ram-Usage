@@ -27,4 +27,5 @@ struct AppSettings: View {
 
 #Preview {
     AppSettings()
+        .environment(RamVM())
 }

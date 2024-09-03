@@ -32,6 +32,7 @@ struct RAMInfo: View {
                 Text("Compressed \(vm.compressed)")
                 Text("Wired \(vm.wired)")
             }
+            
             //            Button("Test") {
             //                runVMStat()
             //            }
@@ -58,6 +59,8 @@ struct RAMInfo: View {
             //                Text("compressed \(compressed) GB")
             //            }
         }
+        .navigationTitle("RAM Usage Debug")
+        .scrollIndicators(.never)
         .task {
             vm.startUpdating()
         }
