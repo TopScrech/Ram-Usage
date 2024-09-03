@@ -21,7 +21,9 @@ final class RamVM {
             appMemory: appMemoryString,
             wired: wiredString,
             compressed: compressedString,
-            cachedFiles: cachedFilesString
+            cachedFiles: cachedFilesString,
+            graph_used: used,
+            graph_total: total
         )
     }
     

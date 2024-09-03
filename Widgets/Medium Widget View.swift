@@ -31,7 +31,7 @@ struct MediumWidgetView: View {
                         .rounded()
                         .frame(maxWidth: .infinity, alignment: .leading)
                     
-                    ProgressView(value: 1, total: 2)
+                    ProgressView(value: ram.graph_used, total: ram.graph_total)
                         .scaleEffect(x: 1, y: 2)
                         .frame(maxWidth: 200)
                 }

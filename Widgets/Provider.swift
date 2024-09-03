@@ -7,7 +7,9 @@ struct Provider: AppIntentTimelineProvider {
         appMemory: "40 GB",
         wired: "20 GB",
         compressed: "10 GB",
-        cachedFiles: "100 GB"
+        cachedFiles: "100 GB",
+        graph_used: 1,
+        graph_total: 2
     )
     
     func placeholder(
