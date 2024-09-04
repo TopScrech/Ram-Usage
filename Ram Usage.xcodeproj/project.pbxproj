@@ -34,7 +34,7 @@
 		F3C778132C6E39FA00E224EE /* Extension Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38DF0A72C6C2F5900081031 /* Extension Double.swift */; };
 		F3C7781B2C6E447800E224EE /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3C7781A2C6E447800E224EE /* WidgetKit.framework */; };
 		F3C7781D2C6E447800E224EE /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3C7781C2C6E447800E224EE /* SwiftUI.framework */; };
-		F3C778202C6E447900E224EE /* WidgetsBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C7781F2C6E447900E224EE /* WidgetsBundle.swift */; };
+		F3C778202C6E447900E224EE /* Widgets Bundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C7781F2C6E447900E224EE /* Widgets Bundle.swift */; };
 		F3C778222C6E447900E224EE /* Widgets.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C778212C6E447900E224EE /* Widgets.swift */; };
 		F3C778242C6E447900E224EE /* App Intent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C778232C6E447900E224EE /* App Intent.swift */; };
 		F3C7782B2C6E447900E224EE /* Widgets.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = F3C778182C6E447800E224EE /* Widgets.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
@@ -95,7 +95,7 @@
 		F3C778182C6E447800E224EE /* Widgets.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Widgets.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3C7781A2C6E447800E224EE /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
 		F3C7781C2C6E447800E224EE /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
-		F3C7781F2C6E447900E224EE /* WidgetsBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetsBundle.swift; sourceTree = "<group>"; };
+		F3C7781F2C6E447900E224EE /* Widgets Bundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Widgets Bundle.swift"; sourceTree = "<group>"; };
 		F3C778212C6E447900E224EE /* Widgets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Widgets.swift; sourceTree = "<group>"; };
 		F3C778232C6E447900E224EE /* App Intent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "App Intent.swift"; sourceTree = "<group>"; };
 		F3C778272C6E447900E224EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -190,7 +190,7 @@
 		F3C778312C6E448100E224EE /* Widgets */ = {
 			isa = PBXGroup;
 			children = (
-				F3C7781F2C6E447900E224EE /* WidgetsBundle.swift */,
+				F3C7781F2C6E447900E224EE /* Widgets Bundle.swift */,
 				F3C778232C6E447900E224EE /* App Intent.swift */,
 				F3C778272C6E447900E224EE /* Info.plist */,
 				F3C778282C6E447900E224EE /* Widgets.entitlements */,
@@ -388,7 +388,7 @@
 			files = (
 				F3C778362C6E5C2A00E224EE /* Provider.swift in Sources */,
 				F313BE192C87116E005C8B60 /* Small Widget View.swift in Sources */,
-				F3C778202C6E447900E224EE /* WidgetsBundle.swift in Sources */,
+				F3C778202C6E447900E224EE /* Widgets Bundle.swift in Sources */,
 				F3C0533B2C6F524300CDF3FA /* RAM VM Swap.swift in Sources */,
 				F3C778222C6E447900E224EE /* Widgets.swift in Sources */,
 				F3C7783A2C6E5C3D00E224EE /* Medium Widget View.swift in Sources */,

@@ -8,7 +8,8 @@ struct SmallWidgetView: View {
         self.entry = entry
     }
     
-    var version: String {
+#warning("Used twice")
+    private var version: String {
         let dick = Bundle.main.infoDictionary
         let version = dick?["CFBundleShortVersionString"] as? String ?? ""
         let build = dick?["CFBundleVersion"] as? String ?? ""
@@ -16,7 +17,8 @@ struct SmallWidgetView: View {
         return "v\(version) (B\(build))"
     }
     
-    var ram: MemoryUsage {
+#warning("Used twice")
+    private var ram: MemoryUsage {
         entry.memory
     }
     
@@ -48,19 +50,25 @@ struct SmallWidgetView: View {
         .overlay(alignment: .top) {
             HStack(alignment: .top, spacing: 0) {
                 HStack {
-                    Text(entry.date, format: .dateTime.hour().minute())
+                    if entry.configuration.showRefreshTime {
+                        Text(entry.date, format: .dateTime.hour().minute())
+                    }
                     
-                    Text(version)
+                    if entry.configuration.showBuildNumber {
+                        Text(version)
+                    }
                 }
                 .foregroundStyle(.tertiary)
                 
                 Spacer()
                 
-                Button(intent: RefreshIntent()) {
-                    Image(systemName: "arrow.trianglehead.2.clockwise.rotate.90")
+                if entry.configuration.showRefreshButton {
+                    Button(intent: RefreshIntent()) {
+                        Image(systemName: "arrow.trianglehead.2.clockwise.rotate.90")
+                    }
+                    .clipShape(.circle)
+                    .offset(x: 12, y: -8)
                 }
-                .clipShape(.circle)
-                .offset(x: 12, y: -8)
             }
             .caption2()
         }

@@ -3,10 +3,16 @@ import AppIntents
 
 struct ConfigurationAppIntent: WidgetConfigurationIntent {
     static var title: LocalizedStringResource = "Configuration"
-    static var description: IntentDescription = "This is an example widget."
+    static var description: IntentDescription = " "
     
-    @Parameter(title: "Favorite Emoji", default: "😃")
-    var favoriteEmoji: String
+    @Parameter(title: "Show refresh button", default: false)
+    var showRefreshButton: Bool
+    
+    @Parameter(title: "Show refresh time", default: true)
+    var showRefreshTime: Bool
+    
+    @Parameter(title: "Show build number", default: false)
+    var showBuildNumber: Bool
 }
 
 struct RefreshIntent: AppIntent {
