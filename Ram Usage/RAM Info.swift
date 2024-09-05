@@ -8,10 +8,6 @@ struct RAMInfo: View {
             Section {
                 VStack(alignment: .leading) {
                     Text("You can exit this window and add RAM Usage widgets to the home screen")
-                    
-                    Button("Exit") {
-                        exit(16)
-                    }
                 }
             }
             
