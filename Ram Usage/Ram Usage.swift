@@ -13,7 +13,7 @@ struct RamUsage: App {
         MenuBarExtra("Menu Bar Extra", systemImage: "externaldrive") {
             AppContainer()
                 .environment(vm)
-                .frame(width: 300, height: 500)
+                .frame(width: 400, height: 250)
         }
         .menuBarExtraStyle(.window)
         

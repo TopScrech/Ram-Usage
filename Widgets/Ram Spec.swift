@@ -16,7 +16,7 @@ struct RamSpec: View {
                 .foregroundStyle(.secondary)
             
             Text(ram)
+                .monospaced()
         }
-        .padding(5)
     }
 }

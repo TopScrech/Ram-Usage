@@ -5,43 +5,50 @@ struct RAMInfo: View {
     
     var body: some View {
         List {
-            Section {
-                VStack(alignment: .leading) {
-                    Text("You can quit this window and add RAM Usage widgets to the home screen")
-                    
-                    Button("Quit") {
-                        exit(16)
-                    }
-                }
-            }
+            MediumWidgetView(vm.memoryUsage)
+                .padding()
+                .background(.ultraThickMaterial, in: .rect(cornerRadius: 16))
             
-            Section {
-                Text("Active \(vm.active)")
-                Text("Inactive \(vm.inactive)")
-            }
+//                .padding(4)
+//                .background(.ultraThickMaterial, in: .rect(cornerRadius: 16))
             
-            Section {
-                Text("AllFree \(vm.allFree) (\(vm.allFreePercentage.shorten())%)")
-                
-                Text("Free \(vm.free)")
-                Text("FreeString \(vm.freeString)")
-                Text("Total \(vm.total)")
-                Text("UsageHistory \(vm.usageHistory)")
-                Text("Used \(vm.used)")
-                Text("UsedPercentage \(vm.usedPercentage)")
-                Text("UsedPercentageString \(vm.usedPercentageString)")
-                Text("UsedString \(vm.usedString)")
-            }
-            
-            Section {
-                Text("CachedFiles \(vm.cachedFiles)")
-            }
-            
-            Section {
-                Text("AppMemory \(vm.appMemory)")
-                Text("Compressed \(vm.compressed)")
-                Text("Wired \(vm.wired)")
-            }
+//            Section {
+//                VStack(alignment: .leading) {
+//                    Text("You can quit this window and add RAM Usage widgets to the home screen")
+//                    
+//                    Button("Quit") {
+//                        exit(16)
+//                    }
+//                }
+//            }
+//            
+//            Section {
+//                Text("Active \(vm.active)")
+//                Text("Inactive \(vm.inactive)")
+//            }
+//            
+//            Section {
+//                Text("AllFree \(vm.allFree) (\(vm.allFreePercentage.shorten())%)")
+//                
+//                Text("Free \(vm.free)")
+//                Text("FreeString \(vm.freeString)")
+//                Text("Total \(vm.total)")
+//                Text("UsageHistory \(vm.usageHistory)")
+//                Text("Used \(vm.used)")
+//                Text("UsedPercentage \(vm.usedPercentage)")
+//                Text("UsedPercentageString \(vm.usedPercentageString)")
+//                Text("UsedString \(vm.usedString)")
+//            }
+//            
+//            Section {
+//                Text("CachedFiles \(vm.cachedFiles)")
+//            }
+//            
+//            Section {
+//                Text("AppMemory \(vm.appMemory)")
+//                Text("Compressed \(vm.compressed)")
+//                Text("Wired \(vm.wired)")
+//            }
             
             //            Button("Test") {
             //                runVMStat()
@@ -70,6 +77,7 @@ struct RAMInfo: View {
             //            }
         }
         .navigationTitle("RAM Usage")
+        .navigationSubtitle("You can add this widget to the desktop")
         .scrollIndicators(.never)
         .task {
             vm.startUpdating()
