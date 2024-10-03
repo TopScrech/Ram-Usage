@@ -55,14 +55,24 @@ struct MediumWidgetView: View {
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity)
         .overlay(alignment: .top) {
-            HStack(alignment: .top, spacing: 0) {
-                HStack {
+            HStack {
+                HStack(alignment: .top, spacing: 0) {
                     Text(Date(), format: .dateTime.hour().minute().second())
                     
                     Text(version)
                 }
                 .foregroundStyle(.tertiary)
-                .frame(maxWidth: .infinity, alignment: .leading)
+                
+                Spacer()
+                
+                Button {
+                    
+                } label: {
+                    Image(systemName: "arrow.trianglehead.2.clockwise.rotate.90")
+                        .foregroundStyle(.blue)
+                }
+                .clipShape(.circle)
+                .offset(x: 12, y: -8)
             }
             .caption2()
         }
