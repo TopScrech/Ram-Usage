@@ -5,7 +5,7 @@ struct RAMInfo: View {
     
     var body: some View {
         List {
-            MediumWidgetView(vm.memoryUsage)
+            MediumWidgetPreview(vm.memoryUsage)
                 .padding()
                 .background(.ultraThickMaterial, in: .rect(cornerRadius: 16))
             
