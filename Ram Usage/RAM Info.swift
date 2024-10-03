@@ -9,9 +9,10 @@ struct RAMInfo: View {
                 .padding()
                 .background(.ultraThickMaterial, in: .rect(cornerRadius: 16))
             
-            Button("Quit") {
+            Button("Quit", role: .destructive) {
                 NSApplication.shared.terminate(nil)
             }
+            .padding(.top)
             
             //                .padding(4)
             //                .background(.ultraThickMaterial, in: .rect(cornerRadius: 16))
@@ -83,6 +84,7 @@ struct RAMInfo: View {
         .navigationTitle("RAM Usage")
         .navigationSubtitle("You can add this widget to the desktop")
         .scrollIndicators(.never)
+        .listStyle(.plain)
         .task {
             vm.startUpdating()
         }
