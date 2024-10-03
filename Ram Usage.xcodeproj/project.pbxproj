@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 63;
+	objectVersion = 77;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -307,7 +307,6 @@
 				};
 			};
 			buildConfigurationList = F3530BFB2C6C12E700FB8481 /* Build configuration list for PBXProject "Ram Usage" */;
-			compatibilityVersion = "Xcode 15.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -321,6 +320,7 @@
 				F38DF0A22C6C2F2100081031 /* XCRemoteSwiftPackageReference "SystemKit" */,
 				F38DF0AB2C6C302400081031 /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
 			);
+			preferredProjectObjectVersion = 77;
 			productRefGroup = F3530C012C6C12E700FB8481 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
