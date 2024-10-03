@@ -12,7 +12,6 @@ struct RAMInfo: View {
             Button("Quit", role: .destructive) {
                 NSApplication.shared.terminate(nil)
             }
-            .padding(.top)
             
             //                .padding(4)
             //                .background(.ultraThickMaterial, in: .rect(cornerRadius: 16))
