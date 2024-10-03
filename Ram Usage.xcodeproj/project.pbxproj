@@ -13,7 +13,6 @@
 		F3530C062C6C12E700FB8481 /* App Container.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3530C052C6C12E700FB8481 /* App Container.swift */; };
 		F3530C082C6C12E800FB8481 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3530C072C6C12E800FB8481 /* Assets.xcassets */; };
 		F3530C152C6C132100FB8481 /* ScrechKit in Frameworks */ = {isa = PBXBuildFile; productRef = F3530C142C6C132100FB8481 /* ScrechKit */; };
-		F3530C172C6C135500FB8481 /* Home View.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3530C162C6C135500FB8481 /* Home View.swift */; };
 		F38DF0A12C6C2EDF00081031 /* RAM VM.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38DF0A02C6C2EDF00081031 /* RAM VM.swift */; };
 		F38DF0A42C6C2F2100081031 /* SystemKit in Frameworks */ = {isa = PBXBuildFile; productRef = F38DF0A32C6C2F2100081031 /* SystemKit */; };
 		F38DF0A82C6C2F5900081031 /* Extension Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38DF0A72C6C2F5900081031 /* Extension Double.swift */; };
@@ -88,7 +87,6 @@
 		F3530C052C6C12E700FB8481 /* App Container.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "App Container.swift"; sourceTree = "<group>"; };
 		F3530C072C6C12E800FB8481 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F3530C0C2C6C12E800FB8481 /* Ram Usage.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Ram Usage.entitlements"; sourceTree = "<group>"; };
-		F3530C162C6C135500FB8481 /* Home View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Home View.swift"; sourceTree = "<group>"; };
 		F38DF0A02C6C2EDF00081031 /* RAM VM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RAM VM.swift"; sourceTree = "<group>"; };
 		F38DF0A72C6C2F5900081031 /* Extension Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension Double.swift"; sourceTree = "<group>"; };
 		F38DF0AE2C6C31FA00081031 /* RAM Info.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RAM Info.swift"; sourceTree = "<group>"; };
@@ -175,7 +173,6 @@
 				F3530C072C6C12E800FB8481 /* Assets.xcassets */,
 				F3530C0C2C6C12E800FB8481 /* Ram Usage.entitlements */,
 				F3CCB1D82CAEE632000F8207 /* Ram Usage.plist */,
-				F3530C162C6C135500FB8481 /* Home View.swift */,
 				F38DF0AE2C6C31FA00081031 /* RAM Info.swift */,
 				F3C2E8452C906872006304E6 /* Medium Widget Preview.swift */,
 				F38DF0A02C6C2EDF00081031 /* RAM VM.swift */,
@@ -393,7 +390,6 @@
 				F3C2E8462C906872006304E6 /* Medium Widget Preview.swift in Sources */,
 				F3C778032C6E227700E224EE /* RAM VM Swap.swift in Sources */,
 				F3530C062C6C12E700FB8481 /* App Container.swift in Sources */,
-				F3530C172C6C135500FB8481 /* Home View.swift in Sources */,
 				F3530C042C6C12E700FB8481 /* Ram Usage.swift in Sources */,
 				F3C0533E2C6F529100CDF3FA /* Memory Usage.swift in Sources */,
 			);
