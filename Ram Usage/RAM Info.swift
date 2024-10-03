@@ -9,6 +9,9 @@ struct RAMInfo: View {
                 .padding()
                 .background(.ultraThickMaterial, in: .rect(cornerRadius: 16))
             
+            Button("Quit") {
+                NSApplication.shared.terminate(nil)
+            }
 //                .padding(4)
 //                .background(.ultraThickMaterial, in: .rect(cornerRadius: 16))
             

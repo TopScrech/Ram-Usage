@@ -25,8 +25,8 @@
 		F3C0533A2C6F523E00CDF3FA /* RAM VM.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38DF0A02C6C2EDF00081031 /* RAM VM.swift */; };
 		F3C0533B2C6F524300CDF3FA /* RAM VM Swap.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C778022C6E227700E224EE /* RAM VM Swap.swift */; };
 		F3C0533C2C6F524D00CDF3FA /* Extension Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38DF0A72C6C2F5900081031 /* Extension Double.swift */; };
-		F3C0533E2C6F529100CDF3FA /* MemoryUsage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C0533D2C6F529000CDF3FA /* MemoryUsage.swift */; };
-		F3C0533F2C6F529400CDF3FA /* MemoryUsage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C0533D2C6F529000CDF3FA /* MemoryUsage.swift */; };
+		F3C0533E2C6F529100CDF3FA /* Memory Usage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C0533D2C6F529000CDF3FA /* Memory Usage.swift */; };
+		F3C0533F2C6F529400CDF3FA /* Memory Usage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C0533D2C6F529000CDF3FA /* Memory Usage.swift */; };
 		F3C053412C6F542B00CDF3FA /* SystemKit in Frameworks */ = {isa = PBXBuildFile; productRef = F3C053402C6F542B00CDF3FA /* SystemKit */; };
 		F3C2E8462C906872006304E6 /* Medium Widget View.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C2E8452C906872006304E6 /* Medium Widget View.swift */; };
 		F3C2E8472C9070C9006304E6 /* Ram Spec.swift in Sources */ = {isa = PBXBuildFile; fileRef = F313BE1A2C871184005C8B60 /* Ram Spec.swift */; };
@@ -84,14 +84,13 @@
 		F3530C032C6C12E700FB8481 /* Ram Usage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ram Usage.swift"; sourceTree = "<group>"; };
 		F3530C052C6C12E700FB8481 /* App Container.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "App Container.swift"; sourceTree = "<group>"; };
 		F3530C072C6C12E800FB8481 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F3530C0C2C6C12E800FB8481 /* Ram_Usage.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Ram_Usage.entitlements; sourceTree = "<group>"; };
+		F3530C0C2C6C12E800FB8481 /* Ram Usage.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Ram Usage.entitlements"; sourceTree = "<group>"; };
 		F3530C162C6C135500FB8481 /* Home View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Home View.swift"; sourceTree = "<group>"; };
 		F38DF0A02C6C2EDF00081031 /* RAM VM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RAM VM.swift"; sourceTree = "<group>"; };
 		F38DF0A72C6C2F5900081031 /* Extension Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension Double.swift"; sourceTree = "<group>"; };
 		F38DF0AE2C6C31FA00081031 /* RAM Info.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RAM Info.swift"; sourceTree = "<group>"; };
 		F38DF0B02C6C368900081031 /* App Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "App Settings.swift"; sourceTree = "<group>"; };
-		F3C0533D2C6F529000CDF3FA /* MemoryUsage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryUsage.swift; sourceTree = "<group>"; };
-		F3C053422C6F6B1300CDF3FA /* Ram-Usage-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Ram-Usage-Info.plist"; sourceTree = SOURCE_ROOT; };
+		F3C0533D2C6F529000CDF3FA /* Memory Usage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Memory Usage.swift"; sourceTree = "<group>"; };
 		F3C2E8452C906872006304E6 /* Medium Widget View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Medium Widget View.swift"; sourceTree = "<group>"; };
 		F3C778022C6E227700E224EE /* RAM VM Swap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RAM VM Swap.swift"; sourceTree = "<group>"; };
 		F3C778082C6E24A900E224EE /* Unit Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Unit Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -107,6 +106,7 @@
 		F3C778352C6E5C2A00E224EE /* Provider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Provider.swift; sourceTree = "<group>"; };
 		F3C778372C6E5C3400E224EE /* Memory Entry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Memory Entry.swift"; sourceTree = "<group>"; };
 		F3C778392C6E5C3D00E224EE /* Medium Widget View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Medium Widget View.swift"; sourceTree = "<group>"; };
+		F3CCB1D82CAEE632000F8207 /* Ram Usage.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Ram Usage.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,19 +165,19 @@
 		F3530C122C6C12F700FB8481 /* Ram Usage */ = {
 			isa = PBXGroup;
 			children = (
-				F3C053422C6F6B1300CDF3FA /* Ram-Usage-Info.plist */,
 				F3530C032C6C12E700FB8481 /* Ram Usage.swift */,
-				F3530C052C6C12E700FB8481 /* App Container.swift */,
+				F3CCB1D72CAEE59E000F8207 /* Nav */,
 				F38DF0B02C6C368900081031 /* App Settings.swift */,
 				F3530C072C6C12E800FB8481 /* Assets.xcassets */,
-				F3530C0C2C6C12E800FB8481 /* Ram_Usage.entitlements */,
+				F3530C0C2C6C12E800FB8481 /* Ram Usage.entitlements */,
+				F3CCB1D82CAEE632000F8207 /* Ram Usage.plist */,
 				F3530C162C6C135500FB8481 /* Home View.swift */,
 				F38DF0AE2C6C31FA00081031 /* RAM Info.swift */,
 				F3C2E8452C906872006304E6 /* Medium Widget View.swift */,
 				F38DF0A02C6C2EDF00081031 /* RAM VM.swift */,
 				F3C778022C6E227700E224EE /* RAM VM Swap.swift */,
 				F38DF0A72C6C2F5900081031 /* Extension Double.swift */,
-				F3C0533D2C6F529000CDF3FA /* MemoryUsage.swift */,
+				F3C0533D2C6F529000CDF3FA /* Memory Usage.swift */,
 			);
 			path = "Ram Usage";
 			sourceTree = "<group>";
@@ -214,6 +214,14 @@
 				F3C778322C6E5C1000E224EE /* Unit Tests.swift */,
 			);
 			path = "Unit Tests";
+			sourceTree = "<group>";
+		};
+		F3CCB1D72CAEE59E000F8207 /* Nav */ = {
+			isa = PBXGroup;
+			children = (
+				F3530C052C6C12E700FB8481 /* App Container.swift */,
+			);
+			path = Nav;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -373,7 +381,7 @@
 				F3530C062C6C12E700FB8481 /* App Container.swift in Sources */,
 				F3530C172C6C135500FB8481 /* Home View.swift in Sources */,
 				F3530C042C6C12E700FB8481 /* Ram Usage.swift in Sources */,
-				F3C0533E2C6F529100CDF3FA /* MemoryUsage.swift in Sources */,
+				F3C0533E2C6F529100CDF3FA /* Memory Usage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -401,7 +409,7 @@
 				F3C778382C6E5C3400E224EE /* Memory Entry.swift in Sources */,
 				F3C0533C2C6F524D00CDF3FA /* Extension Double.swift in Sources */,
 				F3C778242C6E447900E224EE /* App Intent.swift in Sources */,
-				F3C0533F2C6F529400CDF3FA /* MemoryUsage.swift in Sources */,
+				F3C0533F2C6F529400CDF3FA /* Memory Usage.swift in Sources */,
 				F3C0533A2C6F523E00CDF3FA /* RAM VM.swift in Sources */,
 				F313BE1B2C871184005C8B60 /* Ram Spec.swift in Sources */,
 			);
@@ -546,7 +554,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "Ram Usage/Ram_Usage.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "Ram Usage/Ram Usage.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -554,7 +562,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Ram-Usage-Info.plist";
+				INFOPLIST_FILE = "Ram Usage/Ram Usage.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Ram Usage";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
@@ -576,7 +584,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "Ram Usage/Ram_Usage.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "Ram Usage/Ram Usage.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -584,7 +592,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Ram-Usage-Info.plist";
+				INFOPLIST_FILE = "Ram Usage/Ram Usage.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Ram Usage";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
