@@ -1,25 +1,19 @@
 import Foundation
 
-struct SwapUsage {
-    let total: String
-    let used: String
-    let free: String
-}
-
 extension RamVM {
     func fetchSwap() -> String? {
         let process = Process()
         process.executableURL = URL(fileURLWithPath: "/usr/sbin/sysctl")
         process.arguments = ["vm.swapusage"]
-
+        
         let pipe = Pipe()
         process.standardOutput = pipe
         process.standardError = pipe
-
+        
         do {
             try process.run()
             process.waitUntilExit()
-
+            
             let data = pipe.fileHandleForReading.readDataToEndOfFile()
             
             if let output = String(data: data, encoding: .utf8) {
