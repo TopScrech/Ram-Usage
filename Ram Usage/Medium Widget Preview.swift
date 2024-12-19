@@ -1,6 +1,6 @@
 import SwiftUI
 
-struct MediumWidgetView: View {
+struct MediumWidgetPreview: View {
     private var version: String {
         let dick = Bundle.main.infoDictionary
         let version = dick?["CFBundleShortVersionString"] as? String ?? ""
@@ -80,7 +80,7 @@ struct MediumWidgetView: View {
 }
 
 #Preview {
-    MediumWidgetView(
+    MediumWidgetPreview(
         .init(
             used: "",
             free: "",
