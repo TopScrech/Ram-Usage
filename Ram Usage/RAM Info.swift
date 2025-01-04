@@ -5,14 +5,13 @@ struct RAMInfo: View {
     
     var body: some View {
         List {
-            MediumWidgetView(vm.memoryUsage)
+            MediumWidgetPreview(vm.memoryUsage)
                 .padding()
                 .background(.ultraThickMaterial, in: .rect(cornerRadius: 16))
             
             Button("Quit", role: .destructive) {
                 NSApplication.shared.terminate(nil)
             }
-            
             //                .padding(4)
             //                .background(.ultraThickMaterial, in: .rect(cornerRadius: 16))
             
@@ -81,7 +80,7 @@ struct RAMInfo: View {
             //            }
         }
         .navigationTitle("RAM Usage")
-        .navigationSubtitle("You can add this widget to the desktop")
+        .navigationSubtitle("You can add this widget to your desktop")
         .scrollIndicators(.never)
         .listStyle(.plain)
         .task {
