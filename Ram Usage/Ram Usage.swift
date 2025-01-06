@@ -18,9 +18,9 @@ struct RamUsage: App {
         }
         .menuBarExtraStyle(.window)
         
-        //        Settings {
-        //            AppSettings()
-        //                .environment(vm)
-        //        }
+        Settings {
+            AppSettings()
+            //                        .environment(vm)
+        }
     }
 }
