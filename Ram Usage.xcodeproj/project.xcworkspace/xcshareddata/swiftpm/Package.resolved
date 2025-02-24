@@ -1,5 +1,5 @@
 {
-  "originHash" : "919783b9deb1d9ed49643f8bc592bd1bc6dce36caa4f7591673befb5a495a4c0",
+  "originHash" : "a8ef24d9db39c8fe3a84167abcebdff460e62f144c7c4ad0dcc30f4b03fa3b6a",
   "pins" : [
     {
       "identity" : "launchatlogin",
@@ -8,6 +8,15 @@
       "state" : {
         "branch" : "main",
         "revision" : "2bf099bd06f8f8de4989cbb7dfd721edd585bb0b"
+      }
+    },
+    {
+      "identity" : "safaricover",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/TopScrech/SafariCover",
+      "state" : {
+        "branch" : "main",
+        "revision" : "5644d4accf16dc4bd1f5acd8d043539909c09ee7"
       }
     },
     {
