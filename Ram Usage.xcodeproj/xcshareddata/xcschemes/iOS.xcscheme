@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "1610"
+   LastUpgradeVersion = "1630"
    version = "1.7">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -15,9 +15,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F3530BFF2C6C12E700FB8481"
-               BuildableName = "Ram Usage.app"
-               BlueprintName = "Ram Usage"
+               BlueprintIdentifier = "F3274EE62D6D348200A8445A"
+               BuildableName = "iOS.app"
+               BlueprintName = "iOS"
                ReferencedContainer = "container:Ram Usage.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -29,19 +29,6 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES"
       shouldAutocreateTestPlan = "YES">
-      <Testables>
-         <TestableReference
-            skipped = "NO"
-            parallelizable = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F3C778072C6E24A900E224EE"
-               BuildableName = "Unit Tests.xctest"
-               BlueprintName = "Unit Tests"
-               ReferencedContainer = "container:Ram Usage.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-      </Testables>
    </TestAction>
    <LaunchAction
       buildConfiguration = "Debug"
@@ -57,9 +44,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F3530BFF2C6C12E700FB8481"
-            BuildableName = "Ram Usage.app"
-            BlueprintName = "Ram Usage"
+            BlueprintIdentifier = "F3274EE62D6D348200A8445A"
+            BuildableName = "iOS.app"
+            BlueprintName = "iOS"
             ReferencedContainer = "container:Ram Usage.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -74,9 +61,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F3530BFF2C6C12E700FB8481"
-            BuildableName = "Ram Usage.app"
-            BlueprintName = "Ram Usage"
+            BlueprintIdentifier = "F3274EE62D6D348200A8445A"
+            BuildableName = "iOS.app"
+            BlueprintName = "iOS"
             ReferencedContainer = "container:Ram Usage.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
