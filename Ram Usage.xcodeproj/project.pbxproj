@@ -97,6 +97,7 @@
 		F3530C052C6C12E700FB8481 /* App Container.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "App Container.swift"; sourceTree = "<group>"; };
 		F3530C072C6C12E800FB8481 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F3530C0C2C6C12E800FB8481 /* Ram Usage.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Ram Usage.entitlements"; sourceTree = "<group>"; };
+		F37612752D6D3986005C115C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F38DF0A02C6C2EDF00081031 /* RAM VM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RAM VM.swift"; sourceTree = "<group>"; };
 		F38DF0A72C6C2F5900081031 /* Extension Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension Double.swift"; sourceTree = "<group>"; };
 		F38DF0AE2C6C31FA00081031 /* RAM Info.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RAM Info.swift"; sourceTree = "<group>"; };
@@ -166,6 +167,7 @@
 			isa = PBXGroup;
 			children = (
 				F3274EF42D6D34C500A8445A /* Ram Usage.swift */,
+				F37612752D6D3986005C115C /* Info.plist */,
 				F3274EF32D6D34C500A8445A /* Home View.swift */,
 				F3274EFA2D6D354400A8445A /* Memory VM.swift */,
 			);
@@ -527,6 +529,7 @@
 				CURRENT_PROJECT_VERSION = 0;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Ram Usage";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -560,6 +563,7 @@
 				CURRENT_PROJECT_VERSION = 0;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Ram Usage";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;

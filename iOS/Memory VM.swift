@@ -7,10 +7,10 @@ final class MemoryVM {
     var freeRam = ""
     
     init() {
-        getUsage()
+        getMemoryUsage()
     }
     
-    func getUsage() {
+    func getMemoryUsage() {
         var size = mach_msg_type_number_t(MemoryLayout<vm_statistics_data_t>.size / MemoryLayout<integer_t>.size)
         let host = mach_host_self()
         var stats = vm_statistics_data_t()
@@ -39,8 +39,6 @@ final class MemoryVM {
         let percentage = Double(value) / Double(total) * 100
         let percentageString = String(format: " (%.1f%%)", percentage)
         
-        let formattedValue = formatBytes(value)
-        
-        return formattedValue + percentageString
+        return formatBytes(value) + percentageString
     }
 }
