@@ -9,9 +9,11 @@
 /* Begin PBXBuildFile section */
 		F313BE192C87116E005C8B60 /* Small Widget View.swift in Sources */ = {isa = PBXBuildFile; fileRef = F313BE182C87116E005C8B60 /* Small Widget View.swift */; };
 		F313BE1B2C871184005C8B60 /* Ram Spec.swift in Sources */ = {isa = PBXBuildFile; fileRef = F313BE1A2C871184005C8B60 /* Ram Spec.swift */; };
-		F3274EF62D6D34C500A8445A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3274EF32D6D34C500A8445A /* ContentView.swift */; };
+		F3274EF62D6D34C500A8445A /* Home View.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3274EF32D6D34C500A8445A /* Home View.swift */; };
 		F3274EF72D6D34C500A8445A /* Ram Usage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3274EF42D6D34C500A8445A /* Ram Usage.swift */; };
 		F3274EF92D6D34EF00A8445A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3530C072C6C12E800FB8481 /* Assets.xcassets */; };
+		F3274EFB2D6D354400A8445A /* Memory VM.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3274EFA2D6D354400A8445A /* Memory VM.swift */; };
+		F3274EFD2D6D356200A8445A /* ScrechKit in Frameworks */ = {isa = PBXBuildFile; productRef = F3274EFC2D6D356200A8445A /* ScrechKit */; };
 		F3530C042C6C12E700FB8481 /* Ram Usage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3530C032C6C12E700FB8481 /* Ram Usage.swift */; };
 		F3530C062C6C12E700FB8481 /* App Container.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3530C052C6C12E700FB8481 /* App Container.swift */; };
 		F3530C082C6C12E800FB8481 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3530C072C6C12E800FB8481 /* Assets.xcassets */; };
@@ -87,8 +89,9 @@
 		F313BE182C87116E005C8B60 /* Small Widget View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Small Widget View.swift"; sourceTree = "<group>"; };
 		F313BE1A2C871184005C8B60 /* Ram Spec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ram Spec.swift"; sourceTree = "<group>"; };
 		F3274EE72D6D348200A8445A /* iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F3274EF32D6D34C500A8445A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F3274EF32D6D34C500A8445A /* Home View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Home View.swift"; sourceTree = "<group>"; };
 		F3274EF42D6D34C500A8445A /* Ram Usage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ram Usage.swift"; sourceTree = "<group>"; };
+		F3274EFA2D6D354400A8445A /* Memory VM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Memory VM.swift"; sourceTree = "<group>"; };
 		F3530C002C6C12E700FB8481 /* macOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = macOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3530C032C6C12E700FB8481 /* Ram Usage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ram Usage.swift"; sourceTree = "<group>"; };
 		F3530C052C6C12E700FB8481 /* App Container.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "App Container.swift"; sourceTree = "<group>"; };
@@ -123,6 +126,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3274EFD2D6D356200A8445A /* ScrechKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -162,7 +166,8 @@
 			isa = PBXGroup;
 			children = (
 				F3274EF42D6D34C500A8445A /* Ram Usage.swift */,
-				F3274EF32D6D34C500A8445A /* ContentView.swift */,
+				F3274EF32D6D34C500A8445A /* Home View.swift */,
+				F3274EFA2D6D354400A8445A /* Memory VM.swift */,
 			);
 			path = iOS;
 			sourceTree = "<group>";
@@ -277,6 +282,7 @@
 			);
 			name = iOS;
 			packageProductDependencies = (
+				F3274EFC2D6D356200A8445A /* ScrechKit */,
 			);
 			productName = "Ram-Usage";
 			productReference = F3274EE72D6D348200A8445A /* iOS.app */;
@@ -440,7 +446,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F3274EF62D6D34C500A8445A /* ContentView.swift in Sources */,
+				F3274EF62D6D34C500A8445A /* Home View.swift in Sources */,
+				F3274EFB2D6D354400A8445A /* Memory VM.swift in Sources */,
 				F3274EF72D6D34C500A8445A /* Ram Usage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -531,7 +538,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.9.3;
+				MARKETING_VERSION = 0.9.4;
 				PRODUCT_BUNDLE_IDENTIFIER = "dev.topscrech.Ram-Usage";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
@@ -564,7 +571,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.9.3;
+				MARKETING_VERSION = 0.9.4;
 				PRODUCT_BUNDLE_IDENTIFIER = "dev.topscrech.Ram-Usage";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
@@ -722,7 +729,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
-				MARKETING_VERSION = 0.9.3;
+				MARKETING_VERSION = 0.9.4;
 				PRODUCT_BUNDLE_IDENTIFIER = "dev.topscrech.Ram-Usage";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -752,7 +759,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
-				MARKETING_VERSION = 0.9.3;
+				MARKETING_VERSION = 0.9.4;
 				PRODUCT_BUNDLE_IDENTIFIER = "dev.topscrech.Ram-Usage";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -817,7 +824,7 @@
 					"@executable_path/../../../../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
-				MARKETING_VERSION = 0.9.3;
+				MARKETING_VERSION = 0.9.4;
 				PRODUCT_BUNDLE_IDENTIFIER = "dev.topscrech.Ram-Usage.Widgets";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -849,7 +856,7 @@
 					"@executable_path/../../../../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
-				MARKETING_VERSION = 0.9.3;
+				MARKETING_VERSION = 0.9.4;
 				PRODUCT_BUNDLE_IDENTIFIER = "dev.topscrech.Ram-Usage.Widgets";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -946,6 +953,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		F3274EFC2D6D356200A8445A /* ScrechKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F3530C132C6C132100FB8481 /* XCRemoteSwiftPackageReference "ScrechKit" */;
+			productName = ScrechKit;
+		};
 		F3530C142C6C132100FB8481 /* ScrechKit */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = F3530C132C6C132100FB8481 /* XCRemoteSwiftPackageReference "ScrechKit" */;
