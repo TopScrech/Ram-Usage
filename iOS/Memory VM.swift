@@ -2,9 +2,21 @@ import ScrechKit
 
 @Observable
 final class MemoryVM {
-    var formattedTotalRam = ""
-    var formattedUsedRam = ""
-    var formattedFreeRam = ""
+    var totalRam: UInt64 = 0
+    var usedRam: UInt64 = 0
+    var freeRam: UInt64 = 0
+    
+    var formattedTotalRam: String {
+        formatBytes(totalRam)
+    }
+    
+    var formattedUsedRam: String {
+        format(Int(totalRam), Int(usedRam))
+    }
+    
+    var formattedFreeRam: String {
+        format(Int(totalRam), Int(freeRam))
+    }
     
     init() {
         getMemoryUsage()
@@ -32,10 +44,9 @@ final class MemoryVM {
         let usedMemory = (UInt64(stats.active_count) + UInt64(stats.wire_count)) * UInt64(pageSize)
         let freeMemory = totalMemory - usedMemory
         
-        formattedTotalRam = formatBytes(totalMemory)
-        
-        formattedUsedRam = format(Int(totalMemory), Int(usedMemory))
-        formattedFreeRam = format(Int(totalMemory), Int(freeMemory))
+        totalRam = totalMemory
+        usedRam = usedMemory
+        freeRam = freeMemory
     }
     
     private func format(_ total: Int, _ value: Int) -> String {
