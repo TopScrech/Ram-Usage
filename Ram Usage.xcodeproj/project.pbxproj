@@ -20,7 +20,6 @@
 		F3530C152C6C132100FB8481 /* ScrechKit in Frameworks */ = {isa = PBXBuildFile; productRef = F3530C142C6C132100FB8481 /* ScrechKit */; };
 		F358F03C2D2C1E7B00BCC07B /* LaunchAtLogin in Frameworks */ = {isa = PBXBuildFile; productRef = F358F03B2D2C1E7B00BCC07B /* LaunchAtLogin */; };
 		F37612782D6D3A1F005C115C /* SafariCover in Frameworks */ = {isa = PBXBuildFile; productRef = F37612772D6D3A1F005C115C /* SafariCover */; };
-		F376127A2D6D3A96005C115C /* App Container.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37612792D6D3A96005C115C /* App Container.swift */; };
 		F37612802D6DA688005C115C /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3C7781A2C6E447800E224EE /* WidgetKit.framework */; };
 		F37612812D6DA688005C115C /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3C7781C2C6E447800E224EE /* SwiftUI.framework */; };
 		F376128E2D6DA689005C115C /* Widgets iOS.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = F376127F2D6DA688005C115C /* Widgets iOS.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
@@ -33,6 +32,7 @@
 		F37612A42D6DA794005C115C /* Widgets Entry View.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37612A32D6DA794005C115C /* Widgets Entry View.swift */; };
 		F37612A62D6DA7C1005C115C /* Refresh Intent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37612A52D6DA7C1005C115C /* Refresh Intent.swift */; };
 		F37612A72D6DB973005C115C /* Refresh Intent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37612A52D6DA7C1005C115C /* Refresh Intent.swift */; };
+		F37612A82D6DC4CA005C115C /* App Container.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3530C052C6C12E700FB8481 /* App Container.swift */; };
 		F38DF0A12C6C2EDF00081031 /* RAM VM.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38DF0A02C6C2EDF00081031 /* RAM VM.swift */; };
 		F38DF0A42C6C2F2100081031 /* SystemKit in Frameworks */ = {isa = PBXBuildFile; productRef = F38DF0A32C6C2F2100081031 /* SystemKit */; };
 		F38DF0A82C6C2F5900081031 /* Extension Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38DF0A72C6C2F5900081031 /* Extension Double.swift */; };
@@ -130,7 +130,6 @@
 		F3530C072C6C12E800FB8481 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F3530C0C2C6C12E800FB8481 /* Ram Usage.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Ram Usage.entitlements"; sourceTree = "<group>"; };
 		F37612752D6D3986005C115C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F37612792D6D3A96005C115C /* App Container.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "App Container.swift"; sourceTree = "<group>"; };
 		F376127F2D6DA688005C115C /* Widgets iOS.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Widgets iOS.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F37612942D6DA68C005C115C /* App Intent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "App Intent.swift"; sourceTree = "<group>"; };
 		F37612952D6DA68C005C115C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -220,7 +219,6 @@
 			isa = PBXGroup;
 			children = (
 				F3274EF42D6D34C500A8445A /* Ram Usage.swift */,
-				F37612792D6D3A96005C115C /* App Container.swift */,
 				F37612752D6D3986005C115C /* Info.plist */,
 				F3274EF32D6D34C500A8445A /* Home View.swift */,
 				F3274EFA2D6D354400A8445A /* Memory VM.swift */,
@@ -556,8 +554,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F3274EF62D6D34C500A8445A /* Home View.swift in Sources */,
-				F376127A2D6D3A96005C115C /* App Container.swift in Sources */,
 				F3274EFB2D6D354400A8445A /* Memory VM.swift in Sources */,
+				F37612A82D6DC4CA005C115C /* App Container.swift in Sources */,
 				F3274EF72D6D34C500A8445A /* Ram Usage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
