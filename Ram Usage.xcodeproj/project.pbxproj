@@ -32,6 +32,7 @@
 		F37612A22D6DA781005C115C /* Provider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37612A12D6DA781005C115C /* Provider.swift */; };
 		F37612A42D6DA794005C115C /* Widgets Entry View.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37612A32D6DA794005C115C /* Widgets Entry View.swift */; };
 		F37612A62D6DA7C1005C115C /* Refresh Intent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37612A52D6DA7C1005C115C /* Refresh Intent.swift */; };
+		F37612A72D6DB973005C115C /* Refresh Intent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37612A52D6DA7C1005C115C /* Refresh Intent.swift */; };
 		F38DF0A12C6C2EDF00081031 /* RAM VM.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38DF0A02C6C2EDF00081031 /* RAM VM.swift */; };
 		F38DF0A42C6C2F2100081031 /* SystemKit in Frameworks */ = {isa = PBXBuildFile; productRef = F38DF0A32C6C2F2100081031 /* SystemKit */; };
 		F38DF0A82C6C2F5900081031 /* Extension Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38DF0A72C6C2F5900081031 /* Extension Double.swift */; };
@@ -617,6 +618,7 @@
 				F3C778222C6E447900E224EE /* Widgets.swift in Sources */,
 				F3C7783A2C6E5C3D00E224EE /* Medium Widget View.swift in Sources */,
 				F3C778382C6E5C3400E224EE /* Memory Entry.swift in Sources */,
+				F37612A72D6DB973005C115C /* Refresh Intent.swift in Sources */,
 				F3C0533C2C6F524D00CDF3FA /* Extension Double.swift in Sources */,
 				F3C778242C6E447900E224EE /* App Intent.swift in Sources */,
 				F3C0533F2C6F529400CDF3FA /* Memory Usage.swift in Sources */,
