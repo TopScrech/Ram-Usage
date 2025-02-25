@@ -22,7 +22,6 @@
 		F37612782D6D3A1F005C115C /* SafariCover in Frameworks */ = {isa = PBXBuildFile; productRef = F37612772D6D3A1F005C115C /* SafariCover */; };
 		F37612802D6DA688005C115C /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3C7781A2C6E447800E224EE /* WidgetKit.framework */; };
 		F37612812D6DA688005C115C /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3C7781C2C6E447800E224EE /* SwiftUI.framework */; };
-		F376128E2D6DA689005C115C /* Widgets iOS.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = F376127F2D6DA688005C115C /* Widgets iOS.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		F376129A2D6DA68C005C115C /* App Intent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37612942D6DA68C005C115C /* App Intent.swift */; };
 		F376129B2D6DA68C005C115C /* Ram Usage Widget.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37612972D6DA68C005C115C /* Ram Usage Widget.swift */; };
 		F376129C2D6DA68C005C115C /* Widgets.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37612982D6DA68C005C115C /* Widgets.swift */; };
@@ -69,13 +68,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		F376128C2D6DA689005C115C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F3530BF82C6C12E700FB8481 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F376127E2D6DA688005C115C;
-			remoteInfo = "Widgets iOSExtension";
-		};
 		F3C7780C2C6E24A900E224EE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = F3530BF82C6C12E700FB8481 /* Project object */;
@@ -93,17 +85,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		F37612932D6DA689005C115C /* Embed Foundation Extensions */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 13;
-			files = (
-				F376128E2D6DA689005C115C /* Widgets iOS.appex in Embed Foundation Extensions */,
-			);
-			name = "Embed Foundation Extensions";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		F3C778302C6E447900E224EE /* Embed Foundation Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -347,12 +328,10 @@
 				F3274EE32D6D348200A8445A /* Sources */,
 				F3274EE42D6D348200A8445A /* Frameworks */,
 				F3274EE52D6D348200A8445A /* Resources */,
-				F37612932D6DA689005C115C /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				F376128D2D6DA689005C115C /* PBXTargetDependency */,
 			);
 			name = iOS;
 			packageProductDependencies = (
@@ -628,11 +607,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		F376128D2D6DA689005C115C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = F376127E2D6DA688005C115C /* Widgets iOS */;
-			targetProxy = F376128C2D6DA689005C115C /* PBXContainerItemProxy */;
-		};
 		F3C7780D2C6E24A900E224EE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = F3530BFF2C6C12E700FB8481 /* macOS */;
