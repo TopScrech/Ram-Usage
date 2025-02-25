@@ -1,9 +1,8 @@
-import WidgetKit
 import AppIntents
 
 struct ConfigurationAppIntent: WidgetConfigurationIntent {
     static var title: LocalizedStringResource = "Configuration"
-    static var description: IntentDescription = " "
+    static var description: IntentDescription = ""
     
     @Parameter(title: "Show refresh button", default: true)
     var showRefreshButton: Bool
@@ -13,12 +12,4 @@ struct ConfigurationAppIntent: WidgetConfigurationIntent {
     
     @Parameter(title: "Show build number", default: false)
     var showBuildNumber: Bool
-}
-
-struct RefreshIntent: AppIntent {
-    static var title: LocalizedStringResource = "Refresh"
-    
-    func perform() async throws -> some IntentResult {
-        .result()
-    }
 }
