@@ -917,7 +917,7 @@
 					"@executable_path/../../Frameworks",
 				);
 				MARKETING_VERSION = 0.9.4;
-				PRODUCT_BUNDLE_IDENTIFIER = "dev.topscrech.Ram-Usage.Widgets-iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.topscrech.Ram-Usage.Widgets";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -945,7 +945,7 @@
 					"@executable_path/../../Frameworks",
 				);
 				MARKETING_VERSION = 0.9.4;
-				PRODUCT_BUNDLE_IDENTIFIER = "dev.topscrech.Ram-Usage.Widgets-iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.topscrech.Ram-Usage.Widgets";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
