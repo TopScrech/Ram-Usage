@@ -9,13 +9,13 @@ struct HomeView: View {
     
     var body: some View {
         List {
-            ListParam("Total", param: vm.totalRam)
+            ListParam("Total", param: vm.formattedTotalRam)
             
-            ListParam("Used", param: vm.usedRam)
-                .animation(.default, value: vm.usedRam)
+            ListParam("Used", param: vm.formattedUsedRam)
+                .animation(.default, value: vm.formattedUsedRam)
             
-            ListParam("Free", param: vm.freeRam)
-                .animation(.default, value: vm.freeRam)
+            ListParam("Free", param: vm.formattedFreeRam)
+                .animation(.default, value: vm.formattedFreeRam)
             
             Section("FAQ") {
                 DisclosureGroup("What is RAM?") {
