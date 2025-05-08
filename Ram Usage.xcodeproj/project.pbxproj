@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 77;
+	objectVersion = 90;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -87,14 +87,12 @@
 /* Begin PBXCopyFilesBuildPhase section */
 		F3C778302C6E447900E224EE /* Embed Foundation Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
 			dstPath = "";
-			dstSubfolderSpec = 13;
+			dstSubfolder = PlugIns;
 			files = (
 				F3C7782B2C6E447900E224EE /* Widgets.appex in Embed Foundation Extensions */,
 			);
 			name = "Embed Foundation Extensions";
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
@@ -148,50 +146,40 @@
 /* Begin PBXFrameworksBuildPhase section */
 		F3274EE42D6D348200A8445A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 				F37612782D6D3A1F005C115C /* SafariCover in Frameworks */,
 				F3274EFD2D6D356200A8445A /* ScrechKit in Frameworks */,
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 		F3530BFD2C6C12E700FB8481 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 				F38DF0AD2C6C302400081031 /* SwiftyJSON in Frameworks */,
 				F38DF0A42C6C2F2100081031 /* SystemKit in Frameworks */,
 				F358F03C2D2C1E7B00BCC07B /* LaunchAtLogin in Frameworks */,
 				F3530C152C6C132100FB8481 /* ScrechKit in Frameworks */,
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 		F376127C2D6DA688005C115C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 				F37612812D6DA688005C115C /* SwiftUI.framework in Frameworks */,
 				F37612802D6DA688005C115C /* WidgetKit.framework in Frameworks */,
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 		F3C778052C6E24A900E224EE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 		F3C778152C6E447800E224EE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 				F3AABD322C6F432C00E7C7E4 /* ScrechKit in Frameworks */,
 				F3C7781D2C6E447800E224EE /* SwiftUI.framework in Frameworks */,
 				F3C053412C6F542B00CDF3FA /* SystemKit in Frameworks */,
 				F3C7781B2C6E447800E224EE /* WidgetKit.framework in Frameworks */,
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
@@ -331,8 +319,6 @@
 			);
 			buildRules = (
 			);
-			dependencies = (
-			);
 			name = iOS;
 			packageProductDependencies = (
 				F3274EFC2D6D356200A8445A /* ScrechKit */,
@@ -377,11 +363,7 @@
 			);
 			buildRules = (
 			);
-			dependencies = (
-			);
 			name = "Widgets iOS";
-			packageProductDependencies = (
-			);
 			productName = "Widgets iOSExtension";
 			productReference = F376127F2D6DA688005C115C /* Widgets iOS.appex */;
 			productType = "com.apple.product-type.app-extension";
@@ -400,8 +382,6 @@
 				F3C7780D2C6E24A900E224EE /* PBXTargetDependency */,
 			);
 			name = "Unit Tests";
-			packageProductDependencies = (
-			);
 			productName = "Ram Usage Unit Tests";
 			productReference = F3C778082C6E24A900E224EE /* Unit Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -415,8 +395,6 @@
 				F3C778162C6E447800E224EE /* Resources */,
 			);
 			buildRules = (
-			);
-			dependencies = (
 			);
 			name = Widgets;
 			packageProductDependencies = (
@@ -471,7 +449,7 @@
 				F358F03A2D2C1E7B00BCC07B /* XCRemoteSwiftPackageReference "LaunchAtLogin" */,
 				F37612762D6D3A1F005C115C /* XCRemoteSwiftPackageReference "SafariCover" */,
 			);
-			preferredProjectObjectVersion = 77;
+			preferredProjectObjectVersion = 90;
 			productRefGroup = F3530C012C6C12E700FB8481 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -479,8 +457,8 @@
 				F3530BFF2C6C12E700FB8481 /* macOS */,
 				F3274EE62D6D348200A8445A /* iOS */,
 				F3C778172C6E447800E224EE /* Widgets */,
-				F3C778072C6E24A900E224EE /* Unit Tests */,
 				F376127E2D6DA688005C115C /* Widgets iOS */,
+				F3C778072C6E24A900E224EE /* Unit Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -488,60 +466,47 @@
 /* Begin PBXResourcesBuildPhase section */
 		F3274EE52D6D348200A8445A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 				F3274EF92D6D34EF00A8445A /* Assets.xcassets in Resources */,
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 		F3530BFE2C6C12E700FB8481 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 				F3530C082C6C12E800FB8481 /* Assets.xcassets in Resources */,
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 		F376127D2D6DA688005C115C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 				F376129D2D6DA68C005C115C /* Assets.xcassets in Resources */,
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 		F3C778062C6E24A900E224EE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 		F3C778162C6E447800E224EE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 				F3C053392C6F4E6500CDF3FA /* Assets.xcassets in Resources */,
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F3274EE32D6D348200A8445A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 				F3274EF62D6D34C500A8445A /* Home View.swift in Sources */,
 				F3274EFB2D6D354400A8445A /* Memory VM.swift in Sources */,
 				F37612A82D6DC4CA005C115C /* App Container.swift in Sources */,
 				F3274EF72D6D34C500A8445A /* Ram Usage.swift in Sources */,
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 		F3530BFC2C6C12E700FB8481 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 				F3C2E8472C9070C9006304E6 /* Ram Spec.swift in Sources */,
 				F38DF0A82C6C2F5900081031 /* Extension Double.swift in Sources */,
@@ -555,11 +520,9 @@
 				F3530C042C6C12E700FB8481 /* Ram Usage.swift in Sources */,
 				F3C0533E2C6F529100CDF3FA /* Memory Usage.swift in Sources */,
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 		F376127B2D6DA688005C115C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 				F37612A02D6DA6F9005C115C /* Simple Entry.swift in Sources */,
 				F376129A2D6DA68C005C115C /* App Intent.swift in Sources */,
@@ -569,11 +532,9 @@
 				F37612A62D6DA7C1005C115C /* Refresh Intent.swift in Sources */,
 				F376129C2D6DA68C005C115C /* Widgets.swift in Sources */,
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 		F3C778042C6E24A900E224EE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 				F3CCB1DC2CAF4348000F8207 /* Swap Usage.swift in Sources */,
 				F3C778112C6E397D00E224EE /* RAM VM.swift in Sources */,
@@ -581,11 +542,9 @@
 				F3C778332C6E5C1000E224EE /* Unit Tests.swift in Sources */,
 				F3C778122C6E398300E224EE /* RAM VM Swap.swift in Sources */,
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 		F3C778142C6E447800E224EE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 				F3CCB1DD2CAF4348000F8207 /* Swap Usage.swift in Sources */,
 				F3C778362C6E5C2A00E224EE /* Provider.swift in Sources */,
@@ -602,7 +561,6 @@
 				F3C0533A2C6F523E00CDF3FA /* RAM VM.swift in Sources */,
 				F313BE1B2C871184005C8B60 /* Ram Spec.swift in Sources */,
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
@@ -620,7 +578,7 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		F3274EEF2D6D348200A8445A /* Debug */ = {
+		F3274EEF2D6D348200A8445A /* Debug configuration for PBXNativeTarget "iOS" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -641,7 +599,6 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.9.4;
 				PRODUCT_BUNDLE_IDENTIFIER = "dev.topscrech.Ram-Usage";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
@@ -654,7 +611,7 @@
 			};
 			name = Debug;
 		};
-		F3274EF02D6D348200A8445A /* Release */ = {
+		F3274EF02D6D348200A8445A /* Release configuration for PBXNativeTarget "iOS" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -675,7 +632,6 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.9.4;
 				PRODUCT_BUNDLE_IDENTIFIER = "dev.topscrech.Ram-Usage";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
@@ -689,7 +645,7 @@
 			};
 			name = Release;
 		};
-		F3530C0D2C6C12E800FB8481 /* Debug */ = {
+		F3530C0D2C6C12E800FB8481 /* Debug configuration for PBXProject "Ram Usage" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -745,6 +701,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MARKETING_VERSION = 0.9.4;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -754,7 +711,7 @@
 			};
 			name = Debug;
 		};
-		F3530C0E2C6C12E800FB8481 /* Release */ = {
+		F3530C0E2C6C12E800FB8481 /* Release configuration for PBXProject "Ram Usage" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -804,6 +761,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MARKETING_VERSION = 0.9.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
@@ -811,7 +769,7 @@
 			};
 			name = Release;
 		};
-		F3530C102C6C12E800FB8481 /* Debug */ = {
+		F3530C102C6C12E800FB8481 /* Debug configuration for PBXNativeTarget "macOS" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -833,7 +791,6 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
-				MARKETING_VERSION = 0.9.4;
 				PRODUCT_BUNDLE_IDENTIFIER = "dev.topscrech.Ram-Usage";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -841,7 +798,7 @@
 			};
 			name = Debug;
 		};
-		F3530C112C6C12E800FB8481 /* Release */ = {
+		F3530C112C6C12E800FB8481 /* Release configuration for PBXNativeTarget "macOS" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -863,7 +820,6 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
-				MARKETING_VERSION = 0.9.4;
 				PRODUCT_BUNDLE_IDENTIFIER = "dev.topscrech.Ram-Usage";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -871,7 +827,7 @@
 			};
 			name = Release;
 		};
-		F37612912D6DA689005C115C /* Debug */ = {
+		F37612912D6DA689005C115C /* Debug configuration for PBXNativeTarget "Widgets iOS" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -888,7 +844,6 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 0.9.4;
 				PRODUCT_BUNDLE_IDENTIFIER = "dev.topscrech.Ram-Usage.Widgets";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
@@ -899,7 +854,7 @@
 			};
 			name = Debug;
 		};
-		F37612922D6DA689005C115C /* Release */ = {
+		F37612922D6DA689005C115C /* Release configuration for PBXNativeTarget "Widgets iOS" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -916,7 +871,6 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 0.9.4;
 				PRODUCT_BUNDLE_IDENTIFIER = "dev.topscrech.Ram-Usage.Widgets";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
@@ -928,7 +882,7 @@
 			};
 			name = Release;
 		};
-		F3C7780F2C6E24A900E224EE /* Debug */ = {
+		F3C7780F2C6E24A900E224EE /* Debug configuration for PBXNativeTarget "Unit Tests" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -946,7 +900,7 @@
 			};
 			name = Debug;
 		};
-		F3C778102C6E24A900E224EE /* Release */ = {
+		F3C778102C6E24A900E224EE /* Release configuration for PBXNativeTarget "Unit Tests" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -964,7 +918,7 @@
 			};
 			name = Release;
 		};
-		F3C7782E2C6E447900E224EE /* Debug */ = {
+		F3C7782E2C6E447900E224EE /* Debug configuration for PBXNativeTarget "Widgets" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -985,7 +939,6 @@
 					"@executable_path/../../../../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
-				MARKETING_VERSION = 0.9.4;
 				PRODUCT_BUNDLE_IDENTIFIER = "dev.topscrech.Ram-Usage.Widgets";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -996,7 +949,7 @@
 			};
 			name = Debug;
 		};
-		F3C7782F2C6E447900E224EE /* Release */ = {
+		F3C7782F2C6E447900E224EE /* Release configuration for PBXNativeTarget "Widgets" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -1017,7 +970,6 @@
 					"@executable_path/../../../../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
-				MARKETING_VERSION = 0.9.4;
 				PRODUCT_BUNDLE_IDENTIFIER = "dev.topscrech.Ram-Usage.Widgets";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -1034,55 +986,49 @@
 		F3274EF12D6D348200A8445A /* Build configuration list for PBXNativeTarget "iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F3274EEF2D6D348200A8445A /* Debug */,
-				F3274EF02D6D348200A8445A /* Release */,
+				F3274EEF2D6D348200A8445A /* Debug configuration for PBXNativeTarget "iOS" */,
+				F3274EF02D6D348200A8445A /* Release configuration for PBXNativeTarget "iOS" */,
 			);
-			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 		F3530BFB2C6C12E700FB8481 /* Build configuration list for PBXProject "Ram Usage" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F3530C0D2C6C12E800FB8481 /* Debug */,
-				F3530C0E2C6C12E800FB8481 /* Release */,
+				F3530C0D2C6C12E800FB8481 /* Debug configuration for PBXProject "Ram Usage" */,
+				F3530C0E2C6C12E800FB8481 /* Release configuration for PBXProject "Ram Usage" */,
 			);
-			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 		F3530C0F2C6C12E800FB8481 /* Build configuration list for PBXNativeTarget "macOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F3530C102C6C12E800FB8481 /* Debug */,
-				F3530C112C6C12E800FB8481 /* Release */,
+				F3530C102C6C12E800FB8481 /* Debug configuration for PBXNativeTarget "macOS" */,
+				F3530C112C6C12E800FB8481 /* Release configuration for PBXNativeTarget "macOS" */,
 			);
-			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 		F37612902D6DA689005C115C /* Build configuration list for PBXNativeTarget "Widgets iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F37612912D6DA689005C115C /* Debug */,
-				F37612922D6DA689005C115C /* Release */,
+				F37612912D6DA689005C115C /* Debug configuration for PBXNativeTarget "Widgets iOS" */,
+				F37612922D6DA689005C115C /* Release configuration for PBXNativeTarget "Widgets iOS" */,
 			);
-			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 		F3C7780E2C6E24A900E224EE /* Build configuration list for PBXNativeTarget "Unit Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F3C7780F2C6E24A900E224EE /* Debug */,
-				F3C778102C6E24A900E224EE /* Release */,
+				F3C7780F2C6E24A900E224EE /* Debug configuration for PBXNativeTarget "Unit Tests" */,
+				F3C778102C6E24A900E224EE /* Release configuration for PBXNativeTarget "Unit Tests" */,
 			);
-			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 		F3C7782D2C6E447900E224EE /* Build configuration list for PBXNativeTarget "Widgets" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F3C7782E2C6E447900E224EE /* Debug */,
-				F3C7782F2C6E447900E224EE /* Release */,
+				F3C7782E2C6E447900E224EE /* Debug configuration for PBXNativeTarget "Widgets" */,
+				F3C7782F2C6E447900E224EE /* Release configuration for PBXNativeTarget "Widgets" */,
 			);
-			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
