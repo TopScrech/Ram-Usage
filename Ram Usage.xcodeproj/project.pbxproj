@@ -15,6 +15,8 @@
 		F3274EFB2D6D354400A8445A /* Memory VM.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3274EFA2D6D354400A8445A /* Memory VM.swift */; };
 		F3274EFD2D6D356200A8445A /* ScrechKit in Frameworks */ = {isa = PBXBuildFile; productRef = F3274EFC2D6D356200A8445A /* ScrechKit */; };
 		F33708682DD9277C006834F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F33708672DD9277C006834F8 /* Assets.xcassets */; };
+		F33708692DD92A2C006834F8 /* ScrechKit in Embed Frameworks */ = {isa = PBXBuildFile; productRef = F3530C142C6C132100FB8481 /* ScrechKit */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		F337086B2DD92A31006834F8 /* ScrechKit in Embed Frameworks */ = {isa = PBXBuildFile; productRef = F3274EFC2D6D356200A8445A /* ScrechKit */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		F3530C042C6C12E700FB8481 /* Ram Usage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3530C032C6C12E700FB8481 /* Ram Usage.swift */; };
 		F3530C062C6C12E700FB8481 /* App Container.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3530C052C6C12E700FB8481 /* App Container.swift */; };
 		F3530C082C6C12E800FB8481 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3530C072C6C12E800FB8481 /* Assets.xcassets */; };
@@ -87,6 +89,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		F337086A2DD92A2C006834F8 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			dstPath = "";
+			dstSubfolder = Frameworks;
+			files = (
+				F33708692DD92A2C006834F8 /* ScrechKit in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+		};
+		F337086C2DD92A31006834F8 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			dstPath = "";
+			dstSubfolder = Frameworks;
+			files = (
+				F337086B2DD92A31006834F8 /* ScrechKit in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+		};
 		F3C778302C6E447900E224EE /* Embed Foundation Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			dstPath = "";
@@ -320,6 +340,7 @@
 				F3274EE32D6D348200A8445A /* Sources */,
 				F3274EE42D6D348200A8445A /* Frameworks */,
 				F3274EE52D6D348200A8445A /* Resources */,
+				F337086C2DD92A31006834F8 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -340,6 +361,7 @@
 				F3530BFD2C6C12E700FB8481 /* Frameworks */,
 				F3530BFE2C6C12E700FB8481 /* Resources */,
 				F3C778302C6E447900E224EE /* Embed Foundation Extensions */,
+				F337086A2DD92A2C006834F8 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
