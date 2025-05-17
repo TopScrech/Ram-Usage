@@ -14,6 +14,7 @@
 		F3274EF92D6D34EF00A8445A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3530C072C6C12E800FB8481 /* Assets.xcassets */; };
 		F3274EFB2D6D354400A8445A /* Memory VM.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3274EFA2D6D354400A8445A /* Memory VM.swift */; };
 		F3274EFD2D6D356200A8445A /* ScrechKit in Frameworks */ = {isa = PBXBuildFile; productRef = F3274EFC2D6D356200A8445A /* ScrechKit */; };
+		F33708682DD9277C006834F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F33708672DD9277C006834F8 /* Assets.xcassets */; };
 		F3530C042C6C12E700FB8481 /* Ram Usage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3530C032C6C12E700FB8481 /* Ram Usage.swift */; };
 		F3530C062C6C12E700FB8481 /* App Container.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3530C052C6C12E700FB8481 /* App Container.swift */; };
 		F3530C082C6C12E800FB8481 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3530C072C6C12E800FB8481 /* Assets.xcassets */; };
@@ -65,6 +66,7 @@
 		F3CCB1DB2CAF4348000F8207 /* Swap Usage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CCB1DA2CAF4348000F8207 /* Swap Usage.swift */; };
 		F3CCB1DC2CAF4348000F8207 /* Swap Usage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CCB1DA2CAF4348000F8207 /* Swap Usage.swift */; };
 		F3CCB1DD2CAF4348000F8207 /* Swap Usage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CCB1DA2CAF4348000F8207 /* Swap Usage.swift */; };
+		F3FA30DE2DD272C100280133 /* Memory Usage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C0533D2C6F529000CDF3FA /* Memory Usage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -103,6 +105,7 @@
 		F3274EF32D6D34C500A8445A /* Home View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Home View.swift"; sourceTree = "<group>"; };
 		F3274EF42D6D34C500A8445A /* Ram Usage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ram Usage.swift"; sourceTree = "<group>"; };
 		F3274EFA2D6D354400A8445A /* Memory VM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Memory VM.swift"; sourceTree = "<group>"; };
+		F33708672DD9277C006834F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F3530C002C6C12E700FB8481 /* macOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = macOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3530C032C6C12E700FB8481 /* Ram Usage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ram Usage.swift"; sourceTree = "<group>"; };
 		F3530C052C6C12E700FB8481 /* App Container.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "App Container.swift"; sourceTree = "<group>"; };
@@ -226,9 +229,9 @@
 				F3530C032C6C12E700FB8481 /* Ram Usage.swift */,
 				F38DF0B02C6C368900081031 /* App Settings.swift */,
 				F3CCB1D72CAEE59E000F8207 /* Nav */,
-				F3530C072C6C12E800FB8481 /* Assets.xcassets */,
-				F3530C0C2C6C12E800FB8481 /* Ram Usage.entitlements */,
 				F3CCB1D82CAEE632000F8207 /* Ram Usage.plist */,
+				F3530C0C2C6C12E800FB8481 /* Ram Usage.entitlements */,
+				F3530C072C6C12E800FB8481 /* Assets.xcassets */,
 				F38DF0AE2C6C31FA00081031 /* RAM Info.swift */,
 				F3C2E8452C906872006304E6 /* Medium Widget Preview.swift */,
 				F38DF0A02C6C2EDF00081031 /* RAM VM.swift */,
@@ -270,6 +273,7 @@
 				F3C778232C6E447900E224EE /* App Intent.swift */,
 				F3C778272C6E447900E224EE /* Info.plist */,
 				F3C778282C6E447900E224EE /* Widgets.entitlements */,
+				F33708672DD9277C006834F8 /* Assets.xcassets */,
 				F3C778212C6E447900E224EE /* Widgets.swift */,
 				F313BE182C87116E005C8B60 /* Small Widget View.swift */,
 				F3C778392C6E5C3D00E224EE /* Medium Widget View.swift */,
@@ -490,6 +494,7 @@
 		F3C778162C6E447800E224EE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			files = (
+				F33708682DD9277C006834F8 /* Assets.xcassets in Resources */,
 				F3C053392C6F4E6500CDF3FA /* Assets.xcassets in Resources */,
 			);
 		};
@@ -537,6 +542,7 @@
 			isa = PBXSourcesBuildPhase;
 			files = (
 				F3CCB1DC2CAF4348000F8207 /* Swap Usage.swift in Sources */,
+				F3FA30DE2DD272C100280133 /* Memory Usage.swift in Sources */,
 				F3C778112C6E397D00E224EE /* RAM VM.swift in Sources */,
 				F3C778132C6E39FA00E224EE /* Extension Double.swift in Sources */,
 				F3C778332C6E5C1000E224EE /* Unit Tests.swift in Sources */,

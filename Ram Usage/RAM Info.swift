@@ -107,7 +107,7 @@ func runVMStat() {
             print(output)
         }
     } catch {
-        print("Error running command: \(error.localizedDescription)")
+        print("Error running command:", error.localizedDescription)
     }
 }
 
