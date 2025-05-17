@@ -110,8 +110,8 @@
 		F3530C032C6C12E700FB8481 /* Ram Usage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ram Usage.swift"; sourceTree = "<group>"; };
 		F3530C052C6C12E700FB8481 /* App Container.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "App Container.swift"; sourceTree = "<group>"; };
 		F3530C072C6C12E800FB8481 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F3530C0C2C6C12E800FB8481 /* Ram Usage.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Ram Usage.entitlements"; sourceTree = "<group>"; };
-		F37612752D6D3986005C115C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3530C0C2C6C12E800FB8481 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		F37612752D6D3986005C115C /* iOS.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = iOS.plist; sourceTree = "<group>"; };
 		F376127F2D6DA688005C115C /* Widgets iOS.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Widgets iOS.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F37612942D6DA68C005C115C /* App Intent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "App Intent.swift"; sourceTree = "<group>"; };
 		F37612952D6DA68C005C115C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -136,13 +136,13 @@
 		F3C7781F2C6E447900E224EE /* Widgets Bundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Widgets Bundle.swift"; sourceTree = "<group>"; };
 		F3C778212C6E447900E224EE /* Widgets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Widgets.swift; sourceTree = "<group>"; };
 		F3C778232C6E447900E224EE /* App Intent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "App Intent.swift"; sourceTree = "<group>"; };
-		F3C778272C6E447900E224EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3C778272C6E447900E224EE /* Widgets.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Widgets.plist; sourceTree = "<group>"; };
 		F3C778282C6E447900E224EE /* Widgets.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Widgets.entitlements; sourceTree = "<group>"; };
 		F3C778322C6E5C1000E224EE /* Unit Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Unit Tests.swift"; sourceTree = "<group>"; };
 		F3C778352C6E5C2A00E224EE /* Provider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Provider.swift; sourceTree = "<group>"; };
 		F3C778372C6E5C3400E224EE /* Memory Entry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Memory Entry.swift"; sourceTree = "<group>"; };
 		F3C778392C6E5C3D00E224EE /* Medium Widget View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Medium Widget View.swift"; sourceTree = "<group>"; };
-		F3CCB1D82CAEE632000F8207 /* Ram Usage.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Ram Usage.plist"; sourceTree = "<group>"; };
+		F3CCB1D82CAEE632000F8207 /* macOS.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = macOS.plist; sourceTree = "<group>"; };
 		F3CCB1DA2CAF4348000F8207 /* Swap Usage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Swap Usage.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -191,7 +191,7 @@
 			isa = PBXGroup;
 			children = (
 				F3274EF42D6D34C500A8445A /* Ram Usage.swift */,
-				F37612752D6D3986005C115C /* Info.plist */,
+				F37612752D6D3986005C115C /* iOS.plist */,
 				F3274EF32D6D34C500A8445A /* Home View.swift */,
 				F3274EFA2D6D354400A8445A /* Memory VM.swift */,
 			);
@@ -229,8 +229,8 @@
 				F3530C032C6C12E700FB8481 /* Ram Usage.swift */,
 				F38DF0B02C6C368900081031 /* App Settings.swift */,
 				F3CCB1D72CAEE59E000F8207 /* Nav */,
-				F3CCB1D82CAEE632000F8207 /* Ram Usage.plist */,
-				F3530C0C2C6C12E800FB8481 /* Ram Usage.entitlements */,
+				F3CCB1D82CAEE632000F8207 /* macOS.plist */,
+				F3530C0C2C6C12E800FB8481 /* macOS.entitlements */,
 				F3530C072C6C12E800FB8481 /* Assets.xcassets */,
 				F38DF0AE2C6C31FA00081031 /* RAM Info.swift */,
 				F3C2E8452C906872006304E6 /* Medium Widget Preview.swift */,
@@ -271,7 +271,7 @@
 			children = (
 				F3C7781F2C6E447900E224EE /* Widgets Bundle.swift */,
 				F3C778232C6E447900E224EE /* App Intent.swift */,
-				F3C778272C6E447900E224EE /* Info.plist */,
+				F3C778272C6E447900E224EE /* Widgets.plist */,
 				F3C778282C6E447900E224EE /* Widgets.entitlements */,
 				F33708672DD9277C006834F8 /* Assets.xcassets */,
 				F3C778212C6E447900E224EE /* Widgets.swift */,
@@ -593,7 +593,7 @@
 				CURRENT_PROJECT_VERSION = 0;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = iOS/Info.plist;
+				INFOPLIST_FILE = iOS/iOS.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Ram Usage";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -626,7 +626,7 @@
 				CURRENT_PROJECT_VERSION = 0;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = iOS/Info.plist;
+				INFOPLIST_FILE = iOS/iOS.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Ram Usage";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -780,7 +780,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "Ram Usage/Ram Usage.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "Ram Usage/macOS.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 0;
@@ -788,7 +788,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Ram Usage/Ram Usage.plist";
+				INFOPLIST_FILE = "Ram Usage/macOS.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Ram Usage";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
@@ -809,7 +809,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "Ram Usage/Ram Usage.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "Ram Usage/macOS.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 0;
@@ -817,7 +817,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Ram Usage/Ram Usage.plist";
+				INFOPLIST_FILE = "Ram Usage/macOS.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Ram Usage";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
@@ -935,7 +935,7 @@
 				DEAD_CODE_STRIPPING = YES;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Widgets/Info.plist;
+				INFOPLIST_FILE = Widgets/Widgets.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Ram Usage";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
@@ -966,7 +966,7 @@
 				DEAD_CODE_STRIPPING = YES;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Widgets/Info.plist;
+				INFOPLIST_FILE = Widgets/Widgets.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Ram Usage";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
