@@ -27,6 +27,7 @@ struct AppSettings: View {
             //    Text("wired \(vm.wired)")
             //}
         }
+        .navigationTitle("Settings")
         .buttonStyle(.plain)
         .formStyle(.grouped)
         .frame(width: 500, height: 600)
