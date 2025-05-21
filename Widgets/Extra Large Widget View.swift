@@ -1,7 +1,7 @@
 import SwiftUI
 import WidgetKit
 
-struct MediumWidgetView: View {
+struct ExtraLargeWidgetView: View {
     private var entry: Provider.Entry
     
     init(_ entry: Provider.Entry) {
@@ -27,35 +27,33 @@ struct MediumWidgetView: View {
             HStack(alignment: .bottom) {
                 VStack {
                     Text("Memory")
-                        .title(.semibold)
-                        .rounded()
+                        .largeTitle(design: .rounded)
                         .frame(maxWidth: .infinity, alignment: .leading)
                     
                     ProgressView(value: ram.graph_used, total: ram.graph_total)
                         .scaleEffect(x: 1, y: 2)
-                        .frame(maxWidth: 200)
                 }
                 
-                RamSpec("Usage", ram: ram.used)
+                ExtraLargeRamSpec("Usage", ram: ram.used)
                     .offset(y: 10)
                 
-                RamSpec("Free", ram: ram.free)
+                ExtraLargeRamSpec("Free", ram: ram.free)
                     .offset(y: 10)
             }
             
             Divider()
             
-            HStack(spacing: 15) {
-                RamSpec("App", ram: ram.appMemory)
+            HStack(spacing: 32) {
+                ExtraLargeRamSpec("App", ram: ram.appMemory)
                 
-                RamSpec("Wired", ram: ram.wired)
+                ExtraLargeRamSpec("Wired", ram: ram.wired)
                 
-                RamSpec("Compressed", ram: ram.compressed)
+                ExtraLargeRamSpec("Compressed", ram: ram.compressed)
                 
                 Divider()
                     .frame(maxHeight: 40)
                 
-                RamSpec("Cache", ram: ram.cachedFiles)
+                ExtraLargeRamSpec("Cache", ram: ram.cachedFiles)
             }
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity)
@@ -82,7 +80,6 @@ struct MediumWidgetView: View {
                     .offset(x: 12, y: -8)
                 }
             }
-            .caption2()
         }
     }
 }

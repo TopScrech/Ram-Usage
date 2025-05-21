@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "1610"
+   LastUpgradeVersion = "1630"
    version = "1.7">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -17,7 +17,7 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "F3530BFF2C6C12E700FB8481"
                BuildableName = "Ram Usage.app"
-               BlueprintName = "Ram Usage"
+               BlueprintName = "macOS"
                ReferencedContainer = "container:Ram Usage.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -59,7 +59,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F3530BFF2C6C12E700FB8481"
             BuildableName = "Ram Usage.app"
-            BlueprintName = "Ram Usage"
+            BlueprintName = "macOS"
             ReferencedContainer = "container:Ram Usage.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -76,7 +76,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F3530BFF2C6C12E700FB8481"
             BuildableName = "Ram Usage.app"
-            BlueprintName = "Ram Usage"
+            BlueprintName = "macOS"
             ReferencedContainer = "container:Ram Usage.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

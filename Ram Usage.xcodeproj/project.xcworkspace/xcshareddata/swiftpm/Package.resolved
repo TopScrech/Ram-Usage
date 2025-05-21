@@ -1,5 +1,5 @@
 {
-  "originHash" : "919783b9deb1d9ed49643f8bc592bd1bc6dce36caa4f7591673befb5a495a4c0",
+  "originHash" : "9614a6d184db1b85e76e339c5b40e0d9d87b5048b37841466eec8a19d8cd4c1b",
   "pins" : [
     {
       "identity" : "launchatlogin",
@@ -11,12 +11,21 @@
       }
     },
     {
+      "identity" : "safaricover",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/TopScrech/SafariCover",
+      "state" : {
+        "branch" : "main",
+        "revision" : "6846539c6cf560373fa357fc8df82896705d390c"
+      }
+    },
+    {
       "identity" : "screchkit",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/TopScrech/ScrechKit",
       "state" : {
         "branch" : "main",
-        "revision" : "0ef7decabddc8b5bb0f8bb7fe494b4b07b2f807a"
+        "revision" : "b5d9a0d6e2e0b221b7db5d68011226254f637822"
       }
     },
     {

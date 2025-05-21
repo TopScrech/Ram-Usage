@@ -37,11 +37,10 @@ struct UnitTests {
     }
     
     @Test func example() async throws {
-        if let data = vm.fetchSwap() {
-            if let swap = vm.parseSwapUsage(data) {
-                print(swap)
-            }
+        if let data = vm.fetchSwap(),
+           let swap = vm.parseSwapUsage(data) {
+            print(swap)
         }
-        // Write your test here and use APIs like `#expect(...)` to check expected conditions.
+        // Write your test here and use APIs like `#expect(...)` to check expected conditions
     }
 }

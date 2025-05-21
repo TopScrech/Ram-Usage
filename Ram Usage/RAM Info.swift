@@ -1,6 +1,6 @@
 import SwiftUI
 
-struct RAMInfo: View {
+struct HomeView: View {
     @Environment(RamVM.self) private var vm
     
     var body: some View {
@@ -107,7 +107,7 @@ func runVMStat() {
             print(output)
         }
     } catch {
-        print("Error running command: \(error.localizedDescription)")
+        print("Error running command:", error.localizedDescription)
     }
 }
 
@@ -124,7 +124,7 @@ extension Double {
 }
 
 #Preview {
-    RAMInfo()
+    HomeView()
         .environment(RamVM())
         .padding(20)
 }

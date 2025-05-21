@@ -20,7 +20,7 @@ extension RamVM {
                 return output
             }
         } catch {
-            print("Error running command: \(error.localizedDescription)")
+            print("Error running command:", error.localizedDescription)
         }
         
         return nil
@@ -37,6 +37,7 @@ extension RamVM {
         
         // Search for matches
         let range = NSRange(string.startIndex..<string.endIndex, in: string)
+        
         if let match = regex.firstMatch(in: string, options: [], range: range) {
             // Extract values
             if let totalRange = Range(match.range(at: 1), in: string),

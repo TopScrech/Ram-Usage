@@ -3,24 +3,47 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 77;
+	objectVersion = 90;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		F313BE192C87116E005C8B60 /* Small Widget View.swift in Sources */ = {isa = PBXBuildFile; fileRef = F313BE182C87116E005C8B60 /* Small Widget View.swift */; };
 		F313BE1B2C871184005C8B60 /* Ram Spec.swift in Sources */ = {isa = PBXBuildFile; fileRef = F313BE1A2C871184005C8B60 /* Ram Spec.swift */; };
+		F32429D22DDDB9EB000A16E8 /* ScrechKit in Frameworks */ = {isa = PBXBuildFile; productRef = F32429D12DDDB9EB000A16E8 /* ScrechKit */; };
+		F32429D42DDDB9F1000A16E8 /* ScrechKit in Frameworks */ = {isa = PBXBuildFile; productRef = F32429D32DDDB9F1000A16E8 /* ScrechKit */; };
+		F32429D62DDDB9F6000A16E8 /* ScrechKit in Frameworks */ = {isa = PBXBuildFile; productRef = F32429D52DDDB9F6000A16E8 /* ScrechKit */; };
+		F32429D92DDDBBCD000A16E8 /* Disk Usage Widget View.swift in Sources */ = {isa = PBXBuildFile; fileRef = F32429D82DDDBBCD000A16E8 /* Disk Usage Widget View.swift */; };
+		F32429DB2DDDBC51000A16E8 /* Extra Large Widget View.swift in Sources */ = {isa = PBXBuildFile; fileRef = F32429DA2DDDBC51000A16E8 /* Extra Large Widget View.swift */; };
+		F32429DD2DDDBC80000A16E8 /* Extra Large Ram Spec.swift in Sources */ = {isa = PBXBuildFile; fileRef = F32429DC2DDDBC80000A16E8 /* Extra Large Ram Spec.swift */; };
+		F32429DE2DDDBC80000A16E8 /* Extra Large Ram Spec.swift in Sources */ = {isa = PBXBuildFile; fileRef = F32429DC2DDDBC80000A16E8 /* Extra Large Ram Spec.swift */; };
+		F3274EF62D6D34C500A8445A /* Home View.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3274EF32D6D34C500A8445A /* Home View.swift */; };
+		F3274EF72D6D34C500A8445A /* Ram Usage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3274EF42D6D34C500A8445A /* Ram Usage.swift */; };
+		F3274EF92D6D34EF00A8445A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3530C072C6C12E800FB8481 /* Assets.xcassets */; };
+		F3274EFB2D6D354400A8445A /* Memory VM.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3274EFA2D6D354400A8445A /* Memory VM.swift */; };
+		F33708682DD9277C006834F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F33708672DD9277C006834F8 /* Assets.xcassets */; };
 		F3530C042C6C12E700FB8481 /* Ram Usage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3530C032C6C12E700FB8481 /* Ram Usage.swift */; };
 		F3530C062C6C12E700FB8481 /* App Container.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3530C052C6C12E700FB8481 /* App Container.swift */; };
 		F3530C082C6C12E800FB8481 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3530C072C6C12E800FB8481 /* Assets.xcassets */; };
-		F3530C152C6C132100FB8481 /* ScrechKit in Frameworks */ = {isa = PBXBuildFile; productRef = F3530C142C6C132100FB8481 /* ScrechKit */; };
 		F358F03C2D2C1E7B00BCC07B /* LaunchAtLogin in Frameworks */ = {isa = PBXBuildFile; productRef = F358F03B2D2C1E7B00BCC07B /* LaunchAtLogin */; };
+		F37612782D6D3A1F005C115C /* SafariCover in Frameworks */ = {isa = PBXBuildFile; productRef = F37612772D6D3A1F005C115C /* SafariCover */; };
+		F37612802D6DA688005C115C /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3C7781A2C6E447800E224EE /* WidgetKit.framework */; };
+		F37612812D6DA688005C115C /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3C7781C2C6E447800E224EE /* SwiftUI.framework */; };
+		F376129A2D6DA68C005C115C /* App Intent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37612942D6DA68C005C115C /* App Intent.swift */; };
+		F376129B2D6DA68C005C115C /* Ram Usage Widget.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37612972D6DA68C005C115C /* Ram Usage Widget.swift */; };
+		F376129C2D6DA68C005C115C /* Widgets.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37612982D6DA68C005C115C /* Widgets.swift */; };
+		F376129D2D6DA68C005C115C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F37612952D6DA68C005C115C /* Assets.xcassets */; };
+		F37612A02D6DA6F9005C115C /* Simple Entry.swift in Sources */ = {isa = PBXBuildFile; fileRef = F376129F2D6DA6F9005C115C /* Simple Entry.swift */; };
+		F37612A22D6DA781005C115C /* Provider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37612A12D6DA781005C115C /* Provider.swift */; };
+		F37612A42D6DA794005C115C /* Widgets Entry View.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37612A32D6DA794005C115C /* Widgets Entry View.swift */; };
+		F37612A62D6DA7C1005C115C /* Refresh Intent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37612A52D6DA7C1005C115C /* Refresh Intent.swift */; };
+		F37612A72D6DB973005C115C /* Refresh Intent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37612A52D6DA7C1005C115C /* Refresh Intent.swift */; };
+		F37612A82D6DC4CA005C115C /* App Container.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3530C052C6C12E700FB8481 /* App Container.swift */; };
 		F38DF0A12C6C2EDF00081031 /* RAM VM.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38DF0A02C6C2EDF00081031 /* RAM VM.swift */; };
 		F38DF0A42C6C2F2100081031 /* SystemKit in Frameworks */ = {isa = PBXBuildFile; productRef = F38DF0A32C6C2F2100081031 /* SystemKit */; };
 		F38DF0A82C6C2F5900081031 /* Extension Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38DF0A72C6C2F5900081031 /* Extension Double.swift */; };
 		F38DF0AD2C6C302400081031 /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = F38DF0AC2C6C302400081031 /* SwiftyJSON */; };
 		F38DF0AF2C6C31FA00081031 /* RAM Info.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38DF0AE2C6C31FA00081031 /* RAM Info.swift */; };
 		F38DF0B12C6C368900081031 /* App Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38DF0B02C6C368900081031 /* App Settings.swift */; };
-		F3AABD322C6F432C00E7C7E4 /* ScrechKit in Frameworks */ = {isa = PBXBuildFile; productRef = F3AABD312C6F432C00E7C7E4 /* ScrechKit */; };
 		F3C053392C6F4E6500CDF3FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3530C072C6C12E800FB8481 /* Assets.xcassets */; };
 		F3C0533A2C6F523E00CDF3FA /* RAM VM.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38DF0A02C6C2EDF00081031 /* RAM VM.swift */; };
 		F3C0533B2C6F524300CDF3FA /* RAM VM Swap.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C778022C6E227700E224EE /* RAM VM Swap.swift */; };
@@ -47,6 +70,7 @@
 		F3CCB1DB2CAF4348000F8207 /* Swap Usage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CCB1DA2CAF4348000F8207 /* Swap Usage.swift */; };
 		F3CCB1DC2CAF4348000F8207 /* Swap Usage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CCB1DA2CAF4348000F8207 /* Swap Usage.swift */; };
 		F3CCB1DD2CAF4348000F8207 /* Swap Usage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CCB1DA2CAF4348000F8207 /* Swap Usage.swift */; };
+		F3FA30DE2DD272C100280133 /* Memory Usage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C0533D2C6F529000CDF3FA /* Memory Usage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,27 +91,60 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		F337086A2DD92A2C006834F8 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			dstPath = "";
+			dstSubfolder = Frameworks;
+			files = (
+			);
+			name = "Embed Frameworks";
+		};
+		F337086C2DD92A31006834F8 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			dstPath = "";
+			dstSubfolder = Frameworks;
+			files = (
+			);
+			name = "Embed Frameworks";
+		};
 		F3C778302C6E447900E224EE /* Embed Foundation Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
 			dstPath = "";
-			dstSubfolderSpec = 13;
+			dstSubfolder = PlugIns;
 			files = (
 				F3C7782B2C6E447900E224EE /* Widgets.appex in Embed Foundation Extensions */,
 			);
 			name = "Embed Foundation Extensions";
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		F313BE182C87116E005C8B60 /* Small Widget View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Small Widget View.swift"; sourceTree = "<group>"; };
 		F313BE1A2C871184005C8B60 /* Ram Spec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ram Spec.swift"; sourceTree = "<group>"; };
+		F32429D82DDDBBCD000A16E8 /* Disk Usage Widget View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Disk Usage Widget View.swift"; sourceTree = "<group>"; };
+		F32429DA2DDDBC51000A16E8 /* Extra Large Widget View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extra Large Widget View.swift"; sourceTree = "<group>"; };
+		F32429DC2DDDBC80000A16E8 /* Extra Large Ram Spec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extra Large Ram Spec.swift"; sourceTree = "<group>"; };
+		F3274EE72D6D348200A8445A /* iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3274EF32D6D34C500A8445A /* Home View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Home View.swift"; sourceTree = "<group>"; };
+		F3274EF42D6D34C500A8445A /* Ram Usage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ram Usage.swift"; sourceTree = "<group>"; };
+		F3274EFA2D6D354400A8445A /* Memory VM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Memory VM.swift"; sourceTree = "<group>"; };
+		F33708672DD9277C006834F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F3530C002C6C12E700FB8481 /* Ram Usage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ram Usage.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3530C032C6C12E700FB8481 /* Ram Usage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ram Usage.swift"; sourceTree = "<group>"; };
 		F3530C052C6C12E700FB8481 /* App Container.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "App Container.swift"; sourceTree = "<group>"; };
 		F3530C072C6C12E800FB8481 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F3530C0C2C6C12E800FB8481 /* Ram Usage.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Ram Usage.entitlements"; sourceTree = "<group>"; };
+		F3530C0C2C6C12E800FB8481 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		F37612752D6D3986005C115C /* iOS.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = iOS.plist; sourceTree = "<group>"; };
+		F376127F2D6DA688005C115C /* Widgets iOS.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Widgets iOS.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F37612942D6DA68C005C115C /* App Intent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "App Intent.swift"; sourceTree = "<group>"; };
+		F37612952D6DA68C005C115C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F37612962D6DA68C005C115C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F37612972D6DA68C005C115C /* Ram Usage Widget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ram Usage Widget.swift"; sourceTree = "<group>"; };
+		F37612982D6DA68C005C115C /* Widgets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Widgets.swift; sourceTree = "<group>"; };
+		F376129F2D6DA6F9005C115C /* Simple Entry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Simple Entry.swift"; sourceTree = "<group>"; };
+		F37612A12D6DA781005C115C /* Provider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Provider.swift; sourceTree = "<group>"; };
+		F37612A32D6DA794005C115C /* Widgets Entry View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Widgets Entry View.swift"; sourceTree = "<group>"; };
+		F37612A52D6DA7C1005C115C /* Refresh Intent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Refresh Intent.swift"; sourceTree = "<group>"; };
 		F38DF0A02C6C2EDF00081031 /* RAM VM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RAM VM.swift"; sourceTree = "<group>"; };
 		F38DF0A72C6C2F5900081031 /* Extension Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension Double.swift"; sourceTree = "<group>"; };
 		F38DF0AE2C6C31FA00081031 /* RAM Info.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RAM Info.swift"; sourceTree = "<group>"; };
@@ -102,54 +159,83 @@
 		F3C7781F2C6E447900E224EE /* Widgets Bundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Widgets Bundle.swift"; sourceTree = "<group>"; };
 		F3C778212C6E447900E224EE /* Widgets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Widgets.swift; sourceTree = "<group>"; };
 		F3C778232C6E447900E224EE /* App Intent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "App Intent.swift"; sourceTree = "<group>"; };
-		F3C778272C6E447900E224EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3C778272C6E447900E224EE /* Widgets.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Widgets.plist; sourceTree = "<group>"; };
 		F3C778282C6E447900E224EE /* Widgets.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Widgets.entitlements; sourceTree = "<group>"; };
 		F3C778322C6E5C1000E224EE /* Unit Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Unit Tests.swift"; sourceTree = "<group>"; };
 		F3C778352C6E5C2A00E224EE /* Provider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Provider.swift; sourceTree = "<group>"; };
 		F3C778372C6E5C3400E224EE /* Memory Entry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Memory Entry.swift"; sourceTree = "<group>"; };
 		F3C778392C6E5C3D00E224EE /* Medium Widget View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Medium Widget View.swift"; sourceTree = "<group>"; };
-		F3CCB1D82CAEE632000F8207 /* Ram Usage.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Ram Usage.plist"; sourceTree = "<group>"; };
+		F3CCB1D82CAEE632000F8207 /* macOS.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = macOS.plist; sourceTree = "<group>"; };
 		F3CCB1DA2CAF4348000F8207 /* Swap Usage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Swap Usage.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		F3274EE42D6D348200A8445A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+				F37612782D6D3A1F005C115C /* SafariCover in Frameworks */,
+				F32429D22DDDB9EB000A16E8 /* ScrechKit in Frameworks */,
+			);
+		};
 		F3530BFD2C6C12E700FB8481 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 				F38DF0AD2C6C302400081031 /* SwiftyJSON in Frameworks */,
+				F32429D42DDDB9F1000A16E8 /* ScrechKit in Frameworks */,
 				F38DF0A42C6C2F2100081031 /* SystemKit in Frameworks */,
 				F358F03C2D2C1E7B00BCC07B /* LaunchAtLogin in Frameworks */,
-				F3530C152C6C132100FB8481 /* ScrechKit in Frameworks */,
 			);
-			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F376127C2D6DA688005C115C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+				F37612812D6DA688005C115C /* SwiftUI.framework in Frameworks */,
+				F37612802D6DA688005C115C /* WidgetKit.framework in Frameworks */,
+			);
 		};
 		F3C778052C6E24A900E224EE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 		F3C778152C6E447800E224EE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
-				F3AABD322C6F432C00E7C7E4 /* ScrechKit in Frameworks */,
 				F3C7781D2C6E447800E224EE /* SwiftUI.framework in Frameworks */,
+				F32429D62DDDB9F6000A16E8 /* ScrechKit in Frameworks */,
 				F3C053412C6F542B00CDF3FA /* SystemKit in Frameworks */,
 				F3C7781B2C6E447800E224EE /* WidgetKit.framework in Frameworks */,
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F32429D72DDDBA4C000A16E8 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				F38DF0B02C6C368900081031 /* App Settings.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		F3274EF52D6D34C500A8445A /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				F3274EF42D6D34C500A8445A /* Ram Usage.swift */,
+				F37612752D6D3986005C115C /* iOS.plist */,
+				F3274EF32D6D34C500A8445A /* Home View.swift */,
+				F3274EFA2D6D354400A8445A /* Memory VM.swift */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
 		F3530BF72C6C12E700FB8481 = {
 			isa = PBXGroup;
 			children = (
 				F3530C122C6C12F700FB8481 /* Ram Usage */,
+				F3274EF52D6D34C500A8445A /* iOS */,
 				F3C778312C6E448100E224EE /* Widgets */,
+				F37612992D6DA68C005C115C /* Widgets iOS */,
 				F3C778342C6E5C1700E224EE /* Unit Tests */,
 				F3C778192C6E447800E224EE /* Frameworks */,
 				F3530C012C6C12E700FB8481 /* Products */,
@@ -162,6 +248,8 @@
 				F3530C002C6C12E700FB8481 /* Ram Usage.app */,
 				F3C778082C6E24A900E224EE /* Unit Tests.xctest */,
 				F3C778182C6E447800E224EE /* Widgets.appex */,
+				F3274EE72D6D348200A8445A /* iOS.app */,
+				F376127F2D6DA688005C115C /* Widgets iOS.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -170,18 +258,34 @@
 			isa = PBXGroup;
 			children = (
 				F3530C032C6C12E700FB8481 /* Ram Usage.swift */,
-				F38DF0B02C6C368900081031 /* App Settings.swift */,
 				F3CCB1D72CAEE59E000F8207 /* Nav */,
+				F3CCB1D82CAEE632000F8207 /* macOS.plist */,
+				F3530C0C2C6C12E800FB8481 /* macOS.entitlements */,
 				F3530C072C6C12E800FB8481 /* Assets.xcassets */,
-				F3530C0C2C6C12E800FB8481 /* Ram Usage.entitlements */,
-				F3CCB1D82CAEE632000F8207 /* Ram Usage.plist */,
 				F38DF0AE2C6C31FA00081031 /* RAM Info.swift */,
 				F3C2E8452C906872006304E6 /* Medium Widget Preview.swift */,
 				F38DF0A02C6C2EDF00081031 /* RAM VM.swift */,
 				F3C778022C6E227700E224EE /* RAM VM Swap.swift */,
 				F3CCB1D92CAF433A000F8207 /* Model */,
+				F32429D72DDDBA4C000A16E8 /* Settings */,
 			);
 			path = "Ram Usage";
+			sourceTree = "<group>";
+		};
+		F37612992D6DA68C005C115C /* Widgets iOS */ = {
+			isa = PBXGroup;
+			children = (
+				F37612982D6DA68C005C115C /* Widgets.swift */,
+				F37612952D6DA68C005C115C /* Assets.xcassets */,
+				F37612962D6DA68C005C115C /* Info.plist */,
+				F37612942D6DA68C005C115C /* App Intent.swift */,
+				F37612A52D6DA7C1005C115C /* Refresh Intent.swift */,
+				F37612972D6DA68C005C115C /* Ram Usage Widget.swift */,
+				F37612A32D6DA794005C115C /* Widgets Entry View.swift */,
+				F37612A12D6DA781005C115C /* Provider.swift */,
+				F376129F2D6DA6F9005C115C /* Simple Entry.swift */,
+			);
+			path = "Widgets iOS";
 			sourceTree = "<group>";
 		};
 		F3C778192C6E447800E224EE /* Frameworks */ = {
@@ -198,12 +302,16 @@
 			children = (
 				F3C7781F2C6E447900E224EE /* Widgets Bundle.swift */,
 				F3C778232C6E447900E224EE /* App Intent.swift */,
-				F3C778272C6E447900E224EE /* Info.plist */,
+				F3C778272C6E447900E224EE /* Widgets.plist */,
 				F3C778282C6E447900E224EE /* Widgets.entitlements */,
+				F33708672DD9277C006834F8 /* Assets.xcassets */,
 				F3C778212C6E447900E224EE /* Widgets.swift */,
+				F32429D82DDDBBCD000A16E8 /* Disk Usage Widget View.swift */,
 				F313BE182C87116E005C8B60 /* Small Widget View.swift */,
 				F3C778392C6E5C3D00E224EE /* Medium Widget View.swift */,
+				F32429DA2DDDBC51000A16E8 /* Extra Large Widget View.swift */,
 				F313BE1A2C871184005C8B60 /* Ram Spec.swift */,
+				F32429DC2DDDBC80000A16E8 /* Extra Large Ram Spec.swift */,
 				F3C778352C6E5C2A00E224EE /* Provider.swift */,
 				F3C778372C6E5C3400E224EE /* Memory Entry.swift */,
 			);
@@ -239,30 +347,66 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F3530BFF2C6C12E700FB8481 /* Ram Usage */ = {
+		F3274EE62D6D348200A8445A /* iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F3530C0F2C6C12E800FB8481 /* Build configuration list for PBXNativeTarget "Ram Usage" */;
+			buildConfigurationList = F3274EF12D6D348200A8445A /* Build configuration list for PBXNativeTarget "iOS" */;
+			buildPhases = (
+				F3274EE32D6D348200A8445A /* Sources */,
+				F3274EE42D6D348200A8445A /* Frameworks */,
+				F3274EE52D6D348200A8445A /* Resources */,
+				F337086C2DD92A31006834F8 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			name = iOS;
+			packageProductDependencies = (
+				F37612772D6D3A1F005C115C /* SafariCover */,
+				F32429D12DDDB9EB000A16E8 /* ScrechKit */,
+			);
+			productName = "Ram-Usage";
+			productReference = F3274EE72D6D348200A8445A /* iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F3530BFF2C6C12E700FB8481 /* macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3530C0F2C6C12E800FB8481 /* Build configuration list for PBXNativeTarget "macOS" */;
 			buildPhases = (
 				F3530BFC2C6C12E700FB8481 /* Sources */,
 				F3530BFD2C6C12E700FB8481 /* Frameworks */,
 				F3530BFE2C6C12E700FB8481 /* Resources */,
 				F3C778302C6E447900E224EE /* Embed Foundation Extensions */,
+				F337086A2DD92A2C006834F8 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 				F3C7782A2C6E447900E224EE /* PBXTargetDependency */,
 			);
-			name = "Ram Usage";
+			name = macOS;
 			packageProductDependencies = (
-				F3530C142C6C132100FB8481 /* ScrechKit */,
 				F38DF0A32C6C2F2100081031 /* SystemKit */,
 				F38DF0AC2C6C302400081031 /* SwiftyJSON */,
 				F358F03B2D2C1E7B00BCC07B /* LaunchAtLogin */,
+				F32429D32DDDB9F1000A16E8 /* ScrechKit */,
 			);
 			productName = "Ram Usage";
 			productReference = F3530C002C6C12E700FB8481 /* Ram Usage.app */;
 			productType = "com.apple.product-type.application";
+		};
+		F376127E2D6DA688005C115C /* Widgets iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F37612902D6DA689005C115C /* Build configuration list for PBXNativeTarget "Widgets iOS" */;
+			buildPhases = (
+				F376127B2D6DA688005C115C /* Sources */,
+				F376127C2D6DA688005C115C /* Frameworks */,
+				F376127D2D6DA688005C115C /* Resources */,
+			);
+			buildRules = (
+			);
+			name = "Widgets iOS";
+			productName = "Widgets iOSExtension";
+			productReference = F376127F2D6DA688005C115C /* Widgets iOS.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 		F3C778072C6E24A900E224EE /* Unit Tests */ = {
 			isa = PBXNativeTarget;
@@ -278,8 +422,6 @@
 				F3C7780D2C6E24A900E224EE /* PBXTargetDependency */,
 			);
 			name = "Unit Tests";
-			packageProductDependencies = (
-			);
 			productName = "Ram Usage Unit Tests";
 			productReference = F3C778082C6E24A900E224EE /* Unit Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -294,12 +436,10 @@
 			);
 			buildRules = (
 			);
-			dependencies = (
-			);
 			name = Widgets;
 			packageProductDependencies = (
-				F3AABD312C6F432C00E7C7E4 /* ScrechKit */,
 				F3C053402C6F542B00CDF3FA /* SystemKit */,
+				F32429D52DDDB9F6000A16E8 /* ScrechKit */,
 			);
 			productName = WidgetsExtension;
 			productReference = F3C778182C6E447800E224EE /* Widgets.appex */;
@@ -312,11 +452,17 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1610;
-				LastUpgradeCheck = 1610;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
 				TargetAttributes = {
+					F3274EE62D6D348200A8445A = {
+						CreatedOnToolsVersion = 16.3;
+					};
 					F3530BFF2C6C12E700FB8481 = {
 						CreatedOnToolsVersion = 16.1;
+					};
+					F376127E2D6DA688005C115C = {
+						CreatedOnToolsVersion = 16.3;
 					};
 					F3C778072C6E24A900E224EE = {
 						CreatedOnToolsVersion = 16.1;
@@ -341,49 +487,67 @@
 				F38DF0A22C6C2F2100081031 /* XCRemoteSwiftPackageReference "SystemKit" */,
 				F38DF0AB2C6C302400081031 /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
 				F358F03A2D2C1E7B00BCC07B /* XCRemoteSwiftPackageReference "LaunchAtLogin" */,
+				F37612762D6D3A1F005C115C /* XCRemoteSwiftPackageReference "SafariCover" */,
 			);
-			preferredProjectObjectVersion = 77;
+			preferredProjectObjectVersion = 90;
 			productRefGroup = F3530C012C6C12E700FB8481 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F3530BFF2C6C12E700FB8481 /* Ram Usage */,
+				F3530BFF2C6C12E700FB8481 /* macOS */,
+				F3274EE62D6D348200A8445A /* iOS */,
 				F3C778172C6E447800E224EE /* Widgets */,
+				F376127E2D6DA688005C115C /* Widgets iOS */,
 				F3C778072C6E24A900E224EE /* Unit Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		F3274EE52D6D348200A8445A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+				F3274EF92D6D34EF00A8445A /* Assets.xcassets in Resources */,
+			);
+		};
 		F3530BFE2C6C12E700FB8481 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 				F3530C082C6C12E800FB8481 /* Assets.xcassets in Resources */,
 			);
-			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F376127D2D6DA688005C115C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+				F376129D2D6DA68C005C115C /* Assets.xcassets in Resources */,
+			);
 		};
 		F3C778062C6E24A900E224EE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 		F3C778162C6E447800E224EE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
+				F33708682DD9277C006834F8 /* Assets.xcassets in Resources */,
 				F3C053392C6F4E6500CDF3FA /* Assets.xcassets in Resources */,
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		F3274EE32D6D348200A8445A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+				F3274EF62D6D34C500A8445A /* Home View.swift in Sources */,
+				F3274EFB2D6D354400A8445A /* Memory VM.swift in Sources */,
+				F37612A82D6DC4CA005C115C /* App Container.swift in Sources */,
+				F3274EF72D6D34C500A8445A /* Ram Usage.swift in Sources */,
+			);
+		};
 		F3530BFC2C6C12E700FB8481 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 				F3C2E8472C9070C9006304E6 /* Ram Spec.swift in Sources */,
 				F38DF0A82C6C2F5900081031 /* Extension Double.swift in Sources */,
@@ -393,50 +557,63 @@
 				F38DF0B12C6C368900081031 /* App Settings.swift in Sources */,
 				F3C2E8462C906872006304E6 /* Medium Widget Preview.swift in Sources */,
 				F3C778032C6E227700E224EE /* RAM VM Swap.swift in Sources */,
+				F32429DD2DDDBC80000A16E8 /* Extra Large Ram Spec.swift in Sources */,
 				F3530C062C6C12E700FB8481 /* App Container.swift in Sources */,
 				F3530C042C6C12E700FB8481 /* Ram Usage.swift in Sources */,
 				F3C0533E2C6F529100CDF3FA /* Memory Usage.swift in Sources */,
 			);
-			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F376127B2D6DA688005C115C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+				F37612A02D6DA6F9005C115C /* Simple Entry.swift in Sources */,
+				F376129A2D6DA68C005C115C /* App Intent.swift in Sources */,
+				F376129B2D6DA68C005C115C /* Ram Usage Widget.swift in Sources */,
+				F37612A42D6DA794005C115C /* Widgets Entry View.swift in Sources */,
+				F37612A22D6DA781005C115C /* Provider.swift in Sources */,
+				F37612A62D6DA7C1005C115C /* Refresh Intent.swift in Sources */,
+				F376129C2D6DA68C005C115C /* Widgets.swift in Sources */,
+			);
 		};
 		F3C778042C6E24A900E224EE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 				F3CCB1DC2CAF4348000F8207 /* Swap Usage.swift in Sources */,
+				F3FA30DE2DD272C100280133 /* Memory Usage.swift in Sources */,
 				F3C778112C6E397D00E224EE /* RAM VM.swift in Sources */,
 				F3C778132C6E39FA00E224EE /* Extension Double.swift in Sources */,
 				F3C778332C6E5C1000E224EE /* Unit Tests.swift in Sources */,
 				F3C778122C6E398300E224EE /* RAM VM Swap.swift in Sources */,
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 		F3C778142C6E447800E224EE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 				F3CCB1DD2CAF4348000F8207 /* Swap Usage.swift in Sources */,
 				F3C778362C6E5C2A00E224EE /* Provider.swift in Sources */,
 				F313BE192C87116E005C8B60 /* Small Widget View.swift in Sources */,
+				F32429DE2DDDBC80000A16E8 /* Extra Large Ram Spec.swift in Sources */,
 				F3C778202C6E447900E224EE /* Widgets Bundle.swift in Sources */,
 				F3C0533B2C6F524300CDF3FA /* RAM VM Swap.swift in Sources */,
 				F3C778222C6E447900E224EE /* Widgets.swift in Sources */,
+				F32429D92DDDBBCD000A16E8 /* Disk Usage Widget View.swift in Sources */,
+				F32429DB2DDDBC51000A16E8 /* Extra Large Widget View.swift in Sources */,
 				F3C7783A2C6E5C3D00E224EE /* Medium Widget View.swift in Sources */,
 				F3C778382C6E5C3400E224EE /* Memory Entry.swift in Sources */,
+				F37612A72D6DB973005C115C /* Refresh Intent.swift in Sources */,
 				F3C0533C2C6F524D00CDF3FA /* Extension Double.swift in Sources */,
 				F3C778242C6E447900E224EE /* App Intent.swift in Sources */,
 				F3C0533F2C6F529400CDF3FA /* Memory Usage.swift in Sources */,
 				F3C0533A2C6F523E00CDF3FA /* RAM VM.swift in Sources */,
 				F313BE1B2C871184005C8B60 /* Ram Spec.swift in Sources */,
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
 		F3C7780D2C6E24A900E224EE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F3530BFF2C6C12E700FB8481 /* Ram Usage */;
+			target = F3530BFF2C6C12E700FB8481 /* macOS */;
 			targetProxy = F3C7780C2C6E24A900E224EE /* PBXContainerItemProxy */;
 		};
 		F3C7782A2C6E447900E224EE /* PBXTargetDependency */ = {
@@ -447,7 +624,74 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		F3530C0D2C6C12E800FB8481 /* Debug */ = {
+		F3274EEF2D6D348200A8445A /* Debug configuration for PBXNativeTarget "iOS" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 0;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = iOS/iOS.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Ram Usage";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.topscrech.Ram-Usage";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F3274EF02D6D348200A8445A /* Release configuration for PBXNativeTarget "iOS" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 0;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = iOS/iOS.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Ram Usage";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.topscrech.Ram-Usage";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F3530C0D2C6C12E800FB8481 /* Debug configuration for PBXProject "Ram Usage" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -481,7 +725,9 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 8FQUA2F388;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
@@ -501,6 +747,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MARKETING_VERSION = 0.9.4;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -510,7 +757,7 @@
 			};
 			name = Debug;
 		};
-		F3530C0E2C6C12E800FB8481 /* Release */ = {
+		F3530C0E2C6C12E800FB8481 /* Release configuration for PBXProject "Ram Usage" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -544,7 +791,9 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 8FQUA2F388;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
@@ -558,6 +807,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MARKETING_VERSION = 0.9.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
@@ -565,20 +815,20 @@
 			};
 			name = Release;
 		};
-		F3530C102C6C12E800FB8481 /* Debug */ = {
+		F3530C102C6C12E800FB8481 /* Debug configuration for PBXNativeTarget "macOS" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "Ram Usage/Ram Usage.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "Ram Usage/macOS.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 0;
-				DEVELOPMENT_TEAM = 8FQUA2F388;
+				DEAD_CODE_STRIPPING = YES;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Ram Usage/Ram Usage.plist";
+				INFOPLIST_FILE = "Ram Usage/macOS.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Ram Usage";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
@@ -587,28 +837,27 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
-				MARKETING_VERSION = 0.9.3;
 				PRODUCT_BUNDLE_IDENTIFIER = "dev.topscrech.Ram-Usage";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Ram Usage";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
-		F3530C112C6C12E800FB8481 /* Release */ = {
+		F3530C112C6C12E800FB8481 /* Release configuration for PBXNativeTarget "macOS" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "Ram Usage/Ram Usage.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "Ram Usage/macOS.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 0;
-				DEVELOPMENT_TEAM = 8FQUA2F388;
+				DEAD_CODE_STRIPPING = YES;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Ram Usage/Ram Usage.plist";
+				INFOPLIST_FILE = "Ram Usage/macOS.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Ram Usage";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
@@ -617,21 +866,75 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
-				MARKETING_VERSION = 0.9.3;
 				PRODUCT_BUNDLE_IDENTIFIER = "dev.topscrech.Ram-Usage";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Ram Usage";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
-		F3C7780F2C6E24A900E224EE /* Debug */ = {
+		F37612912D6DA689005C115C /* Debug configuration for PBXNativeTarget "Widgets iOS" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 0;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Widgets iOS/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Widgets iOS";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.topscrech.Ram-Usage.Widgets";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F37612922D6DA689005C115C /* Release configuration for PBXNativeTarget "Widgets iOS" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 0;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Widgets iOS/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Widgets iOS";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.topscrech.Ram-Usage.Widgets";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F3C7780F2C6E24A900E224EE /* Debug configuration for PBXNativeTarget "Unit Tests" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 8FQUA2F388;
+				DEAD_CODE_STRIPPING = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.0;
@@ -643,13 +946,13 @@
 			};
 			name = Debug;
 		};
-		F3C778102C6E24A900E224EE /* Release */ = {
+		F3C778102C6E24A900E224EE /* Release configuration for PBXNativeTarget "Unit Tests" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 8FQUA2F388;
+				DEAD_CODE_STRIPPING = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.0;
@@ -661,7 +964,7 @@
 			};
 			name = Release;
 		};
-		F3C7782E2C6E447900E224EE /* Debug */ = {
+		F3C7782E2C6E447900E224EE /* Debug configuration for PBXNativeTarget "Widgets" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -669,10 +972,10 @@
 				CODE_SIGN_ENTITLEMENTS = Widgets/Widgets.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 0;
-				DEVELOPMENT_TEAM = 8FQUA2F388;
+				DEAD_CODE_STRIPPING = YES;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Widgets/Info.plist;
+				INFOPLIST_FILE = Widgets/Widgets.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Ram Usage";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
@@ -682,7 +985,6 @@
 					"@executable_path/../../../../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
-				MARKETING_VERSION = 0.9.3;
 				PRODUCT_BUNDLE_IDENTIFIER = "dev.topscrech.Ram-Usage.Widgets";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -693,7 +995,7 @@
 			};
 			name = Debug;
 		};
-		F3C7782F2C6E447900E224EE /* Release */ = {
+		F3C7782F2C6E447900E224EE /* Release configuration for PBXNativeTarget "Widgets" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -701,10 +1003,10 @@
 				CODE_SIGN_ENTITLEMENTS = Widgets/Widgets.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 0;
-				DEVELOPMENT_TEAM = 8FQUA2F388;
+				DEAD_CODE_STRIPPING = YES;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Widgets/Info.plist;
+				INFOPLIST_FILE = Widgets/Widgets.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Ram Usage";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
@@ -714,7 +1016,6 @@
 					"@executable_path/../../../../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
-				MARKETING_VERSION = 0.9.3;
 				PRODUCT_BUNDLE_IDENTIFIER = "dev.topscrech.Ram-Usage.Widgets";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -728,40 +1029,52 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		F3274EF12D6D348200A8445A /* Build configuration list for PBXNativeTarget "iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3274EEF2D6D348200A8445A /* Debug configuration for PBXNativeTarget "iOS" */,
+				F3274EF02D6D348200A8445A /* Release configuration for PBXNativeTarget "iOS" */,
+			);
+			defaultConfigurationName = Release;
+		};
 		F3530BFB2C6C12E700FB8481 /* Build configuration list for PBXProject "Ram Usage" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F3530C0D2C6C12E800FB8481 /* Debug */,
-				F3530C0E2C6C12E800FB8481 /* Release */,
+				F3530C0D2C6C12E800FB8481 /* Debug configuration for PBXProject "Ram Usage" */,
+				F3530C0E2C6C12E800FB8481 /* Release configuration for PBXProject "Ram Usage" */,
 			);
-			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F3530C0F2C6C12E800FB8481 /* Build configuration list for PBXNativeTarget "Ram Usage" */ = {
+		F3530C0F2C6C12E800FB8481 /* Build configuration list for PBXNativeTarget "macOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F3530C102C6C12E800FB8481 /* Debug */,
-				F3530C112C6C12E800FB8481 /* Release */,
+				F3530C102C6C12E800FB8481 /* Debug configuration for PBXNativeTarget "macOS" */,
+				F3530C112C6C12E800FB8481 /* Release configuration for PBXNativeTarget "macOS" */,
 			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F37612902D6DA689005C115C /* Build configuration list for PBXNativeTarget "Widgets iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F37612912D6DA689005C115C /* Debug configuration for PBXNativeTarget "Widgets iOS" */,
+				F37612922D6DA689005C115C /* Release configuration for PBXNativeTarget "Widgets iOS" */,
+			);
 			defaultConfigurationName = Release;
 		};
 		F3C7780E2C6E24A900E224EE /* Build configuration list for PBXNativeTarget "Unit Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F3C7780F2C6E24A900E224EE /* Debug */,
-				F3C778102C6E24A900E224EE /* Release */,
+				F3C7780F2C6E24A900E224EE /* Debug configuration for PBXNativeTarget "Unit Tests" */,
+				F3C778102C6E24A900E224EE /* Release configuration for PBXNativeTarget "Unit Tests" */,
 			);
-			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 		F3C7782D2C6E447900E224EE /* Build configuration list for PBXNativeTarget "Widgets" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F3C7782E2C6E447900E224EE /* Debug */,
-				F3C7782F2C6E447900E224EE /* Release */,
+				F3C7782E2C6E447900E224EE /* Debug configuration for PBXNativeTarget "Widgets" */,
+				F3C7782F2C6E447900E224EE /* Release configuration for PBXNativeTarget "Widgets" */,
 			);
-			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
@@ -778,6 +1091,14 @@
 		F358F03A2D2C1E7B00BCC07B /* XCRemoteSwiftPackageReference "LaunchAtLogin" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/TopScrech/LaunchAtLogin";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		F37612762D6D3A1F005C115C /* XCRemoteSwiftPackageReference "SafariCover" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/TopScrech/SafariCover";
 			requirement = {
 				branch = main;
 				kind = branch;
@@ -802,7 +1123,17 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		F3530C142C6C132100FB8481 /* ScrechKit */ = {
+		F32429D12DDDB9EB000A16E8 /* ScrechKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F3530C132C6C132100FB8481 /* XCRemoteSwiftPackageReference "ScrechKit" */;
+			productName = ScrechKit;
+		};
+		F32429D32DDDB9F1000A16E8 /* ScrechKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F3530C132C6C132100FB8481 /* XCRemoteSwiftPackageReference "ScrechKit" */;
+			productName = ScrechKit;
+		};
+		F32429D52DDDB9F6000A16E8 /* ScrechKit */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = F3530C132C6C132100FB8481 /* XCRemoteSwiftPackageReference "ScrechKit" */;
 			productName = ScrechKit;
@@ -811,6 +1142,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = F358F03A2D2C1E7B00BCC07B /* XCRemoteSwiftPackageReference "LaunchAtLogin" */;
 			productName = LaunchAtLogin;
+		};
+		F37612772D6D3A1F005C115C /* SafariCover */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F37612762D6D3A1F005C115C /* XCRemoteSwiftPackageReference "SafariCover" */;
+			productName = SafariCover;
 		};
 		F38DF0A32C6C2F2100081031 /* SystemKit */ = {
 			isa = XCSwiftPackageProductDependency;
@@ -821,11 +1157,6 @@
 			isa = XCSwiftPackageProductDependency;
 			package = F38DF0AB2C6C302400081031 /* XCRemoteSwiftPackageReference "SwiftyJSON" */;
 			productName = SwiftyJSON;
-		};
-		F3AABD312C6F432C00E7C7E4 /* ScrechKit */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = F3530C132C6C132100FB8481 /* XCRemoteSwiftPackageReference "ScrechKit" */;
-			productName = ScrechKit;
 		};
 		F3C053402C6F542B00CDF3FA /* SystemKit */ = {
 			isa = XCSwiftPackageProductDependency;

@@ -61,7 +61,7 @@ struct MediumWidgetPreview: View {
                     
                     Text(version)
                 }
-                .foregroundStyle(.tertiary)
+                .tertiary()
                 
                 Spacer()
                 
