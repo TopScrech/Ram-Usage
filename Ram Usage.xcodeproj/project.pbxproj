@@ -203,6 +203,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F32429D72DDDBA4C000A16E8 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				F38DF0B02C6C368900081031 /* App Settings.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
 		F3274EF52D6D34C500A8445A /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -243,7 +251,6 @@
 			isa = PBXGroup;
 			children = (
 				F3530C032C6C12E700FB8481 /* Ram Usage.swift */,
-				F38DF0B02C6C368900081031 /* App Settings.swift */,
 				F3CCB1D72CAEE59E000F8207 /* Nav */,
 				F3CCB1D82CAEE632000F8207 /* macOS.plist */,
 				F3530C0C2C6C12E800FB8481 /* macOS.entitlements */,
@@ -253,6 +260,7 @@
 				F38DF0A02C6C2EDF00081031 /* RAM VM.swift */,
 				F3C778022C6E227700E224EE /* RAM VM Swap.swift */,
 				F3CCB1D92CAF433A000F8207 /* Model */,
+				F32429D72DDDBA4C000A16E8 /* Settings */,
 			);
 			path = "Ram Usage";
 			sourceTree = "<group>";
