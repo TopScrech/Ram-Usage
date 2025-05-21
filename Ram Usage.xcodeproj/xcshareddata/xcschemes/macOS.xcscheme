@@ -16,7 +16,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "F3530BFF2C6C12E700FB8481"
-               BuildableName = "macOS.app"
+               BuildableName = "Ram Usage.app"
                BlueprintName = "macOS"
                ReferencedContainer = "container:Ram Usage.xcodeproj">
             </BuildableReference>
@@ -58,7 +58,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F3530BFF2C6C12E700FB8481"
-            BuildableName = "macOS.app"
+            BuildableName = "Ram Usage.app"
             BlueprintName = "macOS"
             ReferencedContainer = "container:Ram Usage.xcodeproj">
          </BuildableReference>
@@ -75,7 +75,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F3530BFF2C6C12E700FB8481"
-            BuildableName = "macOS.app"
+            BuildableName = "Ram Usage.app"
             BlueprintName = "macOS"
             ReferencedContainer = "container:Ram Usage.xcodeproj">
          </BuildableReference>
