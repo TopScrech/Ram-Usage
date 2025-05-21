@@ -58,7 +58,7 @@ struct SmallWidgetView: View {
                         Text(version)
                     }
                 }
-                .foregroundStyle(.tertiary)
+                .tertiary()
                 
                 Spacer()
                 

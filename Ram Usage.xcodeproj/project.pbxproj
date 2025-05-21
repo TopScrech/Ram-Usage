@@ -13,6 +13,9 @@
 		F32429D42DDDB9F1000A16E8 /* ScrechKit in Frameworks */ = {isa = PBXBuildFile; productRef = F32429D32DDDB9F1000A16E8 /* ScrechKit */; };
 		F32429D62DDDB9F6000A16E8 /* ScrechKit in Frameworks */ = {isa = PBXBuildFile; productRef = F32429D52DDDB9F6000A16E8 /* ScrechKit */; };
 		F32429D92DDDBBCD000A16E8 /* Disk Usage Widget View.swift in Sources */ = {isa = PBXBuildFile; fileRef = F32429D82DDDBBCD000A16E8 /* Disk Usage Widget View.swift */; };
+		F32429DB2DDDBC51000A16E8 /* Extra Large Widget View.swift in Sources */ = {isa = PBXBuildFile; fileRef = F32429DA2DDDBC51000A16E8 /* Extra Large Widget View.swift */; };
+		F32429DD2DDDBC80000A16E8 /* Extra Large Ram Spec.swift in Sources */ = {isa = PBXBuildFile; fileRef = F32429DC2DDDBC80000A16E8 /* Extra Large Ram Spec.swift */; };
+		F32429DE2DDDBC80000A16E8 /* Extra Large Ram Spec.swift in Sources */ = {isa = PBXBuildFile; fileRef = F32429DC2DDDBC80000A16E8 /* Extra Large Ram Spec.swift */; };
 		F3274EF62D6D34C500A8445A /* Home View.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3274EF32D6D34C500A8445A /* Home View.swift */; };
 		F3274EF72D6D34C500A8445A /* Ram Usage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3274EF42D6D34C500A8445A /* Ram Usage.swift */; };
 		F3274EF92D6D34EF00A8445A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3530C072C6C12E800FB8481 /* Assets.xcassets */; };
@@ -119,6 +122,8 @@
 		F313BE182C87116E005C8B60 /* Small Widget View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Small Widget View.swift"; sourceTree = "<group>"; };
 		F313BE1A2C871184005C8B60 /* Ram Spec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ram Spec.swift"; sourceTree = "<group>"; };
 		F32429D82DDDBBCD000A16E8 /* Disk Usage Widget View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Disk Usage Widget View.swift"; sourceTree = "<group>"; };
+		F32429DA2DDDBC51000A16E8 /* Extra Large Widget View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extra Large Widget View.swift"; sourceTree = "<group>"; };
+		F32429DC2DDDBC80000A16E8 /* Extra Large Ram Spec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extra Large Ram Spec.swift"; sourceTree = "<group>"; };
 		F3274EE72D6D348200A8445A /* iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3274EF32D6D34C500A8445A /* Home View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Home View.swift"; sourceTree = "<group>"; };
 		F3274EF42D6D34C500A8445A /* Ram Usage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ram Usage.swift"; sourceTree = "<group>"; };
@@ -304,7 +309,9 @@
 				F32429D82DDDBBCD000A16E8 /* Disk Usage Widget View.swift */,
 				F313BE182C87116E005C8B60 /* Small Widget View.swift */,
 				F3C778392C6E5C3D00E224EE /* Medium Widget View.swift */,
+				F32429DA2DDDBC51000A16E8 /* Extra Large Widget View.swift */,
 				F313BE1A2C871184005C8B60 /* Ram Spec.swift */,
+				F32429DC2DDDBC80000A16E8 /* Extra Large Ram Spec.swift */,
 				F3C778352C6E5C2A00E224EE /* Provider.swift */,
 				F3C778372C6E5C3400E224EE /* Memory Entry.swift */,
 			);
@@ -550,6 +557,7 @@
 				F38DF0B12C6C368900081031 /* App Settings.swift in Sources */,
 				F3C2E8462C906872006304E6 /* Medium Widget Preview.swift in Sources */,
 				F3C778032C6E227700E224EE /* RAM VM Swap.swift in Sources */,
+				F32429DD2DDDBC80000A16E8 /* Extra Large Ram Spec.swift in Sources */,
 				F3530C062C6C12E700FB8481 /* App Container.swift in Sources */,
 				F3530C042C6C12E700FB8481 /* Ram Usage.swift in Sources */,
 				F3C0533E2C6F529100CDF3FA /* Memory Usage.swift in Sources */,
@@ -584,10 +592,12 @@
 				F3CCB1DD2CAF4348000F8207 /* Swap Usage.swift in Sources */,
 				F3C778362C6E5C2A00E224EE /* Provider.swift in Sources */,
 				F313BE192C87116E005C8B60 /* Small Widget View.swift in Sources */,
+				F32429DE2DDDBC80000A16E8 /* Extra Large Ram Spec.swift in Sources */,
 				F3C778202C6E447900E224EE /* Widgets Bundle.swift in Sources */,
 				F3C0533B2C6F524300CDF3FA /* RAM VM Swap.swift in Sources */,
 				F3C778222C6E447900E224EE /* Widgets.swift in Sources */,
 				F32429D92DDDBBCD000A16E8 /* Disk Usage Widget View.swift in Sources */,
+				F32429DB2DDDBC51000A16E8 /* Extra Large Widget View.swift in Sources */,
 				F3C7783A2C6E5C3D00E224EE /* Medium Widget View.swift in Sources */,
 				F3C778382C6E5C3400E224EE /* Memory Entry.swift in Sources */,
 				F37612A72D6DB973005C115C /* Refresh Intent.swift in Sources */,

@@ -1,6 +1,6 @@
 import SwiftUI
 
-struct RamSpec: View {
+struct ExtraLargeRamSpec: View {
     private let name: String
     private let ram: String
     
@@ -12,11 +12,11 @@ struct RamSpec: View {
     var body: some View {
         VStack(alignment: .leading) {
             Text(name)
-                .footnote()
                 .secondary()
             
             Text(ram)
                 .monospacedDigit()
         }
+        .title()
     }
 }

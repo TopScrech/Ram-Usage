@@ -9,6 +9,10 @@ struct Widgets: Widget {
             DiskUsageWidgetView(entry)
                 .containerBackground(.ultraThinMaterial, for: .widget)
         }
+#if DEBUG
+        .supportedFamilies([.systemSmall, .systemMedium, .systemLarge, .systemExtraLarge])
+#else
         .supportedFamilies([.systemSmall, .systemMedium])
+#endif
     }
 }
