@@ -122,7 +122,7 @@
 		F3274EF42D6D34C500A8445A /* Ram Usage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ram Usage.swift"; sourceTree = "<group>"; };
 		F3274EFA2D6D354400A8445A /* Memory VM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Memory VM.swift"; sourceTree = "<group>"; };
 		F33708672DD9277C006834F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F3530C002C6C12E700FB8481 /* macOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = macOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3530C002C6C12E700FB8481 /* Ram Usage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ram Usage.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3530C032C6C12E700FB8481 /* Ram Usage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ram Usage.swift"; sourceTree = "<group>"; };
 		F3530C052C6C12E700FB8481 /* App Container.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "App Container.swift"; sourceTree = "<group>"; };
 		F3530C072C6C12E800FB8481 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -238,7 +238,7 @@
 		F3530C012C6C12E700FB8481 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F3530C002C6C12E700FB8481 /* macOS.app */,
+				F3530C002C6C12E700FB8481 /* Ram Usage.app */,
 				F3C778082C6E24A900E224EE /* Unit Tests.xctest */,
 				F3C778182C6E447800E224EE /* Widgets.appex */,
 				F3274EE72D6D348200A8445A /* iOS.app */,
@@ -380,7 +380,7 @@
 				F32429D32DDDB9F1000A16E8 /* ScrechKit */,
 			);
 			productName = "Ram Usage";
-			productReference = F3530C002C6C12E700FB8481 /* macOS.app */;
+			productReference = F3530C002C6C12E700FB8481 /* Ram Usage.app */;
 			productType = "com.apple.product-type.application";
 		};
 		F376127E2D6DA688005C115C /* Widgets iOS */ = {
@@ -824,7 +824,7 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "dev.topscrech.Ram-Usage";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Ram Usage";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 			};
@@ -853,7 +853,7 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "dev.topscrech.Ram-Usage";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Ram Usage";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 			};
