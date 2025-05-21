@@ -1,5 +1,4 @@
 import ScrechKit
-import WidgetKit
 
 @main
 struct WidgetsBundle: WidgetBundle {
