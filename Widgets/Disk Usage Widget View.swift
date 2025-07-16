@@ -18,7 +18,7 @@ struct DiskUsageWidgetView: View {
             MediumWidgetView(entry)
 #if DEBUG
         case .systemLarge:
-            Text("Large")
+            Text(String("Large"))
             
         case .systemExtraLarge:
             ExtraLargeWidgetView(entry)
