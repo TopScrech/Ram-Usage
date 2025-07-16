@@ -1,18 +1,14 @@
 import SwiftUI
 
 struct MediumWidgetPreview: View {
-    private var version: String {
-        let dick = Bundle.main.infoDictionary
-        let version = dick?["CFBundleShortVersionString"] as? String ?? ""
-        let build = dick?["CFBundleVersion"] as? String ?? ""
-        
-        return "v\(version) (B\(build))"
-    }
-    
     private let ram: MemoryUsage
     
     init(_ ram: MemoryUsage) {
         self.ram = ram
+    }
+    
+    private var version: String {
+        "v\(Bundle.version()) (B\(String(describing: Bundle.build)))"
     }
     
     var body: some View {

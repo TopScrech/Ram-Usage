@@ -1,4 +1,4 @@
-import SwiftUI
+import ScrechKit
 import WidgetKit
 
 struct SmallWidgetView: View {
@@ -10,11 +10,7 @@ struct SmallWidgetView: View {
     
 #warning("Used twice")
     private var version: String {
-        let dick = Bundle.main.infoDictionary
-        let version = dick?["CFBundleShortVersionString"] as? String ?? ""
-        let build = dick?["CFBundleVersion"] as? String ?? ""
-        
-        return "v\(version) (B\(build))"
+        "v\(Bundle.version()) (B\(String(describing: Bundle.build)))"
     }
     
 #warning("Used twice")
