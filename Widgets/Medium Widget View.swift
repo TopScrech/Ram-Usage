@@ -8,10 +8,6 @@ struct MediumWidgetView: View {
         self.entry = entry
     }
     
-    private var version: String {
-        "v\(Bundle.version()) (B\(String(describing: Bundle.build)))"
-    }
-    
     private var ram: MemoryUsage {
         entry.memory
     }
@@ -63,7 +59,7 @@ struct MediumWidgetView: View {
                     }
                     
                     if entry.configuration.showBuildNumber {
-                        Text(version)
+                        Text(Bundle.versionAndBuild)
                     }
                 }
                 .tertiary()

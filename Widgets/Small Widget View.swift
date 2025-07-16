@@ -8,12 +8,6 @@ struct SmallWidgetView: View {
         self.entry = entry
     }
     
-#warning("Used twice")
-    private var version: String {
-        "v\(Bundle.version()) (B\(String(describing: Bundle.build)))"
-    }
-    
-#warning("Used twice")
     private var ram: MemoryUsage {
         entry.memory
     }
@@ -51,7 +45,7 @@ struct SmallWidgetView: View {
                     }
                     
                     if entry.configuration.showBuildNumber {
-                        Text(version)
+                        Text(Bundle.versionAndBuild)
                     }
                 }
                 .tertiary()

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F30D8D3C2E27D2BF00789662 /* Version & Build.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30D8D3B2E27D2BF00789662 /* Version & Build.swift */; };
+		F30D8D3E2E27D35200789662 /* Version & Build.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30D8D3B2E27D2BF00789662 /* Version & Build.swift */; };
 		F313BE192C87116E005C8B60 /* Small Widget View.swift in Sources */ = {isa = PBXBuildFile; fileRef = F313BE182C87116E005C8B60 /* Small Widget View.swift */; };
 		F313BE1B2C871184005C8B60 /* Ram Spec.swift in Sources */ = {isa = PBXBuildFile; fileRef = F313BE1A2C871184005C8B60 /* Ram Spec.swift */; };
 		F32429D22DDDB9EB000A16E8 /* ScrechKit in Frameworks */ = {isa = PBXBuildFile; productRef = F32429D12DDDB9EB000A16E8 /* ScrechKit */; };
@@ -119,6 +121,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		F30D8D3B2E27D2BF00789662 /* Version & Build.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Version & Build.swift"; sourceTree = "<group>"; };
 		F313BE182C87116E005C8B60 /* Small Widget View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Small Widget View.swift"; sourceTree = "<group>"; };
 		F313BE1A2C871184005C8B60 /* Ram Spec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ram Spec.swift"; sourceTree = "<group>"; };
 		F32429D82DDDBBCD000A16E8 /* Disk Usage Widget View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Disk Usage Widget View.swift"; sourceTree = "<group>"; };
@@ -210,6 +213,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F30D8D3D2E27D2C400789662 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				F30D8D3B2E27D2BF00789662 /* Version & Build.swift */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
 		F32429D72DDDBA4C000A16E8 /* Settings */ = {
 			isa = PBXGroup;
 			children = (
@@ -268,6 +279,7 @@
 				F3C778022C6E227700E224EE /* RAM VM Swap.swift */,
 				F3CCB1D92CAF433A000F8207 /* Model */,
 				F32429D72DDDBA4C000A16E8 /* Settings */,
+				F30D8D3D2E27D2C400789662 /* utils */,
 			);
 			path = "Ram Usage";
 			sourceTree = "<group>";
@@ -453,7 +465,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1630;
-				LastUpgradeCheck = 1630;
+				LastUpgradeCheck = 2600;
 				TargetAttributes = {
 					F3274EE62D6D348200A8445A = {
 						CreatedOnToolsVersion = 16.3;
@@ -561,6 +573,7 @@
 				F3530C062C6C12E700FB8481 /* App Container.swift in Sources */,
 				F3530C042C6C12E700FB8481 /* Ram Usage.swift in Sources */,
 				F3C0533E2C6F529100CDF3FA /* Memory Usage.swift in Sources */,
+				F30D8D3E2E27D35200789662 /* Version & Build.swift in Sources */,
 			);
 		};
 		F376127B2D6DA688005C115C /* Sources */ = {
@@ -591,6 +604,7 @@
 			files = (
 				F3CCB1DD2CAF4348000F8207 /* Swap Usage.swift in Sources */,
 				F3C778362C6E5C2A00E224EE /* Provider.swift in Sources */,
+				F30D8D3C2E27D2BF00789662 /* Version & Build.swift in Sources */,
 				F313BE192C87116E005C8B60 /* Small Widget View.swift in Sources */,
 				F32429DE2DDDBC80000A16E8 /* Extra Large Ram Spec.swift in Sources */,
 				F3C778202C6E447900E224EE /* Widgets Bundle.swift in Sources */,
@@ -752,6 +766,7 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -811,6 +826,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
 			};
 			name = Release;
@@ -825,8 +841,10 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 0;
 				DEAD_CODE_STRIPPING = YES;
+				ENABLE_APP_SANDBOX = YES;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Ram Usage/macOS.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Ram Usage";
@@ -854,8 +872,10 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 0;
 				DEAD_CODE_STRIPPING = YES;
+				ENABLE_APP_SANDBOX = YES;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Ram Usage/macOS.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Ram Usage";

@@ -7,10 +7,6 @@ struct MediumWidgetPreview: View {
         self.ram = ram
     }
     
-    private var version: String {
-        "v\(Bundle.version()) (B\(String(describing: Bundle.build)))"
-    }
-    
     var body: some View {
         VStack(spacing: 15) {
             Spacer()
@@ -55,7 +51,7 @@ struct MediumWidgetPreview: View {
                 HStack(alignment: .top, spacing: 0) {
                     Text(Date(), format: .dateTime.hour().minute().second())
                     
-                    Text(version)
+                    Text(Bundle.versionAndBuild)
                 }
                 .tertiary()
                 
