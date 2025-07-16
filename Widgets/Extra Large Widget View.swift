@@ -8,14 +8,6 @@ struct ExtraLargeWidgetView: View {
         self.entry = entry
     }
     
-    private var version: String {
-        let dick = Bundle.main.infoDictionary
-        let version = dick?["CFBundleShortVersionString"] as? String ?? ""
-        let build = dick?["CFBundleVersion"] as? String ?? ""
-        
-        return "v\(version) (B\(build))"
-    }
-    
     private var ram: MemoryUsage {
         entry.memory
     }
@@ -65,7 +57,7 @@ struct ExtraLargeWidgetView: View {
                     }
                     
                     if entry.configuration.showBuildNumber {
-                        Text(version)
+                        Text(Bundle.versionAndBuild)
                     }
                 }
                 .tertiary()

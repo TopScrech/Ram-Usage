@@ -38,18 +38,21 @@ extension RamVM {
         // Search for matches
         let range = NSRange(string.startIndex..<string.endIndex, in: string)
         
-        if let match = regex.firstMatch(in: string, options: [], range: range) {
-            // Extract values
-            if let totalRange = Range(match.range(at: 1), in: string),
-               let usedRange = Range(match.range(at: 2), in: string),
-               let freeRange = Range(match.range(at: 3), in: string) {
-                
-                let total = String(string[totalRange])
-                let used = String(string[usedRange])
-                let free = String(string[freeRange])
-                
-                return SwapUsage(total: total, used: used, free: free)
-            }
+        // Extract values
+        if let match = regex.firstMatch(in: string, options: [], range: range),
+           let totalRange = Range(match.range(at: 1), in: string),
+           let usedRange = Range(match.range(at: 2), in: string),
+           let freeRange = Range(match.range(at: 3), in: string) {
+            
+            let total = String(string[totalRange])
+            let used = String(string[usedRange])
+            let free = String(string[freeRange])
+            
+            return SwapUsage(
+                total: total,
+                used: used,
+                free: free
+            )
         }
         
         return nil

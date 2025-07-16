@@ -1,14 +1,6 @@
 import SwiftUI
 
 struct MediumWidgetPreview: View {
-    private var version: String {
-        let dick = Bundle.main.infoDictionary
-        let version = dick?["CFBundleShortVersionString"] as? String ?? ""
-        let build = dick?["CFBundleVersion"] as? String ?? ""
-        
-        return "v\(version) (B\(build))"
-    }
-    
     private let ram: MemoryUsage
     
     init(_ ram: MemoryUsage) {
@@ -59,7 +51,7 @@ struct MediumWidgetPreview: View {
                 HStack(alignment: .top, spacing: 0) {
                     Text(Date(), format: .dateTime.hour().minute().second())
                     
-                    Text(version)
+                    Text(Bundle.versionAndBuild)
                 }
                 .tertiary()
                 

@@ -1,4 +1,4 @@
-import SwiftUI
+import ScrechKit
 import WidgetKit
 
 struct SmallWidgetView: View {
@@ -8,16 +8,6 @@ struct SmallWidgetView: View {
         self.entry = entry
     }
     
-#warning("Used twice")
-    private var version: String {
-        let dick = Bundle.main.infoDictionary
-        let version = dick?["CFBundleShortVersionString"] as? String ?? ""
-        let build = dick?["CFBundleVersion"] as? String ?? ""
-        
-        return "v\(version) (B\(build))"
-    }
-    
-#warning("Used twice")
     private var ram: MemoryUsage {
         entry.memory
     }
@@ -55,7 +45,7 @@ struct SmallWidgetView: View {
                     }
                     
                     if entry.configuration.showBuildNumber {
-                        Text(version)
+                        Text(Bundle.versionAndBuild)
                     }
                 }
                 .tertiary()
