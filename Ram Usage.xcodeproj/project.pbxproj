@@ -155,6 +155,7 @@
 		F38DF0A72C6C2F5900081031 /* Extension Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension Double.swift"; sourceTree = "<group>"; };
 		F38DF0AE2C6C31FA00081031 /* RAM Info.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RAM Info.swift"; sourceTree = "<group>"; };
 		F38DF0B02C6C368900081031 /* App Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "App Settings.swift"; sourceTree = "<group>"; };
+		F3AE99E02E2F889000D70249 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		F3C0533D2C6F529000CDF3FA /* Memory Usage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Memory Usage.swift"; sourceTree = "<group>"; };
 		F3C2E8452C906872006304E6 /* Medium Widget Preview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Medium Widget Preview.swift"; sourceTree = "<group>"; };
 		F3C778022C6E227700E224EE /* RAM VM Swap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RAM VM Swap.swift"; sourceTree = "<group>"; };
@@ -246,6 +247,7 @@
 		F3530BF72C6C12E700FB8481 = {
 			isa = PBXGroup;
 			children = (
+				F3AE99E02E2F889000D70249 /* README.md */,
 				F3530C122C6C12F700FB8481 /* Ram Usage */,
 				F3274EF52D6D34C500A8445A /* iOS */,
 				F3C778312C6E448100E224EE /* Widgets */,
