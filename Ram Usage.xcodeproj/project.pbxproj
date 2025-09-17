@@ -252,7 +252,7 @@
 			isa = PBXGroup;
 			children = (
 				F3AE99E02E2F889000D70249 /* README.md */,
-				F3530C122C6C12F700FB8481 /* Ram Usage */,
+				F3530C122C6C12F700FB8481 /* macOS */,
 				F3274EF52D6D34C500A8445A /* iOS */,
 				F3C778312C6E448100E224EE /* Widgets */,
 				F37612992D6DA68C005C115C /* Widgets iOS */,
@@ -274,7 +274,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F3530C122C6C12F700FB8481 /* Ram Usage */ = {
+		F3530C122C6C12F700FB8481 /* macOS */ = {
 			isa = PBXGroup;
 			children = (
 				F3530C032C6C12E700FB8481 /* Ram Usage.swift */,
@@ -292,7 +292,7 @@
 				F32429D72DDDBA4C000A16E8 /* Settings */,
 				F30D8D3D2E27D2C400789662 /* utils */,
 			);
-			path = "Ram Usage";
+			path = macOS;
 			sourceTree = "<group>";
 		};
 		F37612992D6DA68C005C115C /* Widgets iOS */ = {
@@ -856,7 +856,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "Ram Usage/macOS.entitlements";
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 0;
@@ -866,7 +866,7 @@
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Ram Usage/macOS.plist";
+				INFOPLIST_FILE = macOS/macOS.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Ram Usage";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
@@ -887,7 +887,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "Ram Usage/macOS.entitlements";
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 0;
@@ -897,7 +897,7 @@
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Ram Usage/macOS.plist";
+				INFOPLIST_FILE = macOS/macOS.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Ram Usage";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
