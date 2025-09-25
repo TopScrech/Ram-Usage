@@ -36,5 +36,6 @@ struct AppSettings: View {
 
 #Preview {
     AppSettings()
+        .darkSchemePreferred()
     //        .environment(RamVM())
 }

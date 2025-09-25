@@ -125,6 +125,7 @@ extension Double {
 
 #Preview {
     HomeView()
+        .darkSchemePreferred()
         .environment(RamVM())
         .padding(20)
 }

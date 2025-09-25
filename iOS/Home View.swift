@@ -49,4 +49,5 @@ struct HomeView: View {
     NavigationStack {
         HomeView()
     }
+    .darkSchemePreferred()
 }

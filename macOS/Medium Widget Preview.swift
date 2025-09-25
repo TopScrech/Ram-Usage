@@ -84,4 +84,5 @@ struct MediumWidgetPreview: View {
             graph_total: 1
         )
     )
+    .darkSchemePreferred()
 }
