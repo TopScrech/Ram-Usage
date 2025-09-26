@@ -284,13 +284,13 @@
 				F3530C072C6C12E800FB8481 /* Assets.xcassets */,
 				F3B75CD12E729FFC0096E65E /* AppIcon.icon */,
 				F30D8D3F2E27D3BA00789662 /* Localizable.xcstrings */,
+				F30D8D3D2E27D2C400789662 /* utils */,
 				F38DF0AE2C6C31FA00081031 /* RAM Info.swift */,
 				F3C2E8452C906872006304E6 /* Medium Widget Preview.swift */,
 				F38DF0A02C6C2EDF00081031 /* RAM VM.swift */,
 				F3C778022C6E227700E224EE /* RAM VM Swap.swift */,
 				F3CCB1D92CAF433A000F8207 /* Model */,
 				F32429D72DDDBA4C000A16E8 /* Settings */,
-				F30D8D3D2E27D2C400789662 /* utils */,
 			);
 			path = macOS;
 			sourceTree = "<group>";
