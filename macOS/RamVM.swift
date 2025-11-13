@@ -86,7 +86,9 @@ final class RamVM {
     
     func startUpdating() {
         Timer.scheduledTimer(withTimeInterval: 0.2, repeats: true) { _ in
-            self.refresh()
+            Task { @MainActor in
+                self.refresh()
+            }
         }
     }
     
