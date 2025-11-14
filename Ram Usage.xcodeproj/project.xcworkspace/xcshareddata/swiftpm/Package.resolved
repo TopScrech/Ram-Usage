@@ -7,7 +7,7 @@
       "location" : "https://github.com/TopScrech/LaunchAtLogin",
       "state" : {
         "branch" : "main",
-        "revision" : "2bf099bd06f8f8de4989cbb7dfd721edd585bb0b"
+        "revision" : "b6d02bbe76f22ce9c722ec263939edd01ea8f670"
       }
     },
     {
@@ -16,7 +16,7 @@
       "location" : "https://github.com/TopScrech/SafariCover",
       "state" : {
         "branch" : "main",
-        "revision" : "53823cbe9ca2ab959958ef42b935a988d07dff91"
+        "revision" : "395397e46cb476106fcd8436f955bba3eb0963fa"
       }
     },
     {
@@ -25,7 +25,7 @@
       "location" : "https://github.com/TopScrech/ScrechKit",
       "state" : {
         "branch" : "main",
-        "revision" : "c551fdb49de6625903e9d11b13e7e89eaf8a8bf3"
+        "revision" : "d8ffdc58388da376d18a7b71f0e78f34e5416219"
       }
     },
     {

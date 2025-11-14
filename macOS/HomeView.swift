@@ -111,18 +111,6 @@ func runVMStat() {
     }
 }
 
-private extension String {
-    func shorten(_ symbolsAfterComma: Int = 1) -> String {
-        String(format: "%0.\(symbolsAfterComma)f", self)
-    }
-}
-
-extension Double {
-    func shorten(_ symbolsAfterComma: Int = 1) -> String {
-        String(format: "%0.\(symbolsAfterComma)f", self)
-    }
-}
-
 #Preview {
     HomeView()
         .darkSchemePreferred()
