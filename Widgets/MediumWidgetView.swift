@@ -2,7 +2,7 @@ import SwiftUI
 import WidgetKit
 
 struct MediumWidgetView: View {
-    private var entry: Provider.Entry
+    private let entry: Provider.Entry
     
     init(_ entry: Provider.Entry) {
         self.entry = entry

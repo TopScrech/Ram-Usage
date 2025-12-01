@@ -2,7 +2,7 @@ import SwiftUI
 import WidgetKit
 
 struct ExtraLargeWidgetView: View {
-    private var entry: Provider.Entry
+    private let entry: Provider.Entry
     
     init(_ entry: Provider.Entry) {
         self.entry = entry
@@ -37,9 +37,7 @@ struct ExtraLargeWidgetView: View {
             
             HStack(spacing: 32) {
                 ExtraLargeRamSpec("App", ram: ram.appMemory)
-                
                 ExtraLargeRamSpec("Wired", ram: ram.wired)
-                
                 ExtraLargeRamSpec("Compressed", ram: ram.compressed)
                 
                 Divider()
