@@ -5,12 +5,8 @@ struct RamUsageWidget: Widget {
     let kind = "Widgets"
     
     var body: some WidgetConfiguration {
-        AppIntentConfiguration(
-            kind: kind,
-            intent: ConfigurationAppIntent.self,
-            provider: Provider()
-        ) { entry in
-            WidgetsEntryView(entry)
+        AppIntentConfiguration(kind: kind, intent: ConfigurationAppIntent.self, provider: Provider()) {
+            WidgetsEntryView($0)
                 .containerBackground(.fill.tertiary, for: .widget)
         }
     }

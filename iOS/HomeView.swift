@@ -9,12 +9,12 @@ struct HomeView: View {
     
     var body: some View {
         List {
-            ListParam("Total", param: vm.formattedTotalRam)
+            LabeledContent("Total", value: vm.formattedTotalRam)
             
-            ListParam("Used", param: vm.formattedUsedRam)
+            LabeledContent("Used", value: vm.formattedUsedRam)
                 .animation(.default, value: vm.formattedUsedRam)
             
-            ListParam("Free", param: vm.formattedFreeRam)
+            LabeledContent("Free", value: vm.formattedFreeRam)
                 .animation(.default, value: vm.formattedFreeRam)
             
             Section("FAQ") {
@@ -23,10 +23,8 @@ struct HomeView: View {
                         .secondary()
                 }
                 
-                Button {
+                Button("How to add and edit widgets") {
                     safariCover = true
-                } label: {
-                    Text("How to add and edit widgets")
                 }
                 
                 DisclosureGroup("Is there also a macOS app?") {

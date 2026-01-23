@@ -32,7 +32,6 @@ struct HomeView: View {
             //
             //            Section {
             //                Text("AllFree \(vm.allFree) (\(vm.allFreePercentage.shorten())%)")
-            //
             //                Text("Free \(vm.free)")
             //                Text("FreeString \(vm.freeString)")
             //                Text("Total \(vm.total)")

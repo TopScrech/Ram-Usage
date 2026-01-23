@@ -1,13 +1,13 @@
 extension Double {
     var percentageString: String {
-        (isNaN || isInfinite) ? "N/A" : String(format: "%.0f%%", self * 100)
+        (isNaN || isInfinite) ? "N/A" : self.formatted(.percentRounded)
     }
     
     var memoryString: String {
         if isNaN || isInfinite {
             "N/A"
         } else {
-            self < 1.0 ? String(Int(self * 1000.0)) + " MB" : String(format: "%.1f", self) + " GB"
+            self < 1.0 ? String(Int(self * 1000.0)) + " MB" : self.formatted(.fractionDigits(1)) + " GB"
         }
     }
     

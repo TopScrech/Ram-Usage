@@ -12,9 +12,7 @@ struct Provider: AppIntentTimelineProvider {
         graph_total: 2
     )
     
-    func placeholder(
-        in context: Context
-    ) -> MemoryEntry {
+    func placeholder(in context: Context) -> MemoryEntry {
         MemoryEntry(
             configuration: ConfigurationAppIntent(),
             date: Date(),
@@ -22,10 +20,7 @@ struct Provider: AppIntentTimelineProvider {
         )
     }
     
-    func snapshot(
-        for configuration: ConfigurationAppIntent,
-        in context: Context
-    ) async -> MemoryEntry {
+    func snapshot(for configuration: ConfigurationAppIntent, in context: Context) async -> MemoryEntry {
         let vm = RamVM()
         vm.refresh()
         
@@ -36,10 +31,7 @@ struct Provider: AppIntentTimelineProvider {
         )
     }
     
-    func timeline(
-        for configuration: ConfigurationAppIntent,
-        in context: Context
-    ) async -> Timeline<MemoryEntry> {
+    func timeline(for configuration: ConfigurationAppIntent, in context: Context) async -> Timeline<MemoryEntry> {
         var entries: [MemoryEntry] = []
         
         let vm = RamVM()

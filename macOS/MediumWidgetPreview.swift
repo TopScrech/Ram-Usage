@@ -34,9 +34,7 @@ struct MediumWidgetPreview: View {
             
             HStack(spacing: 15) {
                 RamSpec("App", ram: ram.appMemory)
-                
                 RamSpec("Wired", ram: ram.wired)
-                
                 RamSpec("Compressed", ram: ram.compressed)
                 
                 Divider()
