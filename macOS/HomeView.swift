@@ -1,4 +1,5 @@
 import SwiftUI
+import OSLog
 
 struct HomeView: View {
     @Environment(RamVM.self) private var vm
@@ -103,10 +104,10 @@ func runVMStat() {
         let data = pipe.fileHandleForReading.readDataToEndOfFile()
         
         if let output = String(data: data, encoding: .utf8) {
-            print(output)
+            Logger().info("\(output)")
         }
     } catch {
-        print("Error running command:", error.localizedDescription)
+        Logger().error("Error running command: \(error)")
     }
 }
 

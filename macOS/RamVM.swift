@@ -1,5 +1,6 @@
 import SystemKit
 import WidgetKit
+import OSLog
 
 @Observable
 final class RamVM {
@@ -112,7 +113,7 @@ final class RamVM {
                 return output
             }
         } catch {
-            print("Error running command:", error.localizedDescription)
+            Logger().error("Error running command: \(error)")
         }
         
         return nil
