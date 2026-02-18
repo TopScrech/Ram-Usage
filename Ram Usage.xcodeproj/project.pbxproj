@@ -76,6 +76,7 @@
 		F3C778182C6E447800E224EE /* Widgets.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Widgets.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3C7781A2C6E447800E224EE /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
 		F3C7781C2C6E447800E224EE /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		F3E066472F467F33001B77CD /* LICENSE.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -247,6 +248,7 @@
 			isa = PBXGroup;
 			children = (
 				F3AE99E02E2F889000D70249 /* README.md */,
+				F3E066472F467F33001B77CD /* LICENSE.txt */,
 				F3839F442ECF2D0800350A0F /* macOS */,
 				F3839F1F2ECF2CFA00350A0F /* iOS */,
 				F3839F092ECF2CF700350A0F /* Widgets */,
