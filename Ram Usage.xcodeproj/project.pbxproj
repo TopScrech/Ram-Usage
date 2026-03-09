@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 90;
+	objectVersion = 100;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -76,6 +76,7 @@
 		F3C778182C6E447800E224EE /* Widgets.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Widgets.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3C7781A2C6E447800E224EE /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
 		F3C7781C2C6E447800E224EE /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		F3E066472F467F33001B77CD /* LICENSE.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -247,6 +248,7 @@
 			isa = PBXGroup;
 			children = (
 				F3AE99E02E2F889000D70249 /* README.md */,
+				F3E066472F467F33001B77CD /* LICENSE.txt */,
 				F3839F442ECF2D0800350A0F /* macOS */,
 				F3839F1F2ECF2CFA00350A0F /* iOS */,
 				F3839F092ECF2CF700350A0F /* Widgets */,
@@ -440,7 +442,7 @@
 				F358F03A2D2C1E7B00BCC07B /* XCRemoteSwiftPackageReference "LaunchAtLogin" */,
 				F37612762D6D3A1F005C115C /* XCRemoteSwiftPackageReference "SafariCover" */,
 			);
-			preferredProjectObjectVersion = 90;
+			preferredProjectObjectVersion = 100;
 			productRefGroup = F3530C012C6C12E700FB8481 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -650,7 +652,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MACOSX_DEPLOYMENT_TARGET = 15.1;
-				MARKETING_VERSION = 26.0.3;
+				MARKETING_VERSION = 64.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -713,7 +715,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MACOSX_DEPLOYMENT_TARGET = 15.1;
-				MARKETING_VERSION = 26.0.3;
+				MARKETING_VERSION = 64.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
@@ -853,7 +855,7 @@
 				DEAD_CODE_STRIPPING = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = "";
 				PRODUCT_BUNDLE_IDENTIFIER = "dev.topscrech.Ram-Usage-Unit-Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
@@ -872,7 +874,7 @@
 				DEAD_CODE_STRIPPING = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = "";
 				PRODUCT_BUNDLE_IDENTIFIER = "dev.topscrech.Ram-Usage-Unit-Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
