@@ -83,6 +83,7 @@
 		F3839EF92ECF2CF200350A0F /* Exceptions for "Widgets iOS" folder in "Widgets" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
+				Localizable.xcstrings,
 				RefreshIntent.swift,
 			);
 			target = F3C778172C6E447800E224EE /* Widgets */;
@@ -137,7 +138,6 @@
 			membershipExceptions = (
 				AppIcon.icon,
 				Assets.xcassets,
-				Localizable.xcstrings,
 				Model/MemoryUsage.swift,
 				Model/SwapUsage.swift,
 				RamVM.swift,
@@ -432,6 +432,10 @@
 				Base,
 				ru,
 				nl,
+				uk,
+				tr,
+				de,
+				fr,
 			);
 			mainGroup = F3530BF72C6C12E700FB8481;
 			minimizedProjectReferenceProxies = 1;
