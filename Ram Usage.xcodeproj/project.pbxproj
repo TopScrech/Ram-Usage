@@ -83,6 +83,7 @@
 		F3839EF92ECF2CF200350A0F /* Exceptions for "Widgets iOS" folder in "Widgets" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
+				Localizable.xcstrings,
 				RefreshIntent.swift,
 			);
 			target = F3C778172C6E447800E224EE /* Widgets */;
@@ -137,7 +138,6 @@
 			membershipExceptions = (
 				AppIcon.icon,
 				Assets.xcassets,
-				Localizable.xcstrings,
 				Model/MemoryUsage.swift,
 				Model/SwapUsage.swift,
 				RamVM.swift,
@@ -432,6 +432,10 @@
 				Base,
 				ru,
 				nl,
+				uk,
+				tr,
+				de,
+				fr,
 			);
 			mainGroup = F3530BF72C6C12E700FB8481;
 			minimizedProjectReferenceProxies = 1;
@@ -653,7 +657,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MACOSX_DEPLOYMENT_TARGET = 15.1;
-				MARKETING_VERSION = 64.0.1;
+				MARKETING_VERSION = 64.0.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -717,7 +721,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MACOSX_DEPLOYMENT_TARGET = 15.1;
-				MARKETING_VERSION = 64.0.1;
+				MARKETING_VERSION = 64.0.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
