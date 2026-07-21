@@ -1,4 +1,5 @@
-import ScrechKit
+import SwiftUI
+import WidgetKit
 
 @main
 struct WidgetsBundle: WidgetBundle {
