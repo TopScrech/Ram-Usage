@@ -1,4 +1,4 @@
-import SystemKit
+import Darwin
 import WidgetKit
 import OSLog
 
@@ -77,10 +77,66 @@ final class RamVM {
     }
     
     func refresh() {
-        let ram = System.memoryUsage()
-        (free, active, inactive, wired, compressed, appMemory, cachedFiles) = ram
+        guard let memory = memoryStatistics() else {
+            return
+        }
+
+        let stats = memory.stats
+        free = gigabytes(forPageCount: UInt64(stats.free_count), pageSize: memory.pageSize)
+        active = gigabytes(forPageCount: UInt64(stats.active_count), pageSize: memory.pageSize)
+        inactive = gigabytes(forPageCount: UInt64(stats.inactive_count), pageSize: memory.pageSize)
+        wired = gigabytes(forPageCount: UInt64(stats.wire_count), pageSize: memory.pageSize)
+        compressed = gigabytes(forPageCount: UInt64(stats.compressor_page_count), pageSize: memory.pageSize)
+        appMemory = gigabytes(
+            forPageCount: Self.appMemoryPageCount(
+                internalPageCount: UInt64(stats.internal_page_count),
+                purgeablePageCount: UInt64(stats.purgeable_count)
+            ),
+            pageSize: memory.pageSize
+        )
+        cachedFiles = gigabytes(
+            forPageCount: UInt64(stats.external_page_count) + UInt64(stats.purgeable_count),
+            pageSize: memory.pageSize
+        )
     }
-    
+
+    static func appMemoryPageCount(internalPageCount: UInt64, purgeablePageCount: UInt64) -> UInt64 {
+        guard internalPageCount >= purgeablePageCount else {
+            return 0
+        }
+
+        return internalPageCount - purgeablePageCount
+    }
+
+    private func memoryStatistics() -> (stats: vm_statistics64, pageSize: UInt64)? {
+        var stats = vm_statistics64()
+        var count = mach_msg_type_number_t(
+            MemoryLayout<vm_statistics64_data_t>.size / MemoryLayout<integer_t>.size
+        )
+        var pageSize: vm_size_t = 0
+        let host = mach_host_self()
+        defer {
+            mach_port_deallocate(mach_task_self_, host)
+        }
+
+        let result = withUnsafeMutablePointer(to: &stats) {
+            $0.withMemoryRebound(to: integer_t.self, capacity: Int(count)) {
+                host_statistics64(host, HOST_VM_INFO64, $0, &count)
+            }
+        }
+
+        guard result == KERN_SUCCESS, host_page_size(host, &pageSize) == KERN_SUCCESS else {
+            return nil
+        }
+
+        return (stats, UInt64(pageSize))
+    }
+
+    private func gigabytes(forPageCount pageCount: UInt64, pageSize: UInt64) -> Double {
+        let bytesPerGigabyte = 1_073_741_824.0
+        return Double(pageCount) * Double(pageSize) / bytesPerGigabyte
+    }
+
     func updateWidgets() {
         WidgetCenter.shared.reloadAllTimelines()
     }

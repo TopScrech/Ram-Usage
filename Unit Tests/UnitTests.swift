@@ -44,4 +44,31 @@ struct UnitTests {
         }
         // Write your test here and use APIs like `#expect(...)` to check expected conditions
     }
+
+    @Test func appMemoryPageCountClampsUnderflow() {
+        let pageCount = RamVM.appMemoryPageCount(internalPageCount: 10, purgeablePageCount: 11)
+
+        #expect(pageCount == 0)
+    }
+
+    @Test func appMemoryPageCountSubtractsPurgeablePages() {
+        let pageCount = RamVM.appMemoryPageCount(internalPageCount: 11, purgeablePageCount: 10)
+
+        #expect(pageCount == 1)
+        #expect(RamVM.appMemoryPageCount(internalPageCount: 10, purgeablePageCount: 10) == 0)
+    }
+
+    @Test func refreshProducesValidMemoryValues() {
+        for _ in 0 ..< 100 {
+            vm.refresh()
+        }
+
+        let values = [vm.free, vm.active, vm.inactive, vm.wired, vm.compressed, vm.appMemory, vm.cachedFiles]
+        let valuesAreFinite = values.allSatisfy { $0.isFinite }
+        let valuesAreNonnegative = values.allSatisfy { $0 >= 0 }
+
+        #expect(valuesAreFinite)
+        #expect(valuesAreNonnegative)
+        #expect(vm.total > 0)
+    }
 }
