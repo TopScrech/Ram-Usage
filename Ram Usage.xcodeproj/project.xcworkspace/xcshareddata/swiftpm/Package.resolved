@@ -1,5 +1,5 @@
 {
-  "originHash" : "9614a6d184db1b85e76e339c5b40e0d9d87b5048b37841466eec8a19d8cd4c1b",
+  "originHash" : "38d630555fa5b42f6362917b67eb99f19e5901babf1b40e9e4e4daede36d1c46",
   "pins" : [
     {
       "identity" : "launchatlogin",
@@ -35,15 +35,6 @@
       "state" : {
         "revision" : "af76cf3ef710b6ca5f8c05f3a31307d44a3c5828",
         "version" : "5.0.2"
-      }
-    },
-    {
-      "identity" : "systemkit",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/gao-sun/SystemKit",
-      "state" : {
-        "branch" : "master",
-        "revision" : "60fbc2e3ccb54850046703d4e32ab6ecccbaf046"
       }
     }
   ],

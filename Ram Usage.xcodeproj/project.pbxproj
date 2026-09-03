@@ -14,9 +14,7 @@
 		F37612782D6D3A1F005C115C /* SafariCover in Frameworks */ = {isa = PBXBuildFile; productRef = F37612772D6D3A1F005C115C /* SafariCover */; };
 		F37612802D6DA688005C115C /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3C7781A2C6E447800E224EE /* WidgetKit.framework */; };
 		F37612812D6DA688005C115C /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3C7781C2C6E447800E224EE /* SwiftUI.framework */; };
-		F38DF0A42C6C2F2100081031 /* SystemKit in Frameworks */ = {isa = PBXBuildFile; productRef = F38DF0A32C6C2F2100081031 /* SystemKit */; };
 		F38DF0AD2C6C302400081031 /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = F38DF0AC2C6C302400081031 /* SwiftyJSON */; };
-		F3C053412C6F542B00CDF3FA /* SystemKit in Frameworks */ = {isa = PBXBuildFile; productRef = F3C053402C6F542B00CDF3FA /* SystemKit */; };
 		F3C7781B2C6E447800E224EE /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3C7781A2C6E447800E224EE /* WidgetKit.framework */; };
 		F3C7781D2C6E447800E224EE /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3C7781C2C6E447800E224EE /* SwiftUI.framework */; };
 		F3C7782B2C6E447900E224EE /* Widgets.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = F3C778182C6E447800E224EE /* Widgets.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
@@ -216,7 +214,6 @@
 			files = (
 				F38DF0AD2C6C302400081031 /* SwiftyJSON in Frameworks */,
 				F32429D42DDDB9F1000A16E8 /* ScrechKit in Frameworks */,
-				F38DF0A42C6C2F2100081031 /* SystemKit in Frameworks */,
 				F358F03C2D2C1E7B00BCC07B /* LaunchAtLogin in Frameworks */,
 			);
 		};
@@ -237,7 +234,6 @@
 			files = (
 				F3C7781D2C6E447800E224EE /* SwiftUI.framework in Frameworks */,
 				F32429D62DDDB9F6000A16E8 /* ScrechKit in Frameworks */,
-				F3C053412C6F542B00CDF3FA /* SystemKit in Frameworks */,
 				F3C7781B2C6E447800E224EE /* WidgetKit.framework in Frameworks */,
 			);
 		};
@@ -326,7 +322,6 @@
 			);
 			name = macOS;
 			packageProductDependencies = (
-				F38DF0A32C6C2F2100081031 /* SystemKit */,
 				F38DF0AC2C6C302400081031 /* SwiftyJSON */,
 				F358F03B2D2C1E7B00BCC07B /* LaunchAtLogin */,
 				F32429D32DDDB9F1000A16E8 /* ScrechKit */,
@@ -389,7 +384,6 @@
 			);
 			name = Widgets;
 			packageProductDependencies = (
-				F3C053402C6F542B00CDF3FA /* SystemKit */,
 				F32429D52DDDB9F6000A16E8 /* ScrechKit */,
 			);
 			productName = WidgetsExtension;
@@ -441,7 +435,6 @@
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
 				F3530C132C6C132100FB8481 /* XCRemoteSwiftPackageReference "ScrechKit" */,
-				F38DF0A22C6C2F2100081031 /* XCRemoteSwiftPackageReference "SystemKit" */,
 				F38DF0AB2C6C302400081031 /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
 				F358F03A2D2C1E7B00BCC07B /* XCRemoteSwiftPackageReference "LaunchAtLogin" */,
 				F37612762D6D3A1F005C115C /* XCRemoteSwiftPackageReference "SafariCover" */,
@@ -657,7 +650,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MACOSX_DEPLOYMENT_TARGET = 15.1;
-				MARKETING_VERSION = 64.0.4;
+				MARKETING_VERSION = 64.0.5;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -721,7 +714,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MACOSX_DEPLOYMENT_TARGET = 15.1;
-				MARKETING_VERSION = 64.0.4;
+				MARKETING_VERSION = 64.0.5;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
@@ -1032,14 +1025,6 @@
 				minimumVersion = 1.0.0;
 			};
 		};
-		F38DF0A22C6C2F2100081031 /* XCRemoteSwiftPackageReference "SystemKit" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/gao-sun/SystemKit";
-			requirement = {
-				branch = master;
-				kind = branch;
-			};
-		};
 		F38DF0AB2C6C302400081031 /* XCRemoteSwiftPackageReference "SwiftyJSON" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/SwiftyJSON/SwiftyJSON";
@@ -1076,20 +1061,10 @@
 			package = F37612762D6D3A1F005C115C /* XCRemoteSwiftPackageReference "SafariCover" */;
 			productName = SafariCover;
 		};
-		F38DF0A32C6C2F2100081031 /* SystemKit */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = F38DF0A22C6C2F2100081031 /* XCRemoteSwiftPackageReference "SystemKit" */;
-			productName = SystemKit;
-		};
 		F38DF0AC2C6C302400081031 /* SwiftyJSON */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = F38DF0AB2C6C302400081031 /* XCRemoteSwiftPackageReference "SwiftyJSON" */;
 			productName = SwiftyJSON;
-		};
-		F3C053402C6F542B00CDF3FA /* SystemKit */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = F38DF0A22C6C2F2100081031 /* XCRemoteSwiftPackageReference "SystemKit" */;
-			productName = SystemKit;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
