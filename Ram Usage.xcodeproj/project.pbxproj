@@ -68,6 +68,7 @@
 /* Begin PBXFileReference section */
 		F3274EE72D6D348200A8445A /* iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3530C002C6C12E700FB8481 /* Ram Usage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ram Usage.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F36534B8305BDCC000EE541A /* AGENTS.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = AGENTS.md; sourceTree = "<group>"; };
 		F376127F2D6DA688005C115C /* Widgets iOS.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Widgets iOS.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3AE99E02E2F889000D70249 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		F3C778082C6E24A900E224EE /* Unit Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Unit Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -244,6 +245,7 @@
 			isa = PBXGroup;
 			children = (
 				F3AE99E02E2F889000D70249 /* README.md */,
+				F36534B8305BDCC000EE541A /* AGENTS.md */,
 				F3839F442ECF2D0800350A0F /* macOS */,
 				F3839F1F2ECF2CFA00350A0F /* iOS */,
 				F3839F092ECF2CF700350A0F /* Widgets */,
