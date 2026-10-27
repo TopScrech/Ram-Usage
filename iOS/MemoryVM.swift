@@ -22,6 +22,13 @@ final class MemoryVM {
         getMemoryUsage()
     }
     
+    func refreshMemoryUsage() async throws {
+        while !Task.isCancelled {
+            try await Task.sleep(for: .seconds(1))
+            getMemoryUsage()
+        }
+    }
+
     func getMemoryUsage() {
         var stats = vm_statistics64()
         var size = mach_msg_type_number_t(MemoryLayout.size(ofValue: stats) / MemoryLayout<Int32>.stride)

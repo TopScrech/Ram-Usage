@@ -3,8 +3,6 @@ import ScrechKit
 struct HomeView: View {
     @State private var vm = MemoryVM()
     
-    private let timer = Timer.publish(every: 1, on: .main, in: .default).autoconnect()
-    
     @State private var safariCover = false
     
     var body: some View {
@@ -37,8 +35,8 @@ struct HomeView: View {
         .monospacedDigit()
         .foregroundStyle(.foreground)
         .safariCover($safariCover, url: "https://support.apple.com/en-us/118610")
-        .onReceive(timer) { _ in
-            vm.getMemoryUsage()
+        .task {
+            try? await vm.refreshMemoryUsage()
         }
     }
 }
